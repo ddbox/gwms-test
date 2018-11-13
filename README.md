@@ -1,7 +1,7 @@
 # gwms-test
 ## Containers for unit testing and linting the GlideinWMS project
 
-## Example use case:
+## Example Use Case:
 <pre>
 VER=6
 BRANCH=master
