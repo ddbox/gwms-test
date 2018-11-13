@@ -1,0 +1,19 @@
+#!/bin/sh
+cd /gwms_test/glideinwms
+if [ "$1" == "" ]; then
+    branch="master"
+else
+    branch=$1
+fi
+git clean -f -d
+git checkout master
+git pull
+git checkout $branch
+cd /gwms_test
+source $VIRTUAL_ENV/bin/activate
+branch_dir=$(echo $branch| sed -e 's/\//_/g')
+mkdir -p  "$branch_dir/xml_reports"
+./glideinwms/build/jenkins/run_unittests.sh -ac 2>&1 | tee $branch_dir/unit_test.log
+mv ./glideinwms/unittests/unittests-reports/* "$branch_dir/xml_reports"
+mv htmlcov* $branch_dir
+mv coverage.report.* $branch_dir

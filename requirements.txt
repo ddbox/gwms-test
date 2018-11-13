@@ -1,0 +1,20 @@
+#not used right now as mixture
+#of python,pip,virtualenv,and rh_version
+#made maintaining qualifiers hard
+#make_python_venv in utils.sh
+#takes care of this more reliably
+pylint
+astroid
+hypothesis
+autopep8
+pycodestyle
+unittest2
+coverage
+pyyaml
+mock
+xmlrunner
+future
+importlib
+argparse
+testfixtures
+
