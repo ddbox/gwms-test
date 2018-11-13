@@ -1,5 +1,5 @@
 # gwms-test
-## Containers for unit testing and linting the GlideinWMS project
+## Scientific Linux containers for unit testing and linting the GlideinWMS project
 
 ## Example Use Case:
 <pre>
@@ -8,7 +8,7 @@ BRANCH=master
 
 BRANCH_DIR=$(echo $BRANCH | sed -e 's/\//_/g')
 
-CONTAINER=$(docker run -dit dbox/gwms-test:sl${VER} /bin/bash)
+CONTAINER=$(docker run -dit ddbox/gwms-test:sl${VER} /bin/bash)
 docker exec -it $CONTAINER run_gwms_unit_tests $BRANCH
 docker exec -it $CONTAINER run_gwms_pylint $BRANCH
 docker cp $CONTAINER:/gwms_test/$BRANCH_DIR $BRANCH_DIR.sl${VER}
