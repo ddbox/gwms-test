@@ -21,6 +21,9 @@ RUN yum -y -q install git
 RUN cd gwms_test && git clone https://github.com/glideinWMS/glideinwms.git
 RUN cd gwms_test && source glideinwms/build/jenkins/utils.sh && setup_python_venv
 
+#clean up
+RUN cd gwms_test && rm -rf virtualenv-*
+
 # env vars needed by unit test scripts
 RUN cd /root && echo ". /gwms_test/venv-2.${rel}/bin/activate" >> .bashrc
 ENV VIRTUAL_ENV=/gwms_test/venv-2.${rel}
