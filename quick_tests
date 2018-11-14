@@ -11,11 +11,12 @@ git pull
 git checkout $branch
 cd /gwms_test
 source $VIRTUAL_ENV/bin/activate
-exclude=/gwms_test/slow_tests
+exclude_file="/gwms_test/slow_test_list"
 failed=""
 cd glideinwms/unittests
 for PY in $(ls test_*.py); do
-    if grep $PY $exclude > /dev/null 2>&1 ; then
+    grep $PY $exclude_file > /dev/null 2>&1 
+    if [ $? -eq 0 ] ; then
         echo skipping $PY, too slow
     else
         echo running: $PY

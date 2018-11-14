@@ -2,3 +2,4 @@ test_cleanupSupport.py
 test_condorExe.py
 test_lib_fork.py
 test_tarSupport.py
+test_logSupport.py
