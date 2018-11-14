@@ -7,7 +7,9 @@ language:
   - python
 
 before_install:
-- docker pull dbox/gwms-test 
+- docker build -t dbox/gwms-test:latest . 
+- docker build --build-arg rel=7 -t dbox/gwms-test:sl7 . 
+- docker build --build-arg rel=6 -t dbox/gwms-test:sl6 . 
 - docker run  dbox/gwms-test new_gwms_branches 10  
 - docker ps -a
 - docker run dbox/gwms-test /bin/bash -c "cd /gwms_test; . venv-2.7/bin/activate; cd glideinwms/unittests; python test_lib_symCrypto.py"
