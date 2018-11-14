@@ -1,0 +1,12 @@
+#!/bin/sh
+if [ "$1" == "" ]; then
+    echo "usage: $(basename($0)) n "
+    echo "where n is number of days:"
+    echo "returns a list of branches in the glideinwms repository that have changed in the last n days"
+    exit 1
+fi
+cd /gwms_test/glideinwms
+git clean -f -d > /dev/null 2>&1
+git checkout master > /dev/null 2>&1
+git pull > /dev/null 2>&1
+git log --all --oneline --since="$1 days ago" --pretty=format:%d | tr ',' '\n' | tr '(' ' ' | tr ')' ' ' | grep origin | sed -e 's/.*origin\///' -e 's/HEAD/master/' | sort |uniq | tr '\n' ' '; echo
