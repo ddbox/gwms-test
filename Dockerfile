@@ -5,7 +5,10 @@ ENV rel ${rel}
 
 #the test/lint remote commands
 RUN mkdir gwms_test
-COPY run_unit_tests /usr/local/bin/run_gwms_unit_tests
+COPY run_unit_tests /usr/local/bin/run_gwms_coverage
+COPY quick_tests /usr/local/bin/gwms_quick_tests
+COPY slow_tests /gwms_test
+COPY help       /usr/local/bin/help
 COPY run_pylint /usr/local/bin/run_gwms_pylint
 COPY new_branches /usr/local/bin/new_gwms_branches
 

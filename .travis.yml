@@ -1,0 +1,17 @@
+sudo: required
+
+services:
+  - docker
+
+language:
+  - python
+
+before_install:
+- docker pull dbox/gwms-test 
+- docker run  dbox/gwms-test docker new_gwms_branches 10  
+- docker ps -a
+- docker run dbox/gwms-test /bin/bash -c "cd /gwms_test; . venv-2.7/bin/activate; cd glideinwms/unittests; python test_lib_symCrypto.py"
+
+script:
+- new_gwms_branches 10
+

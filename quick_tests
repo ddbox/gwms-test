@@ -1,0 +1,34 @@
+#!/bin/sh
+cd /gwms_test/glideinwms
+if [ "$1" == "" ]; then
+    branch="master"
+else
+    branch=$1
+fi
+git clean -f -d
+git checkout master
+git pull
+git checkout $branch
+cd /gwms_test
+source $VIRTUAL_ENV/bin/activate
+exclude=/gwms_test/slow_tests
+failed=""
+cd glideinwms/unittests
+for PY in $(ls test_*.py); do
+    if grep $PY $exclude > /dev/null 2>&1 ; then
+        echo skipping $PY, too slow
+    else
+        echo running: $PY
+        if not python $PY; then
+            failed="$failed $PY"
+        fi
+    fi
+done
+if [ "$failed" = "" ]; then
+    echo all tests passed
+    exit 0
+else
+    echo "failed tests in $failed"
+    exit 1
+fi
+    
