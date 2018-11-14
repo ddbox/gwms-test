@@ -19,7 +19,8 @@ for PY in $(ls test_*.py); do
         echo skipping $PY, too slow
     else
         echo running: $PY
-        if not python $PY; then
+        python $PY
+        if [ $? -ne 0 ]; then
             failed="$failed $PY"
         fi
     fi

@@ -13,5 +13,5 @@ before_install:
 - docker run dbox/gwms-test /bin/bash -c "cd /gwms_test; . venv-2.7/bin/activate; cd glideinwms/unittests; python test_lib_symCrypto.py"
 
 script:
-- new_gwms_branches 10
+- help
 
