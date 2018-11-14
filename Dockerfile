@@ -7,6 +7,7 @@ ENV rel ${rel}
 RUN mkdir gwms_test
 COPY run_unit_tests /usr/local/bin/run_gwms_unit_tests
 COPY run_pylint /usr/local/bin/run_gwms_pylint
+COPY new_branches /usr/local/bin/new_gwms_branches
 
 RUN rpm -Uvh https://repo.opensciencegrid.org/osg/3.4/osg-3.4-el${rel}-release-latest.rpm
 RUN yum -y -q update &&  yum -y -q install osg-ca-certs

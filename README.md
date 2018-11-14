@@ -3,23 +3,25 @@
 
 ## Example Use Case:
 <pre>
-VER=6
-BRANCH=master
 
-BRANCH_DIR=$(echo $BRANCH | sed -e 's/\//_/g')
-
-CONTAINER=$(docker run -dit dbox/gwms-test:sl${VER} /bin/bash)
-docker exec -it $CONTAINER run_gwms_unit_tests $BRANCH
-docker exec -it $CONTAINER run_gwms_pylint $BRANCH
-docker cp $CONTAINER:/gwms_test/$BRANCH_DIR $BRANCH_DIR.sl${VER}
-docker stop $CONTAINER
+RECENT_BRANCHES=$(docker run  dbox/gwms-test new_gwms_branches 7)
+for VER in 6 7; do
+  CONTAINER=$(docker run -dit dbox/gwms-test:sl${VER} /bin/bash)
+  for BRANCH in $RECENT_BRANCHES; do
+    BRANCH_DIR=$(echo $BRANCH | sed -e 's/\//_/g')
+    docker exec -it $CONTAINER run_gwms_unit_tests $BRANCH
+    docker exec -it $CONTAINER run_gwms_pylint $BRANCH
+    docker cp $CONTAINER:/gwms_test/$BRANCH_DIR $BRANCH_DIR.sl${VER}
+  done
+  docker stop $CONTAINER
+done
 </pre>
 
 ## Example Build:
 <pre>
 export rel=7; docker build gwms-test --build-arg rel=$rel --tag $(whoami)/gwms-test:latest
-export rel=7; docker build gwms-test --build-arg rel=$rel --tag $(whoami)/gwms-test:$rel
-export rel=6; docker build gwms-test --build-arg rel=$rel --tag $(whoami)/gwms-test:$rel
+export rel=7; docker build gwms-test --build-arg rel=$rel --tag $(whoami)/gwms-test:sl${rel}
+export rel=6; docker build gwms-test --build-arg rel=$rel --tag $(whoami)/gwms-test:sl${rel}
 </pre>
 
 
