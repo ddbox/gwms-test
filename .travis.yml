@@ -16,5 +16,5 @@ before_install:
 - docker run dbox/gwms-test help
 
 script:
-- help
+- docker run dbox/gwms-test help
 
