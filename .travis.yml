@@ -4,6 +4,7 @@ services:
 language:
 - python
 before_install:
+- git clean -f -d
 - docker build -t dbox/gwms-test:latest .
 - docker build --build-arg rel=7 -t dbox/gwms-test:sl7 .
 - docker build --build-arg rel=6 -t dbox/gwms-test:sl6 .
