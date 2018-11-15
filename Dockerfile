@@ -4,13 +4,14 @@ ARG rel
 ENV rel ${rel} 
 
 #the test/lint remote commands
-RUN mkdir gwms_test
+RUN mkdir -p gwms_test/output
 COPY run_unit_tests /usr/local/bin/run_gwms_coverage
 COPY quick_tests /usr/local/bin/gwms_quick_tests
 COPY slow_tests /gwms_test/slow_test_list
 COPY help       /usr/local/bin/help
 COPY run_pylint /usr/local/bin/run_gwms_pylint
 COPY new_branches /usr/local/bin/new_gwms_branches
+COPY jenkins_scripts gwms_test/jenkins_scripts
 
 RUN rpm -Uvh https://repo.opensciencegrid.org/osg/3.4/osg-3.4-el${rel}-release-latest.rpm
 RUN yum -y -q update &&  yum -y -q install osg-ca-certs

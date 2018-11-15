@@ -5,14 +5,15 @@ language:
 - python
 before_install:
 - git clean -f -d
+- docker run --rm dbox/gwms-test /bin/sh -c "ls /gwms_test/glideinwms/build/jenkins" > jenkins_scripts
 - docker build -t dbox/gwms-test:latest .
 - docker build --build-arg rel=7 -t dbox/gwms-test:sl7 .
 - docker build --build-arg rel=6 -t dbox/gwms-test:sl6 .
-- docker run  dbox/gwms-test new_gwms_branches 10
+- docker run --rm  dbox/gwms-test new_gwms_branches 10
 - docker ps -a
 - docker run dbox/gwms-test help
 script:
-- docker run dbox/gwms-test help
+- docker run --rm dbox/gwms-test help
 after_success:
 - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
 - docker push  dbox/gwms-test:latest
