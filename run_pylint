@@ -15,7 +15,7 @@ fi
 
 cd /gwms_test
 source $VIRTUAL_ENV/bin/activate
-no_slash=output/$(echo $branch| sed -e 's/\//_/g')
+no_slash=/gwms_test/output/$(echo $branch| sed -e 's/\//_/g')
 mkdir -p $no_slash
 ./glideinwms/build/jenkins/run_pylint.sh 2>&1 | tee $no_slash/pylint.log
 mv *.log $no_slash
