@@ -5,9 +5,16 @@ if [ "$1" == "" ]; then
 else
     branch=$1
 fi
-git checkout $branch
-cd build/jenkins
-for F in $(cat /gwms_test/jenkins_scripts); do git checkout master $F; done
+
+thisbranch=$(git branch | grep '\*' | awk '{print $2}')
+
+if [ "$thisbranch" != "$branch" ]; then
+    echo "want to run $0 on $branch but $thisbranch is checked out"
+    echo "set_test_env '$branch' must be run prior to this job"
+    exit 1
+fi
+
+
 cd /gwms_test
 source $VIRTUAL_ENV/bin/activate
 branch_dir=output/$(echo $branch| sed -e 's/\//_/g')

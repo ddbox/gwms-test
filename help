@@ -7,6 +7,8 @@ echo
 echo "                         help:  this message"
 echo "          new_gwms_branches N:  show branches that have been changed in the last N days"
 echo "    gwms_quick_tests <branch>:  execute the fast-running unit tests on <branch>"
+echo ""
+echo "      setup_test_env <branch>:  checkout clean current <branch> for the following tests:"
 echo "   run_gwms_coverage <branch>:  run a full coverage test on <branch>"
 echo "     run_gwms_pylint <branch>:  run pylint and pycodestyle on <branch>"
 echo
