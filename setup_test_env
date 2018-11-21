@@ -1,6 +1,6 @@
 #!/bin/sh
-cd /gwms_test/glideinwms
-if [ "$1" == "" ]; then
+cd "$TEST_DIR/$PROJECT"
+if [ "$1" = "" ]; then
     branch="master"
 else
     branch=$1
@@ -8,4 +8,4 @@ fi
 git clean -f -d
 git checkout master
 git pull
-git checkout $branch
+git checkout "$branch"

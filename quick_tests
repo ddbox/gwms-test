@@ -1,6 +1,6 @@
 #!/bin/sh
-cd /gwms_test/glideinwms
-if [ "$1" == "" ]; then
+cd /test_dir/glideinwms
+if [ "$1" = "" ]; then
     branch="master"
 else
     branch=$1
@@ -8,19 +8,19 @@ fi
 git clean -f -d
 git checkout master
 git pull
-git checkout $branch
-cd /gwms_test
-source $VIRTUAL_ENV/bin/activate
-exclude_file="/gwms_test/slow_test_list"
+git checkout "$branch"
+cd /test_dir
+. "$VIRTUAL_ENV"/bin/activate
+exclude_file="/test_dir/slow_test_list"
 failed=""
 cd glideinwms/unittests
-for PY in $(ls test_*.py); do
-    grep $PY $exclude_file > /dev/null 2>&1 
+for PY in  ./test_*.py; do
+    grep "$PY" "$exclude_file" > /dev/null 2>&1 
     if [ $? -eq 0 ] ; then
-        echo skipping $PY, too slow
+        echo skipping "$PY", too slow
     else
-        echo running: $PY
-        python $PY
+        echo running: "$PY"
+        python "$PY"
         if [ $? -ne 0 ]; then
             failed="$failed $PY"
         fi

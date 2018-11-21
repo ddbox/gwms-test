@@ -11,7 +11,7 @@ for VER in 6 7; do
     BRANCH_DIR=$(echo $BRANCH | sed -e 's/\//_/g')
     docker exec -it $CONTAINER run_gwms_unit_tests $BRANCH
     docker exec -it $CONTAINER run_gwms_pylint $BRANCH
-    docker cp $CONTAINER:/gwms_test/$BRANCH_DIR $BRANCH_DIR.sl${VER}
+    docker cp $CONTAINER:/test_dir/$BRANCH_DIR $BRANCH_DIR.sl${VER}
   done
   docker stop $CONTAINER
 done
