@@ -20,7 +20,7 @@ cd "$TEST_DIR"
 branch_dir=/test_dir/output/$(echo "$branch"| sed -e 's/\//_/g')
 mkdir -p  "$branch_dir/xml_reports"
 ./glideinwms/build/jenkins/run_unittests.sh -ac 2>&1 | tee "$branch_dir"/unit_test.log
-mv ./glideinwms/unittests/unittests-reports/"*.xml" "$branch_dir/xml_reports"
+mv ./glideinwms/unittests/unittests-reports/* "$branch_dir/xml_reports"
 mv ./htmlcov* "$branch_dir"
 mv ./coverage.report.* "$branch_dir"
 mv ./*.out "$branch_dir"
