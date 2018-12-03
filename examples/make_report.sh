@@ -9,12 +9,10 @@ $PATHTO/print_header.py > report.html
 
 outfile=test_"$BUILD_NUMBER"_results.txt
 echo "test $BUILD_NUMBER on $(date)" > $outfile
-for dir in $(find .  -type d -name xml_reports); do #echo branch=$(basename $(dirname $D)); echo arch=$(basename $(dirname $(dirname $(dirname $D)))); done
-    #for dir in $start_dir* ; do
-    #echo dir=$dir
-    #eval dir=$dir
+for dir in $(find .  -type d -name xml_reports); 
     export branch=$(basename $(dirname $dir))
     export arch=$(basename $(dirname $(dirname $(dirname $dir))))
+    export arch_branch="$branch - $arch"
     sum=0 
     for v in $(grep 'tests=' $dir/*.xml | sed -e 's/.*tests="/tests=/' -e 's/" time=.*//' ); do  
         eval $v
@@ -37,11 +35,14 @@ for dir in $(find .  -type d -name xml_reports); do #echo branch=$(basename $(di
     export error_count=$sum
 
     export skipped=$(grep skipped $dir/*.xml | wc -l)
+    coverage=$(tail -1 $dir../coverage.report.* | awk '{print $4}')
+    export coverage
     for x in $(tail -4  $dir/../results.log); do  eval $x ; done
     export FILES_CHECKED_COUNT PYLINT_ERROR_FILES_COUNT PYLINT_ERROR_COUNT PEP8_ERROR_COUNT
+    export branch="$arch_branch"
     $PATHTO/print_row.py >> report.html
     echo '' >> $outfile
-    echo arch=$arch branch=$branch >>$outfile
+    echo branch=$branch >>$outfile
     echo num_tests=$num_tests error_count=$error_count skipped=$skipped tot_time=$tot_time>>$outfile
     echo FILES_CHECKED_COUNT=$FILES_CHECKED_COUNT PYLINT_ERROR_FILES_COUNT=$PYLINT_ERROR_FILES_COUNT>>$outfile
     echo PYLINT_ERROR_COUNT=$PYLINT_ERROR_COUNT PEP8_ERROR_COUNT=$PEP8_ERROR_COUNT>>$outfile
