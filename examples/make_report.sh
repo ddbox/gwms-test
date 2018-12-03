@@ -56,6 +56,8 @@ for dir in $(find .  -type d -name xml_reports); do
     export skipped=$(grep skipped $dir/*.xml | wc -l)
     coverage=$(tail -1 $(find $dir/../ -name 'coverage.report.*')| awk '{print $4}')
     export coverage
+    refactor_count=$(tail -5 $(find $dir/../ -name 'email.txt' )| head -1| sed -e 's/.*">//' -e 's/<.*//')
+    export refactor_count
     for x in $(tail -4  $dir/../results.log); do  eval $x ; done
     export FILES_CHECKED_COUNT PYLINT_ERROR_FILES_COUNT PYLINT_ERROR_COUNT PEP8_ERROR_COUNT
     export branch="$arch_branch"

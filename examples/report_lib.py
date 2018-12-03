@@ -75,10 +75,14 @@ TAIL_FMT = """
 def get_color(acol):
     red = '#ff0000'
     green = '#00ff00'
-    acol = int(acol)
-    if acol:
-        return red
-    return green
+    orange = '#ffb300'
+    try:
+        acol = int(acol)
+        if acol:
+            return red
+        return green
+    except:
+        return orange
 
 
 def print_head(rh_rel=7, build_number=0, gwms_ci_url='burp',
@@ -104,7 +108,7 @@ def print_tail():
 def print_row(branch_name="master", file_check_cnt=0, num_pylint_err_files=0,
               num_pylint_errs=0, num_pep8_errs=0, num_unit_tests=0,
               num_unit_test_skipped=0, num_unit_test_errors=0, coverage='0%',
-              num_to_refactor=0):
+              num_to_refactor='0'):
 
     print(ROW_FMT.format(red=RED,
                          green=GREEN,
