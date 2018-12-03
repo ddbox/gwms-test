@@ -92,6 +92,11 @@ if [ "$SAVE_OLD_CONTAINERS_2" = "" ]; then
     for C in $CLIST; do $DOCKER kill "$C" ; $DOCKER rm "$C"; done
 fi
 
+if [ "$TRAVIS_BUILD_NUMBER" != "" ]; then
+    WORKSPACE=$TRAVIS_BUILD_DIR
+    BUILD_NUMBER=$TRAVIS_BUILD_NUMBER
+fi
+
 if [ "$WORKSPACE/$BUILD_NUMBER" != "/" ]; then
     mkdir -p $WORKSPACE/$BUILD_NUMBER
     mv output_7 $WORKSPACE/$BUILD_NUMBER/sl7
