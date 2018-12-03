@@ -22,7 +22,15 @@ outfile=test_"$BUILD_NUMBER"_results.txt
 html_test_report="$BUILD_NUMBER"_results.html
 html_coverage_browser="$BUILD_NUMBER"_coverage_browser.html
 
+
+
 cd $BUILD_NUMBER || usage
+
+export hostname=$HOSTNAME
+export distro='scientific linux 6 & 7'
+export py_loc='virtualenv'
+export pylint_ver='virtualenv'
+export pep8_ver='virtualenv'
 
 $PATHTO/print_header.py > $html_test_report
 
