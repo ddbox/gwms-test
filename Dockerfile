@@ -8,6 +8,7 @@ RUN rpm -Uvh https://repo.opensciencegrid.org/osg/3.4/osg-3.4-el${rel}-release-l
 RUN yum -y -q update &&  yum -y -q install osg-ca-certs
 RUN yum -y -q install javascriptrrd
 RUN yum -y -q install m2crypto
+RUN yum -y -q install openssl
 RUN yum -y -q install findutils
 RUN yum -y -q install which
 RUN yum -y -q install file

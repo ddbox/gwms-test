@@ -12,13 +12,13 @@ before_install:
 - docker ps -a
 - docker run dbox/gwms-test help
 script:
-- examples/run_tests.sh
-- examples/make_report.sh $TRAVIS_BUILD_NUMBER
 after_success:
 - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
 - docker push  dbox/gwms-test:latest
 - docker push  dbox/gwms-test:sl7
 - docker push  dbox/gwms-test:sl6
+- examples/run_tests.sh 1
+- examples/make_report.sh $TRAVIS_BUILD_NUMBER
 env:
   matrix:
   - secure: glP7pm4jBW+4zhIuHywxUwshls4BZE6TO4a4xgEmBm4pmMLAd4NFMuLi0eZfiNgkQRpupVugX5MVsbkF62yEBDue4ONQOla7b3+wQG9qGIp1Z2xKGCf/fko8Q5nbDQ3aarUx2Kx/EKcIDPFlACdpClDYfWJbZSPhMYfMGbdkSP/96yRC3yauB8PXqiXeYSDXNbuwldV8W09fhYoKvoG7Lndo5AXycRxdY726FcMqSxAdGUKPI9EZxnxUrep8pVaJXwGJfu+ZffH55fJTtK/3GBj3emJwi9He5s+LFYtmXkT4UFLFAyT5xNJHMvY4fdW5cmv+cTZKDeGC5TSH5u5LVTD90+DZl92YwKvWdsNG3BL7Z2dtZscisgp/TjSQbwWKbq7m+7ODtDcE3ZCfwr2xzDPtF0zC/Wt6WIa23X6Wj+qaVbADKv57TjmjhbNAvnuEzh+EDqGAb3NyCsuGPA/FIprTEYPbR4GlyDcVs3luGdFN/tbezYCe7kwEWE94Wi8vwGMtzmxzgxKJm2p5q29togjAnxmKhcsQevTtg7HAo+dAxUljFQqHv9NLK8usZwnVRzPhmVL2sluWSG3fHOi1XKrjN1pivq5wR/DzkLtlNJYhAg9DT+wTh8Y+96UUZayWSj26CIJokHIIFuvseBSMBarAlnh4LNmjNgtAq+QBYZ0=
