@@ -16,7 +16,7 @@ HEAD_FMT="""
 <html>
 <head></head>
 <h3>CI build of GlideinWMS_CI workflow for sl{release} Succeeded</h3> 
-<br>Build number: {build_number}
+<br>Build number: <a href=https://buildmaster.fnal.gov/job/gwms-run-test/ws/{build_number}/>{build_number}</a>
 <br>GlideinwmsCI Web App: <a href={gwms_ci_url}>here</a>
 <br>Jenkins build: <a href={jenkins_ci_url}>here</a>
 <br> <b>HOSTNAME:</b> {hostname} <br/>

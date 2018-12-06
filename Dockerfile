@@ -13,6 +13,7 @@ RUN yum -y -q install findutils
 RUN yum -y -q install which
 RUN yum -y -q install file
 RUN yum -y -q install git
+RUN yum -y -q install tzdata
 
 #the test/lint remote commands
 RUN mkdir -p $TEST_DIR/output
