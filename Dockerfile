@@ -1,11 +1,12 @@
 ARG rel=7
-FROM scientificlinux/sl:${rel}
+#FROM scientificlinux/sl:${rel}
+FROM opensciencegrid/osg-wn:3.4-el${rel}
 ARG rel
 ENV rel ${rel} 
 ENV TEST_DIR /test_dir
 
-RUN rpm -Uvh https://repo.opensciencegrid.org/osg/3.4/osg-3.4-el${rel}-release-latest.rpm
-RUN yum -y -q update &&  yum -y -q install osg-ca-certs
+#RUN rpm -Uvh https://repo.opensciencegrid.org/osg/3.4/osg-3.4-el${rel}-release-latest.rpm
+#RUN yum -y -q update &&  yum -y -q install osg-ca-certs
 RUN yum -y -q install javascriptrrd
 RUN yum -y -q install m2crypto
 RUN yum -y -q install openssl
