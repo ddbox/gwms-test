@@ -2,6 +2,8 @@
 
 #constants
 
+BUILD_URL = "https://buildmaster.fnal.gov/job/gwms-run-test"
+
 RED='#ff0000'
 GREEN = '#00ff00'
 BLUE = '#0000ff'
@@ -16,8 +18,8 @@ HEAD_FMT="""
 <html>
 <head></head>
 <h3>CI build of GlideinWMS workflow  Succeeded</h3> 
-<br>Build number: <a href="https://buildmaster.fnal.gov/job/gwms-run-test/ws/{build_number} "/>{build_number}</a>
-<br>Jenkins : <a href="https://buildmaster.fnal.gov/job/gwms-run-test" />Build Page </a>
+<br>Build number: <a href="{BUILD_URL}/ws/{build_number} "/>{build_number}</a>
+<br>Jenkins : <a href="{BUILD_URL}" />Build Page </a>
 <br> <b>HOSTNAME:</b> {hostname} <br/>
 <b>LINUX DISTRO:</b>{distro}<br/>
 <b>PYTHON LOCATION:</b>{py_loc}<br/>
@@ -61,10 +63,10 @@ ROW_FMT = """
     <td style="{bl}:0px {black}; {br}:0px {black};{bc};background-color: {green};padding: 5px;{tec};">{num_unit_tests}</td> 
     <td style="{bl}:0px {black}; {br}:0px {black};{bc};background-color: {green};padding: 5px;{tec};">{skipped}</td>
     <td style="{bl}:0px {black}; {br}:0px {black};{bc};background-color: {ut_err_color};padding: 5px;{tec};">
-        <a href="https://buildmaster.fnal.gov/job/gwms-run-test/ws/{build_number}/sl{arch}/output/{branch_name}/unit_test.log" />{unit_test_errors}</a>
+        <a href="{BUILD_URL}/ws/{build_number}/sl{arch}/output/{branch_name}/unit_test.log" />{unit_test_errors}</a>
     </td>
     <td style="torder-left:0px {black}; {br}:1px {black};{bc};background-color: {green};padding: 5px;{tec};">
-        <a href="https://buildmaster.fnal.gov/job/gwms-run-test/ws/{build_number}/sl{arch}/output/{branch_name}/htmlcov.{branch_name}/index.html "/>{coverage}</a>
+        <a href="{BUILD_URL}/ws/{build_number}/sl{arch}/output/{branch_name}/htmlcov.{branch_name}/index.html "/>{coverage}</a>
     </td>
     <!--futurize-->
     <td style="{bl}:1px {black}; {br}:1px {black};{bc};background-color: {refact_color};padding: 5px;{tec};">{num_to_refactor}</td>
@@ -95,6 +97,7 @@ def print_head(rh_rel=7, build_number=0, gwms_ci_url='burp',
                           bl=BL,
                           br=BR,
                           bc=BC,
+                          BUILD_URL=BUILD_URL,
                           release=rh_rel,
                           build_number=build_number,
                           gwms_ci_url=gwms_ci_url,
@@ -122,6 +125,7 @@ def print_row(branch_name="master", file_check_cnt=0, num_pylint_err_files=0,
                          br=BR ,
                          bc=BC,
                          tec=TEC,
+                         BUILD_URL=BUILD_URL,
                          branch_name = branch_name,
                          files_checked = file_check_cnt,
                          pylint_error_files=num_pylint_err_files,
