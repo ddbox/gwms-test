@@ -8,6 +8,7 @@ from report_lib import print_row
 if __name__ == '__main__':
 
     branch_name = os.environ.get('branch', 'master')
+    arch = os.environ.get('arch', '')
     file_check_cnt = os.environ.get('FILES_CHECKED_COUNT', 0)
     num_pylint_err_files = os.environ.get('PYLINT_ERROR_FILES_COUNT', 0)
     num_pylint_errs = os.environ.get('PYLINT_ERROR_COUNT', 0)
@@ -27,5 +28,6 @@ if __name__ == '__main__':
               num_unit_tests_skipped,
               num_unit_test_errors,
               coverage,
-              num_to_refactor
+              num_to_refactor,
+              arch
               )

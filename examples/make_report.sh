@@ -68,7 +68,7 @@ for dir in $(find .  -type d -name xml_reports); do
     export refactor_count
     for x in $(tail -4  $dir/../results.log); do  eval $x ; done
     export FILES_CHECKED_COUNT PYLINT_ERROR_FILES_COUNT PYLINT_ERROR_COUNT PEP8_ERROR_COUNT
-    export branch="$arch_branch"
+    #export branch="$arch_branch"
     $PATHTO/print_row.py >> $html_test_report
     echo '' >> $outfile
     echo branch=$branch >>$outfile

@@ -53,7 +53,7 @@ HEAD_FMT="""
 ROW_FMT = """
 <tr style="padding: 5px;{tec};">
     <!--pylint-->
-    <th style="{bl}:1px {black}; {br}:0px {black};{bc};{bold};background-color:#00ccff;padding: 8px;">{branch_name}</th>
+    <th style="{bl}:1px {black}; {br}:0px {black};{bc};{bold};background-color:#00ccff;padding: 8px;">{branch_name} {arch}</th>
     <td style="{bl}:0px {black}; {br}:0px {black};{bc};background-color: {green};padding: 5px;{tec};">{files_checked}</td>
     <td style="{bl}:0px {black}; {br}:0px {black};{bc};background-color: {pnt_err_color};padding: 5px;{tec};">{pylint_error_files}</td>
     <td style="{bl}:0px {black}; {br}:0px {black};{bc};background-color: {pnt_err_color};padding: 5px;{tec};">{total_errors}</td>
@@ -61,8 +61,12 @@ ROW_FMT = """
     <!--unit tests-->
     <td style="{bl}:0px {black}; {br}:0px {black};{bc};background-color: {green};padding: 5px;{tec};">{num_unit_tests}</td> 
     <td style="{bl}:0px {black}; {br}:0px {black};{bc};background-color: {green};padding: 5px;{tec};">{skipped}</td>
-    <td style="{bl}:0px {black}; {br}:0px {black};{bc};background-color: {ut_err_color};padding: 5px;{tec};">{unit_test_errors}</td>
-    <td style="torder-left:0px {black}; {br}:1px {black};{bc};background-color: {green};padding: 5px;{tec};">{coverage}</td>
+    <td style="{bl}:0px {black}; {br}:0px {black};{bc};background-color: {ut_err_color};padding: 5px;{tec};">
+        <a href=https://buildmaster.fnal.gov/job/gwms-run-test/ws/{build_number}/sl{arch}/output/{branch_name}/unit_test.log/>{unit_test_errors}/a>
+    </td>
+    <td style="torder-left:0px {black}; {br}:1px {black};{bc};background-color: {green};padding: 5px;{tec};">
+        <a href=https://buildmaster.fnal.gov/job/gwms-run-test/ws/{build_number}/sl{arch}/output/{branch_name}/htmlcov.{branch_name}/index.html/>{coverage}/a>
+    </td>
     <!--futurize-->
     <td style="{bl}:1px {black}; {br}:1px {black};{bc};background-color: {refact_color};padding: 5px;{tec};">{num_to_refactor}</td>
 </tr>
@@ -108,7 +112,7 @@ def print_tail():
 def print_row(branch_name="master", file_check_cnt=0, num_pylint_err_files=0,
               num_pylint_errs=0, num_pep8_errs=0, num_unit_tests=0,
               num_unit_test_skipped=0, num_unit_test_errors=0, coverage='0%',
-              num_to_refactor='0'):
+              num_to_refactor='0',arch=''):
 
     print(ROW_FMT.format(red=RED,
                          green=GREEN,
@@ -131,7 +135,8 @@ def print_row(branch_name="master", file_check_cnt=0, num_pylint_err_files=0,
                          ut_err_color=get_color(num_unit_test_errors),
                          coverage=coverage,
                          num_to_refactor = num_to_refactor,
-                         refact_color = get_color(num_to_refactor)))
+                         refact_color = get_color(num_to_refactor),
+                         arch=''))
     
 
 
