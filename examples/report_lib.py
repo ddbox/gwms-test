@@ -15,10 +15,9 @@ BOLD = 'font-weight: bold'
 HEAD_FMT="""
 <html>
 <head></head>
-<h3>CI build of GlideinWMS_CI workflow for sl{release} Succeeded</h3> 
-<br>Build number: <a href=https://buildmaster.fnal.gov/job/gwms-run-test/ws/{build_number}/>{build_number}</a>
-<br>GlideinwmsCI Web App: <a href={gwms_ci_url}>here</a>
-<br>Jenkins build: <a href={jenkins_ci_url}>here</a>
+<h3>CI build of GlideinWMS workflow  Succeeded</h3> 
+<br>Build number: <a href="https://buildmaster.fnal.gov/job/gwms-run-test/ws/{build_number} "/>{build_number}</a>
+<br>Jenkins : <a href="https://buildmaster.fnal.gov/job/gwms-run-test" />Build Page </a>
 <br> <b>HOSTNAME:</b> {hostname} <br/>
 <b>LINUX DISTRO:</b>{distro}<br/>
 <b>PYTHON LOCATION:</b>{py_loc}<br/>
@@ -53,7 +52,7 @@ HEAD_FMT="""
 ROW_FMT = """
 <tr style="padding: 5px;{tec};">
     <!--pylint-->
-    <th style="{bl}:1px {black}; {br}:0px {black};{bc};{bold};background-color:#00ccff;padding: 8px;">{branch_name} {arch}</th>
+    <th style="{bl}:1px {black}; {br}:0px {black};{bc};{bold};background-color:#00ccff;padding: 8px;">{branch_name} -sl{arch}</th>
     <td style="{bl}:0px {black}; {br}:0px {black};{bc};background-color: {green};padding: 5px;{tec};">{files_checked}</td>
     <td style="{bl}:0px {black}; {br}:0px {black};{bc};background-color: {pnt_err_color};padding: 5px;{tec};">{pylint_error_files}</td>
     <td style="{bl}:0px {black}; {br}:0px {black};{bc};background-color: {pnt_err_color};padding: 5px;{tec};">{total_errors}</td>
@@ -62,10 +61,10 @@ ROW_FMT = """
     <td style="{bl}:0px {black}; {br}:0px {black};{bc};background-color: {green};padding: 5px;{tec};">{num_unit_tests}</td> 
     <td style="{bl}:0px {black}; {br}:0px {black};{bc};background-color: {green};padding: 5px;{tec};">{skipped}</td>
     <td style="{bl}:0px {black}; {br}:0px {black};{bc};background-color: {ut_err_color};padding: 5px;{tec};">
-        <a href=https://buildmaster.fnal.gov/job/gwms-run-test/ws/{build_number}/sl{arch}/output/{branch_name}/unit_test.log/>{unit_test_errors}/a>
+        <a href="https://buildmaster.fnal.gov/job/gwms-run-test/ws/{build_number}/sl{arch}/output/{branch_name}/unit_test.log" />{unit_test_errors}</a>
     </td>
     <td style="torder-left:0px {black}; {br}:1px {black};{bc};background-color: {green};padding: 5px;{tec};">
-        <a href=https://buildmaster.fnal.gov/job/gwms-run-test/ws/{build_number}/sl{arch}/output/{branch_name}/htmlcov.{branch_name}/index.html/>{coverage}/a>
+        <a href="https://buildmaster.fnal.gov/job/gwms-run-test/ws/{build_number}/sl{arch}/output/{branch_name}/htmlcov.{branch_name}/index.html "/>{coverage}</a>
     </td>
     <!--futurize-->
     <td style="{bl}:1px {black}; {br}:1px {black};{bc};background-color: {refact_color};padding: 5px;{tec};">{num_to_refactor}</td>
@@ -112,7 +111,7 @@ def print_tail():
 def print_row(branch_name="master", file_check_cnt=0, num_pylint_err_files=0,
               num_pylint_errs=0, num_pep8_errs=0, num_unit_tests=0,
               num_unit_test_skipped=0, num_unit_test_errors=0, coverage='0%',
-              num_to_refactor='0',arch=''):
+              num_to_refactor='0', arch='?', build_number=0):
 
     print(ROW_FMT.format(red=RED,
                          green=GREEN,
@@ -136,7 +135,8 @@ def print_row(branch_name="master", file_check_cnt=0, num_pylint_err_files=0,
                          coverage=coverage,
                          num_to_refactor = num_to_refactor,
                          refact_color = get_color(num_to_refactor),
-                         arch=''))
+                         arch=arch,
+                         build_number=build_number))
     
 
 
