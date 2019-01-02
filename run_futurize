@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/sh -x
 cd "$TEST_DIR/$PROJECT"
 if [ "$1" = "" ]; then
     branch="master"
@@ -19,4 +19,4 @@ cd "$TEST_DIR"
 . "$VIRTUAL_ENV"/bin/activate
 branch_dir=/test_dir/output/$(echo "$branch"| sed -e 's/\//_/g')
 mkdir -p  "$branch_dir/futurize"
-./glideinwms/build/jenkins/run_futurize.sh -i  "$branch_dir"/futurize
+/bin/bash -x ./glideinwms/build/jenkins/run_futurize.sh -i  "$branch_dir"/futurize

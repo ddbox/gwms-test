@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash -x
 cd "$TEST_DIR"/"$PROJECT"
 if [ "$1" = "" ]; then
     branch="master"
@@ -17,5 +17,5 @@ cd "$TEST_DIR"
 . "$VIRTUAL_ENV"/bin/activate
 no_slash="$TEST_DIR"/output/$(echo "$branch"| sed -e 's/\//_/g')
 mkdir -p "$no_slash"
-./glideinwms/build/jenkins/run_pylint.sh 2>&1 | tee "$no_slash"/pylint.log
+/bin/bash ./glideinwms/build/jenkins/run_pylint.sh 2>&1 | tee "$no_slash"/pylint.log
 mv ./*.log "$no_slash"
