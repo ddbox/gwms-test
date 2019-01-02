@@ -18,7 +18,7 @@ HEAD_FMT="""
 <html>
 <head></head>
 <h3>CI build of GlideinWMS workflow  Succeeded</h3> 
-<br>Build number: <a href="{BUILD_URL}/ws/{build_number} "/>{build_number}</a>
+<br>Build number: <a href="{BUILD_URL}/ws/{build_number}" />{build_number}</a>
 <br>Jenkins : <a href="{BUILD_URL}" />Build Page </a>
 <br> <b>HOSTNAME:</b> {hostname} <br/>
 <b>LINUX DISTRO:</b>{distro}<br/>
