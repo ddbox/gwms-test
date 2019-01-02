@@ -1,14 +1,12 @@
 #!/bin/sh
 cd "$TEST_DIR/$PROJECT"
+git clean -f -d
+git pull
+
 if [ "$1" = "" ]; then
     branch="master"
 else
     branch=$1
-fi
-if [ "$branch" != "master" ]; then
-  git clean -f -d
-  git checkout master
-  git pull
 fi
 git checkout "$branch"
 git clean -f -d
