@@ -9,6 +9,8 @@ git clean -f -d
 git checkout master
 git pull
 git checkout "$branch"
+git clean -f -d
+git pull
 cd build/jenkins
 for F in $(cat $TEST_DIR/jenkins_scripts); do
     git checkout master $F
