@@ -13,6 +13,7 @@ fi
 if [ -e "$HOME/docker" ]; then
    docker=${HOME}/docker
    DOCKER="$docker  -H tcp://131.225.67.229:2375"
+   #DOCKER="$docker "
 elif [ -e "$(which docker)" ] ; then
    docker=$(which docker)
    DOCKER="$docker "
