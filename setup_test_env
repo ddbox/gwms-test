@@ -2,18 +2,19 @@
 cd "$TEST_DIR/$PROJECT"
 git clean -f -d
 git pull
-
+ci_branch="dbox_ci"
+#ci_branch="master"
 if [ "$1" = "" ]; then
-    branch="master"
+    branch="$ci_branch"
 else
     branch=$1
 fi
 git checkout "$branch"
 git clean -f -d
 git pull
-if [ "$branch" != "master" ]; then
+if [ "$branch" != "$ci_branch" ]; then
   cd build/jenkins
   for F in $(cat "$TEST_DIR/jenkins_scripts"); do
-    git checkout master "$F"
+    git checkout "$ci_branch" "$F"
   done
 fi
