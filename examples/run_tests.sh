@@ -36,14 +36,14 @@ if [ "x$DOCKER" = "x"  ] ; then
    echo docker not found
    exit 1
 fi
-echo "for I in $($DOCKER images | grep dbox | awk '{print $3}' | sed -e 's/sha256://g'); do $DOCKER rmi -f $I; done"
-for I in $($DOCKER images | grep dbox | awk '{print $3}'| sed -e 's/sha256://g'); do $DOCKER rmi -f $I; done
+#echo "for I in $($DOCKER images | grep dbox | awk '{print $3}' | sed -e 's/sha256://g'); do $DOCKER rmi -f $I; done"
+#for I in $($DOCKER images | grep dbox | awk '{print $3}'| sed -e 's/sha256://g'); do $DOCKER rmi -f $I; done
 
-$DOCKER images | grep gwms
+$DOCKER images 
 $DOCKER pull $IMAGE
 $DOCKER pull $IMAGE:sl6
 $DOCKER pull $IMAGE:sl7
-$DOCKER images | grep gwms
+$DOCKER images 
 
 if [ "$SAVE_OLD_CONTAINERS_1" = "" ]; then
     for C in $($DOCKER ps -a | grep v3  | awk '{print $1}'); do $DOCKER rm -f "$C"; done
