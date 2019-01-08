@@ -13,11 +13,11 @@ fi
 DOCKER=""
 if [ -e "$HOME/docker" ]; then
    docker=${HOME}/docker
-   DOCKER="$docker"
-   $DOCKER help > /dev/null 2>&1
+   DOCKER="$docker  -H tcp://131.225.67.229:2375"
+   $DOCKER images > /dev/null 2>&1
    if [ $? -ne 0 ]; then
-       DOCKER="$docker  -H tcp://131.225.67.229:2375"
-       $DOCKER help > /dev/null 2>&1
+       DOCKER="$docker"
+       $DOCKER images > /dev/null 2>&1
        if [ $? -ne 0 ]; then
            DOCKER=""
        fi
@@ -26,7 +26,7 @@ fi
 if [ "x$DOCKER" = "x"  ] ; then
    docker=$(which docker)
    DOCKER="$docker "
-   $DOCKER help > /dev/null 2>&1
+   $DOCKER images > /dev/null 2>&1
    if [ $? -ne 0 ]; then
        DOCKER=""
    fi
