@@ -13,6 +13,9 @@ if [ "$1" = "" ]; then
 else
     branch=$1
 fi
+try git clean -f -d
+try git checkout "$ci_branch"
+try git clean -f -d
 try git checkout "$branch"
 try git clean -f -d
 try git pull
