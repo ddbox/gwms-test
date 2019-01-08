@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash
 cd "$TEST_DIR"/"$PROJECT"
 if [ "$1" = "" ]; then
     branch="master"

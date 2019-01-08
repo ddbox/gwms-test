@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash
 yell() { echo "$0: $*" >&2; }
 die() { yell "$*"; exit 111; }
 try() { echo "$@"; "$@" || die "FAILED $*"; }
