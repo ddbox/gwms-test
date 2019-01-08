@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 
 if [ "$IMAGE" = "" ]; then
     IMAGE=dbox/gwms-test
@@ -10,23 +10,38 @@ else
     DAYS=$1
 fi
 
+DOCKER=""
 if [ -e "$HOME/docker" ]; then
    docker=${HOME}/docker
-   DOCKER="$docker  -H tcp://131.225.67.229:2375"
-   #DOCKER="$docker "
-elif [ -e "$(which docker)" ] ; then
+   DOCKER="$docker"
+   $DOCKER help > /dev/null 2>&1
+   if [ $? -ne 0 ]; then
+       DOCKER="$docker  -H tcp://131.225.67.229:2375"
+       $DOCKER help > /dev/null 2>&1
+       if [ $? -ne 0 ]; then
+           DOCKER=""
+       fi
+   fi 
+fi
+if [ "x$DOCKER" = "x"  ] ; then
    docker=$(which docker)
    DOCKER="$docker "
-else
+   $DOCKER help > /dev/null 2>&1
+   if [ $? -ne 0 ]; then
+       DOCKER=""
+   fi
+fi
+
+if [ "x$DOCKER" = "x"  ] ; then
    echo docker not found
    exit 1
 fi
 
-docker images | grep gwms
+$DOCKER images | grep gwms
 $DOCKER pull $IMAGE
 $DOCKER pull $IMAGE:sl6
 $DOCKER pull $IMAGE:sl7
-docker images | grep gwms
+$DOCKER images | grep gwms
 
 if [ "$SAVE_OLD_CONTAINERS_1" = "" ]; then
     for C in $($DOCKER ps -a | grep v3  | awk '{print $1}'); do $DOCKER rm -f "$C"; done
