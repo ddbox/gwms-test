@@ -16,7 +16,8 @@ fi
 
 
 cd "$TEST_DIR"
-if [ -z "$VIRTUAL_ENV" ]; then
+which coverage > /dev/null 2>&1
+if [ $? -ne 0 ]; then
     . "$VIRTUAL_ENV"/bin/activate
 fi
 branch_dir=/test_dir/output/$(echo "$branch"| sed -e 's/\//_/g')
