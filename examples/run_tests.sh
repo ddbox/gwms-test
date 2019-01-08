@@ -45,9 +45,9 @@ $DOCKER pull $IMAGE:sl6
 $DOCKER pull $IMAGE:sl7
 $DOCKER images 
 
-if [ "$SAVE_OLD_CONTAINERS_1" = "" ]; then
-    for C in $($DOCKER ps -a | grep v3  | awk '{print $1}'); do $DOCKER rm -f "$C"; done
-fi
+#if [ "$SAVE_OLD_CONTAINERS_1" = "" ]; then
+#    for C in $($DOCKER ps -a | grep v3  | awk '{print $1}'); do $DOCKER rm -f "$C"; done
+#fi
 
 BRANCHES=$($DOCKER run --rm $IMAGE new_branches "$DAYS")
 CLIST=""
@@ -56,6 +56,7 @@ for rh in 6 7; do
     for branch in $BRANCHES; do 
         container=$(echo "$branch"| sed -e's/\//_/g' -e's/-/_/g')_sl$rh;  
         CLIST="$CLIST $container"
+        $DOCKER rm -f "$container" > /dev/null 2>&1
         if $DOCKER run -d --name "$container"  $IMAGE:sl$rh /bin/bash -c "$PERSIST" ; then
             echo "started containter $container"
         else
