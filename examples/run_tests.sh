@@ -36,8 +36,8 @@ if [ "x$DOCKER" = "x"  ] ; then
    echo docker not found
    exit 1
 fi
-echo "for I in $($DOCKER images | grep dbox | awk '{print $3}'); do $DOCKER rmi -f $I; done"
-for I in $($DOCKER images | grep dbox | awk '{print $3}'); do $DOCKER rmi -f $I; done
+echo "for I in $($DOCKER images | grep dbox | awk '{print $3} | sed -e 's/sha56://g'); do $DOCKER rmi -f $I; done"
+for I in $($DOCKER images | grep dbox | awk '{print $3}'| sed -e 's/sha256://g'); do $DOCKER rmi -f $I; done
 
 $DOCKER images | grep gwms
 $DOCKER pull $IMAGE
