@@ -19,6 +19,6 @@ try git pull
 if [ "$branch" != "$ci_branch" ]; then
   try cd build/jenkins
   for F in $(cat "$TEST_DIR/jenkins_scripts"); do
-    try git checkout "$ci_branch $F"
+    try git checkout "$ci_branch" "$F"
   done
 fi
