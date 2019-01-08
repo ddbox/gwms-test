@@ -42,6 +42,7 @@ RUN cd $TEST_DIR && rm -rf virtualenv-*
 
 # env vars needed by unit test scripts
 RUN cd /root && echo ". $TEST_DIR/venv-2.${rel}/bin/activate" >> .bashrc
+RUN cd /root && echo ". $TEST_DIR/venv-2.${rel}/bin/activate" >> .bash_profile
 ENV VIRTUAL_ENV=$TEST_DIR/venv-2.${rel}
 ENV PYTHONPATH=$TEST_DIR
 ENV PROJECT=glideinwms

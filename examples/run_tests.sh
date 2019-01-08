@@ -22,10 +22,11 @@ else
    exit 1
 fi
 
-
+docker images | grep gwms
 $DOCKER pull $IMAGE
 $DOCKER pull $IMAGE:sl6
 $DOCKER pull $IMAGE:sl7
+docker images | grep gwms
 
 if [ "$SAVE_OLD_CONTAINERS_1" = "" ]; then
     for C in $($DOCKER ps -a | grep v3  | awk '{print $1}'); do $DOCKER rm -f "$C"; done

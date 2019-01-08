@@ -1,7 +1,11 @@
 #!/bin/bash -x
-cd "$TEST_DIR/$PROJECT"
-git clean -f -d
-git pull
+yell() { echo "$0: $*" >&2; }
+die() { yell "$*"; exit 111; }
+try() { echo "$@"; "$@" || die "FAILED $*"; }
+
+try cd "$TEST_DIR/$PROJECT"
+try git clean -f -d
+try git pull
 ci_branch="dbox_ci"
 #ci_branch="master"
 if [ "$1" = "" ]; then
@@ -9,12 +13,12 @@ if [ "$1" = "" ]; then
 else
     branch=$1
 fi
-git checkout "$branch"
-git clean -f -d
-git pull
+try git checkout "$branch"
+try git clean -f -d
+try git pull
 if [ "$branch" != "$ci_branch" ]; then
-  cd build/jenkins
+  try cd build/jenkins
   for F in $(cat "$TEST_DIR/jenkins_scripts"); do
-    git checkout "$ci_branch" "$F"
+    try git checkout "$ci_branch $F"
   done
 fi

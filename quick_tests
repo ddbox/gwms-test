@@ -10,7 +10,9 @@ git checkout master
 git pull
 git checkout "$branch"
 cd /test_dir
-. "$VIRTUAL_ENV"/bin/activate
+if [ -z "$VIRTUAL_ENV" ]; then
+   . "$VIRTUAL_ENV"/bin/activate
+fi
 exclude_file="/test_dir/slow_test_list"
 failed=""
 cd glideinwms/unittests

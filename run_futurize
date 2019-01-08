@@ -16,7 +16,9 @@ fi
 
 
 cd "$TEST_DIR"
-. "$VIRTUAL_ENV"/bin/activate
+if [ -z "$VIRTUAL_ENV" ]; then
+    . "$VIRTUAL_ENV"/bin/activate
+fi
 branch_dir=/test_dir/output/$(echo "$branch"| sed -e 's/\//_/g')
 mkdir -p  "$branch_dir/futurize"
 /bin/bash -x ./glideinwms/build/jenkins/run_futurize.sh -i  "$branch_dir"/futurize 2>&1 | tee $branch_dir/futurize.log

@@ -14,7 +14,9 @@ if [ "$thisbranch" != "$branch" ]; then
 fi
 
 cd "$TEST_DIR"
-. "$VIRTUAL_ENV"/bin/activate
+if [ -z "$VIRTUAL_ENV" ]; then
+   . "$VIRTUAL_ENV"/bin/activate
+fi
 no_slash="$TEST_DIR"/output/$(echo "$branch"| sed -e 's/\//_/g')
 mkdir -p "$no_slash"
 /bin/bash ./glideinwms/build/jenkins/run_pylint.sh 2>&1 | tee "$no_slash"/pylint.log
