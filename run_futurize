@@ -22,4 +22,4 @@ if [ $? -ne 0 ]; then
 fi
 branch_dir=/test_dir/output/$(echo "$branch"| sed -e 's/\//_/g')
 mkdir -p  "$branch_dir/futurize"
-/bin/bash -x ./glideinwms/build/jenkins/run_futurize.sh -i  "$branch_dir"/futurize 2>&1 | tee $branch_dir/futurize.log
+/bin/bash ./glideinwms/build/jenkins/run_futurize.sh -i  "$branch_dir"/futurize 2>&1 | tee $branch_dir/futurize.log
