@@ -71,10 +71,10 @@ for dir in $(find .  -type d -name xml_reports); do
     #export branch="$arch_branch"
     $PATHTO/print_row.py >> $html_test_report
     echo '' >> $outfile
-    echo branch=$branch >>$outfile
-    echo num_tests=$num_tests error_count=$error_count skipped=$skipped tot_time=$tot_time>>$outfile
-    echo FILES_CHECKED_COUNT=$FILES_CHECKED_COUNT PYLINT_ERROR_FILES_COUNT=$PYLINT_ERROR_FILES_COUNT>>$outfile
-    echo PYLINT_ERROR_COUNT=$PYLINT_ERROR_COUNT PEP8_ERROR_COUNT=$PEP8_ERROR_COUNT>>$outfile
+    echo "branch=$branch" >>$outfile
+    echo "num_tests=$num_tests error_count=$error_count skipped=$skipped tot_time=$tot_time" >>$outfile
+    echo "FILES_CHECKED_COUNT=$FILES_CHECKED_COUNT PYLINT_ERROR_FILES_COUNT=$PYLINT_ERROR_FILES_COUNT">>$outfile
+    echo "PYLINT_ERROR_COUNT=$PYLINT_ERROR_COUNT PEP8_ERROR_COUNT=$PEP8_ERROR_COUNT">>$outfile
     echo '' >> $outfile
 done
 echo "</table></body></html>" >> $html_test_report
