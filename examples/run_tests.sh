@@ -10,17 +10,14 @@ else
     DAYS=$1
 fi
 
-   docker=$(which docker)
-   DOCKER="$docker "
-   if [ "$WORKSPACE/$BUILD_NUMBER" != "/" ]; then
-       DOCKER=$DOCKER  -H tcp://131.225.67.229:2375 "
-   fi
-   $DOCKER images > /dev/null 2>&1
-   if [ $? -ne 0 ]; then
-       DOCKER=""
-   fi
-
-if [ "x$DOCKER" = "x"  ] ; then
+DOCKER=$(which docker)
+if [ "x${WORKSPACE}/x${BUILD_NUMBER}" != 'x/x' ]; then
+   DOCKER="$DOCKER  -H tcp://131.225.67.229:2375 "
+fi
+if $DOCKER images > /dev/null 2>&1; then
+   echo using "$DOCKER"
+   $DOCKER version
+else
    echo docker not found
    exit 1
 fi
@@ -45,7 +42,6 @@ for rh in 6 7; do
         container=$(echo "$branch"| sed -e's/\//_/g' -e's/-/_/g')_sl$rh;  
         CLIST="$CLIST $container"
         $DOCKER rm -f "$container" > /dev/null 2>&1
-        echo running: $DOCKER run --network host -d --name "$container"  $IMAGE:sl$rh /bin/bash -c "$PERSIST"
         if $DOCKER run --network host -d --name "$container"  $IMAGE:sl$rh /bin/bash -c "$PERSIST" ; then
             echo "started containter $container"
         else
@@ -107,8 +103,8 @@ if [ "$TRAVIS_BUILD_NUMBER" != "" ]; then
 fi
 
 if [ "$WORKSPACE/$BUILD_NUMBER" != "/" ]; then
-    mkdir -p $WORKSPACE/$BUILD_NUMBER
-    mv output_7 $WORKSPACE/$BUILD_NUMBER/sl7
-    mv output_6 $WORKSPACE/$BUILD_NUMBER/sl6
+    mkdir -p "$WORKSPACE/$BUILD_NUMBER"
+    mv output_7 "$WORKSPACE/$BUILD_NUMBER"/sl7
+    mv output_6 "$WORKSPACE/$BUILD_NUMBER"/sl6
 fi
 
