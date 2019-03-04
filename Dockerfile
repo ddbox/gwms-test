@@ -7,10 +7,13 @@ ENV TEST_DIR /test_dir
 
 #RUN rpm -Uvh https://repo.opensciencegrid.org/osg/3.4/osg-3.4-el${rel}-release-latest.rpm
 #RUN yum -y -q update &&  yum -y -q install osg-ca-certs
-RUN yum -y -q install javascriptrrd && yum -y -q install m2crypto && yum -y -q install openssl && yum -y -q install findutils && yum -y -q install which && yum -y -q install file && yum -y -q install git && yum -y -q install tzdata
+RUN for PKG in javascriptrrd m2crypto openssl findutils which file git tzdata; do yum -y -q install $PKG; done 
+
+RUN mkdir -p $TEST_DIR/output
+
 
 #the test/lint remote commands
-RUN mkdir -p $TEST_DIR/output &&  mkdir -p $TEST_DIR/util && cd $TEST_DIR && git clone https://github.com/glideinWMS/glideinwms.git
+#RUN mkdir -p $TEST_DIR/output
 COPY run_unit_tests  /usr/local/bin/run_gwms_coverage
 COPY run_unit_tests  /usr/local/bin
 COPY quick_tests     /usr/local/bin/gwms_quick_tests
@@ -22,17 +25,12 @@ COPY help            /usr/local/bin/help
 COPY run_pylint      /usr/local/bin/run_gwms_pylint
 COPY run_pylint      /usr/local/bin
 COPY run_futurize    /usr/local/bin
-COPY test_lib.sh     /usr/local/bin
 COPY slow_tests      $TEST_DIR/slow_test_list
 COPY jenkins_scripts $TEST_DIR/jenkins_scripts
-COPY glideinwms/build/jenkins/* $TEST_DIR/util/
+
 
 # set up code repo
-#RUN cd $TEST_DIR && git clone https://github.com/glideinWMS/glideinwms.git
-RUN cd $TEST_DIR && source util/utils.sh && setup_python_venv
-
-#clean up
-RUN cd $TEST_DIR && rm -rf virtualenv-*
+RUN cd $TEST_DIR && git clone https://github.com/glideinWMS/glideinwms.git && cd $TEST_DIR && source glideinwms/build/jenkins/utils.sh && setup_python_venv && cd $TEST_DIR && rm -rf virtualenv-*
 
 # env vars needed by unit test scripts
 RUN cd /root && echo ". $TEST_DIR/venv-2.${rel}/bin/activate" >> .bashrc

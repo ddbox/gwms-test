@@ -6,8 +6,8 @@ if [ "$1" = "" ]; then
     echo "returns a list of branches in the glideinwms repository that have changed in the last n days"
     exit 1
 fi
-cd "$TEST_DIR"
-rm -rf glideinwms
-git clone https://github.com/glideinWMS/glideinwms.git > /dev/null 2>&1
-cd glideinwms
+cd "$TEST_DIR/$PROJECT"
+git clean -f -d > /dev/null 2>&1
+git checkout master > /dev/null 2>&1
+git pull > /dev/null 2>&1
 git log --all --oneline --since="$1 days ago" --pretty=format:%d | tr ',' '\n' | tr '(' ' ' | tr ')' ' ' | grep origin | sed -e 's/.*origin\///' -e 's/HEAD/master/' | sort |uniq | tr '\n' ' '; echo

@@ -1,21 +1,27 @@
 #!/bin/bash
-. /usr/local/bin/test_lib.sh
+yell() { echo "$0: $*" >&2; }
+die() { yell "$*"; exit 111; }
+try() { echo "$@"; "$@" || die "FAILED $*"; }
 
-try cd "$TEST_DIR"
-rm -rf "$PROJECT"
-try git clone https://github.com/glideinWMS/glideinwms.git
-#ci_branch="dbox_ci"
-ci_branch="master"
+try cd "$TEST_DIR/$PROJECT"
+try git clean -f -d
+try git pull
+ci_branch="dbox_ci"
+#ci_branch="master"
 if [ "$1" = "" ]; then
     branch="$ci_branch"
 else
     branch=$1
 fi
-try cd "$TEST_DIR/$PROJECT"
+git clean -f -d
+try git checkout "$ci_branch"
+git clean -f -d
+try git checkout "$branch"
+git clean -f -d
+try git pull
 if [ "$branch" != "$ci_branch" ]; then
-  try git checkout "$branch"
+  try cd build/jenkins
+  for F in $(cat "$TEST_DIR/jenkins_scripts"); do
+    try git checkout "$ci_branch" "$F"
+  done
 fi
-try cd build/jenkins
-for F in $TEST_DIR/util/* ; do
-  try cp "$F" .
-done
