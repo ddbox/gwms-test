@@ -14,6 +14,7 @@ fi
    DOCKER="$docker "
    if [ "$WORKSPACE/$BUILD_NUMBER" != "/" ]; then
        DOCKER=$DOCKER  -H tcp://131.225.67.229:2375 "
+   fi
    $DOCKER images > /dev/null 2>&1
    if [ $? -ne 0 ]; then
        DOCKER=""
