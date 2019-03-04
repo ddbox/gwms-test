@@ -10,27 +10,14 @@ else
     DAYS=$1
 fi
 
-DOCKER=""
-if [ -e "$HOME/docker" ]; then
-   docker=${HOME}/docker
-   DOCKER="$docker  -H tcp://131.225.67.229:2375 "
-   $DOCKER images > /dev/null 2>&1
-   if [ $? -ne 0 ]; then
-       DOCKER="$docker"
-       $DOCKER images > /dev/null 2>&1
-       if [ $? -ne 0 ]; then
-           DOCKER=""
-       fi
-   fi 
-fi
-if [ "x$DOCKER" = "x"  ] ; then
    docker=$(which docker)
    DOCKER="$docker "
+   if [ "$WORKSPACE/$BUILD_NUMBER" != "/" ]; then
+       DOCKER=$DOCKER  -H tcp://131.225.67.229:2375 "
    $DOCKER images > /dev/null 2>&1
    if [ $? -ne 0 ]; then
        DOCKER=""
    fi
-fi
 
 if [ "x$DOCKER" = "x"  ] ; then
    echo docker not found
@@ -57,7 +44,6 @@ for rh in 6 7; do
         container=$(echo "$branch"| sed -e's/\//_/g' -e's/-/_/g')_sl$rh;  
         CLIST="$CLIST $container"
         $DOCKER rm -f "$container" > /dev/null 2>&1
-        #docker -H tcp://131.225.67.229:2375 run  --network host -d  dbox/gwms-test:sl6 /bin/bash -c '/bin/sleep 1000'
         echo running: $DOCKER run --network host -d --name "$container"  $IMAGE:sl$rh /bin/bash -c "$PERSIST"
         if $DOCKER run --network host -d --name "$container"  $IMAGE:sl$rh /bin/bash -c "$PERSIST" ; then
             echo "started containter $container"
