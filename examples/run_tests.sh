@@ -13,7 +13,7 @@ fi
 DOCKER=""
 if [ -e "$HOME/docker" ]; then
    docker=${HOME}/docker
-   DOCKER="$docker  -H tcp://131.225.67.229:2375 --network host"
+   DOCKER="$docker  -H tcp://131.225.67.229:2375 "
    $DOCKER images > /dev/null 2>&1
    if [ $? -ne 0 ]; then
        DOCKER="$docker"
@@ -57,7 +57,7 @@ for rh in 6 7; do
         container=$(echo "$branch"| sed -e's/\//_/g' -e's/-/_/g')_sl$rh;  
         CLIST="$CLIST $container"
         $DOCKER rm -f "$container" > /dev/null 2>&1
-        if $DOCKER run -d --name "$container"  $IMAGE:sl$rh /bin/bash -c "$PERSIST" ; then
+        if $DOCKER run --network host -d --name "$container"  $IMAGE:sl$rh /bin/bash -c "$PERSIST" ; then
             echo "started containter $container"
         else
             echo "failed to start $container in [ $CLIST ] " 
