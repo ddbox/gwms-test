@@ -7,18 +7,10 @@ ENV TEST_DIR /test_dir
 
 #RUN rpm -Uvh https://repo.opensciencegrid.org/osg/3.4/osg-3.4-el${rel}-release-latest.rpm
 #RUN yum -y -q update &&  yum -y -q install osg-ca-certs
-RUN yum -y -q install javascriptrrd
-RUN yum -y -q install m2crypto
-RUN yum -y -q install openssl
-RUN yum -y -q install findutils
-RUN yum -y -q install which
-RUN yum -y -q install file
-RUN yum -y -q install git
-RUN yum -y -q install tzdata
+RUN yum -y -q install javascriptrrd && yum -y -q install m2crypto && yum -y -q install openssl && yum -y -q install findutils && yum -y -q install which && yum -y -q install file && yum -y -q install git && yum -y -q install tzdata
 
 #the test/lint remote commands
-RUN mkdir -p $TEST_DIR/output
-RUN mkdir -p $TEST_DIR/util
+RUN mkdir -p $TEST_DIR/output &&  mkdir -p $TEST_DIR/util && cd $TEST_DIR && git clone https://github.com/glideinWMS/glideinwms.git
 COPY run_unit_tests  /usr/local/bin/run_gwms_coverage
 COPY run_unit_tests  /usr/local/bin
 COPY quick_tests     /usr/local/bin/gwms_quick_tests
