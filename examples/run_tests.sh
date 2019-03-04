@@ -13,7 +13,7 @@ fi
 DOCKER=""
 if [ -e "$HOME/docker" ]; then
    docker=${HOME}/docker
-   DOCKER="$docker  -H tcp://131.225.67.229:2375"
+   DOCKER="$docker  -H tcp://131.225.67.229:2375 --network host"
    $DOCKER images > /dev/null 2>&1
    if [ $? -ne 0 ]; then
        DOCKER="$docker"
