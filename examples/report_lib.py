@@ -2,7 +2,7 @@
 
 #constants
 
-BUILD_URL = "https://buildmaster.fnal.gov/job/gwms-run-test"
+BUILD_URL = "https://buildmaster.fnal.gov/buildmaster/job/gwms-run-test"
 
 RED='#ff0000'
 GREEN = '#00ff00'
