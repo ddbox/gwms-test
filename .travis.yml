@@ -13,7 +13,8 @@ before_install:
 - docker run dbox/gwms-test help
 script:
 - docker run dbox/gwms-test help > index.html
-- docker run dbox/gwms-test help > newpage.html
+- find . -ls > documents/index.html 2>&1
+- cp documents/index.html documents/list.$(date +%s)
 after_success:
 - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
 - docker push  dbox/gwms-test:latest
@@ -24,7 +25,7 @@ deploy:
   skip-cleanup: true
   github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
   keep-history: true
-  file: index.html
+  file: documents/index.html
   on:
     branch: master
 env:
