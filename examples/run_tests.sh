@@ -11,14 +11,15 @@ else
 fi
 
 DOCKER=$(which docker)
-if [ "x${WORKSPACE}/x${BUILD_NUMBER}" != 'x/x' ]; then
+if uname -n | grep buildmaster >/dev/null 2>&1;  then
    DOCKER="$DOCKER  -H tcp://131.225.67.229:2375 "
 fi
 if $DOCKER images > /dev/null 2>&1; then
    echo using "$DOCKER"
    $DOCKER version
 else
-   echo docker not found
+   echo properly configured docker not found
+   echo tried "$DOCKER" but it failed
    exit 1
 fi
 #echo "for I in $($DOCKER images | grep dbox | awk '{print $3}' | sed -e 's/sha256://g'); do $DOCKER rmi -f $I; done"
