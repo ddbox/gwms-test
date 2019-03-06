@@ -25,11 +25,11 @@ fi
 #echo "for I in $($DOCKER images | grep dbox | awk '{print $3}' | sed -e 's/sha256://g'); do $DOCKER rmi -f $I; done"
 #for I in $($DOCKER images | grep dbox | awk '{print $3}'| sed -e 's/sha256://g'); do $DOCKER rmi -f $I; done
 
-$DOCKER images 
-$DOCKER pull $IMAGE
-$DOCKER pull $IMAGE:sl6
-$DOCKER pull $IMAGE:sl7
-$DOCKER images 
+#$DOCKER images 
+#$DOCKER pull $IMAGE
+#$DOCKER pull $IMAGE:sl6
+#$DOCKER pull $IMAGE:sl7
+#$DOCKER images 
 
 #if [ "$SAVE_OLD_CONTAINERS_1" = "" ]; then
 #    for C in $($DOCKER ps -a | grep v3  | awk '{print $1}'); do $DOCKER rm -f "$C"; done
@@ -96,13 +96,16 @@ for C in $CLIST; do
     fi
 done
 
+printenv
+find . -ls
 
 if [ "$SAVE_OLD_CONTAINERS_2" = "" ]; then
     for C in $CLIST; do $DOCKER kill "$C" ; $DOCKER rm "$C"; done
 fi
 
 if [ "$TRAVIS_BUILD_NUMBER" != "" ]; then
-    WORKSPACE=$TRAVIS_BUILD_DIR
+    #WORKSPACE=$TRAVIS_BUILD_DIR
+    WORKSPACE=`pwd`
     BUILD_NUMBER=$TRAVIS_BUILD_NUMBER
 fi
 
