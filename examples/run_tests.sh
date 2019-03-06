@@ -36,6 +36,9 @@ $DOCKER images
 #fi
 
 BRANCHES=$($DOCKER run --rm $IMAGE new_branches "$DAYS")
+if !  echo $BRANCHES | grep 'master' > /dev/null 2>&1; then
+    BRANCHES=" master $BRANCHES"
+fi
 CLIST=""
 PERSIST="while [ 0 -eq 0 ]; do date; sleep 60; done;"
 for rh in 6 7; do
@@ -52,7 +55,7 @@ for rh in 6 7; do
         fi
     done
 done
-echo "running jobs in the following containters:"
+echo "running jobs in the following containers:"
 echo "$CLIST"
 
 for rh in 6 7; do
@@ -103,7 +106,7 @@ if [ "$TRAVIS_BUILD_NUMBER" != "" ]; then
     BUILD_NUMBER=$TRAVIS_BUILD_NUMBER
 fi
 
-if [ "$WORKSPACE/$BUILD_NUMBER" != "/" ]; then
+if [ "$WORKSPACE/$BUILD_NUMBER" != '/' ]; then
     mkdir -p "$WORKSPACE/$BUILD_NUMBER"
     mv output_7 "$WORKSPACE/$BUILD_NUMBER"/sl7
     mv output_6 "$WORKSPACE/$BUILD_NUMBER"/sl6

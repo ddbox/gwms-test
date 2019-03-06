@@ -15,6 +15,10 @@ script:
 - docker run dbox/gwms-test help > index.html
 - find . -ls > documents/index.html 2>&1
 - cp documents/index.html documents/list.$(date +%s)
+- examples/run_tests.sh 3
+- examples/make_report.sh $TRAVIS_BUILD_NUMBER
+- cp $TRAVIS_BUILD_NUMBER/${TRAVIS_BUILD_NUMBER}_report.html documents/index.html
+- mv $TRAVIS_BUILD_NUMBER documents
 after_success:
 - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
 - docker push  dbox/gwms-test:latest
