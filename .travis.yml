@@ -13,12 +13,14 @@ before_install:
 - docker run dbox/gwms-test help
 script:
 - docker run dbox/gwms-test help > index.html
-- find . -ls > documents/index.html 2>&1
+- find . -ls >> documents/index.html 2>&1
 - cp documents/index.html documents/list.$(date +%s)
 - examples/run_tests.sh 3
 - examples/make_report.sh $TRAVIS_BUILD_NUMBER
-- cp $TRAVIS_BUILD_NUMBER/${TRAVIS_BUILD_NUMBER}_report.html documents/index.html
+- cp $TRAVIS_BUILD_NUMBER/${TRAVIS_BUILD_NUMBER}_report.html documents/test-results/index.html
 - mv $TRAVIS_BUILD_NUMBER documents
+- git add documents/test-results/*
+- git commit -m "build $TRAVIS_BUILD_NUMBER" -a
 after_success:
 - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
 - docker push  dbox/gwms-test:latest
@@ -29,7 +31,7 @@ deploy:
   skip-cleanup: true
   github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
   keep-history: true
-  file: documents/index.html
+  file: documents/test-results
   on:
     branch: master
 env:
