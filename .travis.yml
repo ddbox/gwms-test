@@ -12,14 +12,18 @@ before_install:
 - docker ps -a
 - docker run dbox/gwms-test help
 script:
+- echo TRAVIS_BUILD_NUMBER is $TRAVIS_BUILD_NUMBER
 - docker run dbox/gwms-test help > index.html
 - find . -ls >> documents/index.html 2>&1
 - cp documents/index.html documents/list.$(date +%s)
 - examples/run_tests.sh 3
+- echo TRAVIS_BUILD_NUMBER is $TRAVIS_BUILD_NUMBER
 - examples/make_report.sh $TRAVIS_BUILD_NUMBER
 - git checkout 'gh-pages'
 - cp -r $TRAVIS_BUILD_NUMBER/* documents/test-results
-- git add documents/test-results/*
+- tar cvfz results.tar .
+- cp results.tar documents/test-results
+- git add documents/test-results/results.tar
 - git commit -m "build $TRAVIS_BUILD_NUMBER" -a
 - git push origin
 after_success:
@@ -32,7 +36,7 @@ deploy:
   skip-cleanup: true
   github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
   keep-history: true
-  file: documents/test-results
+  file: documents/test-results/results.tar
   on:
     branch: master
 env:
