@@ -35,7 +35,7 @@ fi
 #    for C in $($DOCKER ps -a | grep v3  | awk '{print $1}'); do $DOCKER rm -f "$C"; done
 #fi
 
-BRANCHES=$($DOCKER run --rm $IMAGE new_branches "$DAYS")
+BRANCHES=$($DOCKER run --network host --rm $IMAGE new_branches "$DAYS")
 if !  echo $BRANCHES | grep 'master' > /dev/null 2>&1; then
     BRANCHES=" master $BRANCHES"
 fi
