@@ -1,5 +1,5 @@
-image: dbox/gwms-test:latest
-build:
+#image: dbox/gwms-test:latest
+before_script:
     - printenv | sort > output
     - pwd >> output
     - find . -ls >> output
