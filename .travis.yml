@@ -20,7 +20,7 @@ script:
   #- echo TRAVIS_BUILD_NUMBER is $TRAVIS_BUILD_NUMBER
   #- examples/make_report.sh $TRAVIS_BUILD_NUMBER
   #- cp -r $TRAVIS_BUILD_NUMBER/* documents/test-results
-- tar cvzf documents/test-results/results.tar $TRAVIS_BUILD_NUMBER
+  #- tar cvzf documents/test-results/results.tar $TRAVIS_BUILD_NUMBER
 after_success:
 - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
 - docker push  dbox/gwms-test:latest
