@@ -26,9 +26,9 @@ fi
 #for I in $($DOCKER images | grep dbox | awk '{print $3}'| sed -e 's/sha256://g'); do $DOCKER rmi -f $I; done
 
 #$DOCKER images 
-#$DOCKER pull $IMAGE
-#$DOCKER pull $IMAGE:sl6
-#$DOCKER pull $IMAGE:sl7
+$DOCKER pull $IMAGE
+$DOCKER pull $IMAGE:sl6
+$DOCKER pull $IMAGE:sl7
 #$DOCKER images 
 
 #if [ "$SAVE_OLD_CONTAINERS_1" = "" ]; then
