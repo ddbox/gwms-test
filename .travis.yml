@@ -16,9 +16,9 @@ script:
 - docker run dbox/gwms-test help > index.html
 - find . -ls >> documents/index.html 2>&1
 - cp documents/index.html documents/list.$(date +%s)
-- examples/run_tests.sh 3
+  #- examples/run_tests.sh 3
 - echo TRAVIS_BUILD_NUMBER is $TRAVIS_BUILD_NUMBER
-- examples/make_report.sh $TRAVIS_BUILD_NUMBER
+  #- examples/make_report.sh $TRAVIS_BUILD_NUMBER
 - cp -r $TRAVIS_BUILD_NUMBER/* documents/test-results
 - tar cvzf documents/test-results/results.tar $TRAVIS_BUILD_NUMBER
 after_success:
