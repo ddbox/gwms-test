@@ -1,9 +1,11 @@
 #image: dbox/gwms-test:latest
 before_script:
-    - printenv | sort > output
-    - pwd >> output
-    - find . -ls >> output
-    - cat output
+    - echo "<html><head></head><body><pre>" > index.html 
+    - printenv | sort >> index.html
+    - pwd >> index.html
+    - find . -ls >> index.html
+    - echo "</pre></body></html>" >> index.html 
+    - cat index.html
 
 # Full project: https://gitlab.com/pages/plain-html 
 pages:   
@@ -12,6 +14,7 @@ pages:
   - mkdir .public   
   - cp -r * .public   
   - mv .public public   
+  
   artifacts:     
     paths:     
     - public   
