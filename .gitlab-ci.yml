@@ -1,0 +1,21 @@
+image: dbox/gwms-test:latest
+build:
+    - printenv | sort > output
+    - pwd >> output
+    - find . -ls >> output
+    - cat output
+
+# Full project: https://gitlab.com/pages/plain-html 
+pages:   
+  stage: deploy   
+  script:   
+  - mkdir .public   
+  - cp -r * .public   
+  - mv .public public   
+  artifacts:     
+    paths:     
+    - public   
+    only:   
+    - master
+
+
