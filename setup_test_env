@@ -7,21 +7,20 @@ try cd "$TEST_DIR/$PROJECT"
 try git clean -f -d
 try git pull
 ci_branch="master_ci"
-master_branch="master"
 if [ "$1" = "" ]; then
-    branch="$master_branch"
+    branch="$master"
 else
     branch=$1
 fi
 git clean -f -d
-try git checkout "$ci_branch"
+try git checkout -f  "$ci_branch"
 git clean -f -d
-try git checkout "$branch"
+try git checkout -f "$branch"
 git clean -f -d
 try git pull
 if [ "$branch" != "$ci_branch" ]; then
   try cd build/jenkins
   for F in $(cat "$TEST_DIR/jenkins_scripts"); do
-    try git checkout "$ci_branch" "$F"
+    try git checkout -f "$ci_branch" "$F"
   done
 fi

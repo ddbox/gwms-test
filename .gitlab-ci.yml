@@ -5,13 +5,13 @@ services:
 
 before_script:
     - echo "<html><head></head><body><pre>" > index.html 
-    - BUILD_NUMBER=$CI_BUILD_ID
-    - WORKSPACE=$PWD
+      #- BUILD_NUMBER=$CI_BUILD_ID
+      #- WORKSPACE=$PWD
     - export BUILD_NUMBER WORKSPACE
     - printenv  >> index.html
     - ls -la ./examples/run_tests.sh
-    - /bin/sh -x ./examples/run_tests.sh 2
-    - /bin/sh -x bash ./examples/make_report.sh $CI_BUILD_ID
+      #- /bin/sh -x ./examples/run_tests.sh 2
+      #- /bin/sh -x bash ./examples/make_report.sh $CI_BUILD_ID
     - find . -print >> index.html
     - echo "</pre></body></html>" >> index.html 
 # Full project: https://gitlab.com/pages/plain-html 
