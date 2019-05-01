@@ -1,6 +1,6 @@
 ARG rel=7
-#FROM scientificlinux/sl:${rel}
-FROM opensciencegrid/osg-wn:3.4-el${rel}
+FROM scientificlinux/sl:${rel}
+#FROM opensciencegrid/osg-wn:3.4-el${rel}
 ARG rel
 ENV rel ${rel} 
 ENV TEST_DIR /test_dir
@@ -30,7 +30,7 @@ COPY jenkins_scripts $TEST_DIR/jenkins_scripts
 
 
 # set up code repo
-RUN cd $TEST_DIR && git clone https://github.com/glideinWMS/glideinwms.git && cd $TEST_DIR && source glideinwms/build/jenkins/utils.sh && setup_python_venv && cd $TEST_DIR && rm -rf virtualenv-*
+RUN cd $TEST_DIR && git clone https://github.com/glideinWMS/glideinwms.git && cd $TEST_DIR/glideinwms && git checkout master_ci && cd $TEST_DIR  && source glideinwms/build/jenkins/utils.sh && setup_python_venv 
 
 # env vars needed by unit test scripts
 RUN cd /root && echo ". $TEST_DIR/venv-2.${rel}/bin/activate" >> .bashrc
