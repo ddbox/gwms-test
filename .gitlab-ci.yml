@@ -1,4 +1,8 @@
-#image: dbox/gwms-test:latest
+image: docker:latest
+
+services:
+    - docker:dind
+
 before_script:
     - echo "<html><head></head><body><pre>" > index.html 
     - export BUILD_NUMBER=$CI_BUILD_ID
