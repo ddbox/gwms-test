@@ -78,6 +78,7 @@ for dir in $(find .  -type d -name xml_reports); do
     echo '' >> $outfile
 done
 echo "</table></body></html>" >> $html_test_report
+cp  $html_test_report index.html
 
 #link all the html coverage reports together on page $html_coverage_browser
 echo "<html><head>coverage report build $BUILD_NUMBER</head><body><h1>Build $BUILD_NUMBER Coverage by Branch</h1>" >$html_coverage_browser
