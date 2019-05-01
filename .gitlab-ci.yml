@@ -9,8 +9,9 @@ before_script:
     - WORKSPACE=$PWD
     - export BUILD_NUMBER WORKSPACE
     - printenv  >> index.html
-    - ./examples/run_tests.sh 2
-    - ./examples/make_report.sh $CI_BUILD_ID
+    - ls -la ./examples/run_tests.sh
+    - bash ./examples/run_tests.sh 2
+    - bash ./examples/make_report.sh $CI_BUILD_ID
     - find . -print >> index.html
     - echo "</pre></body></html>" >> index.html 
 # Full project: https://gitlab.com/pages/plain-html 
