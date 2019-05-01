@@ -63,10 +63,10 @@ ROW_FMT = """
     <td style="{bl}:0px {black}; {br}:0px {black};{bc};background-color: {green};padding: 5px;{tec};">{num_unit_tests}</td> 
     <td style="{bl}:0px {black}; {br}:0px {black};{bc};background-color: {green};padding: 5px;{tec};">{skipped}</td>
     <td style="{bl}:0px {black}; {br}:0px {black};{bc};background-color: {ut_err_color};padding: 5px;{tec};">
-        <a href="{BUILD_URL}/ws/{build_number}/{arch}/output/{branch_name}/unit_test.log" />{unit_test_errors}</a>
+        <a href="{build_number}/{arch}/output/{branch_name}/unit_test.log" />{unit_test_errors}</a>
     </td>
     <td style="torder-left:0px {black}; {br}:1px {black};{bc};background-color: {green};padding: 5px;{tec};">
-        <a href="{BUILD_URL}/ws/{build_number}/{arch}/output/{branch_name}/htmlcov.{branch_name}/index.html" />{coverage}</a>
+        <a href="{build_number}/{arch}/output/{branch_name}/htmlcov.{branch_name}/index.html" />{coverage}</a>
     </td>
     <!--futurize-->
     <td style="{bl}:1px {black}; {br}:1px {black};{bc};background-color: {refact_color};padding: 5px;{tec};">{num_to_refactor}</td>
