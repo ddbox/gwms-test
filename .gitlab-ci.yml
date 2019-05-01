@@ -1,12 +1,13 @@
 #image: dbox/gwms-test:latest
 before_script:
     - echo "<html><head></head><body><pre>" > index.html 
+    - export BUILD_NUMBER=$CI_BUILD_ID
+    - export WORKSPACE=$PWD
     - printenv | sort >> index.html
-    - pwd >> index.html
+    - gwms-test/examples/run_tests.sh 2
+    - gwms-test/examples/make_report.sh $BUILD_NUMBER
     - find . -ls >> index.html
     - echo "</pre></body></html>" >> index.html 
-    - cat index.html
-
 # Full project: https://gitlab.com/pages/plain-html 
 pages:   
   stage: deploy   
