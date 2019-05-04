@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="TestGlideinParams-20190504152108" tests="11" time="0.338">
+	<testcase classname="TestGlideinParams" name="test__eq__" time="0.043"/>
+	<testcase classname="TestGlideinParams" name="test_buildDir" time="0.024"/>
+	<testcase classname="TestGlideinParams" name="test_derive" time="0.023"/>
+	<testcase classname="TestGlideinParams" name="test_file_read_and_write" time="0.062"/>
+	<testcase classname="TestGlideinParams" name="test_get_description" time="0.061"/>
+	<testcase classname="TestGlideinParams" name="test_get_top_element" time="0.026"/>
+	<testcase classname="TestGlideinParams" name="test_get_xml" time="0.028"/>
+	<testcase classname="TestGlideinParams" name="test_get_xml_format" time="0.022"/>
+	<testcase classname="TestGlideinParams" name="test_init" time="0.022"/>
+	<testcase classname="TestGlideinParams" name="test_init_defaults" time="0.026"/>
+	<testcase classname="TestGlideinParams" name="test_validate_names" time="0.000">
+		<skipped message="this test doesnt set up subparams so validate_names will fail" type="skip"/>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

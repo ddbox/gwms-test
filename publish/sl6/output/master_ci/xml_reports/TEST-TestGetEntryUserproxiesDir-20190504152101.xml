@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="TestGetEntryUserproxiesDir-20190504152101" tests="1" time="0.001">
+	<testcase classname="TestGetEntryUserproxiesDir" name="test_get_entry_userproxies_dir" time="0.001"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

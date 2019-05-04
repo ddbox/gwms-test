@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="TestMergeStageFiles-20190504152537" tests="3" time="0.000">
+	<testcase classname="TestMergeStageFiles" name="test___init__" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<testcase classname="TestMergeStageFiles" name="test_get_condor_vars" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<testcase classname="TestMergeStageFiles" name="test_get_constants" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
