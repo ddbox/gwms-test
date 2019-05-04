@@ -1,0 +1,105 @@
+<?xml version="1.0" ?>
+<testsuite errors="6" failures="0" name="TestTimeFunctions-20190504152313" tests="16" time="2.491">
+	<testcase classname="TestTimeFunctions" name="test_ISO8601_Local__symmetric" time="1.146"/>
+	<testcase classname="TestTimeFunctions" name="test_extract_is_o8601__local" time="0.002"/>
+	<testcase classname="TestTimeFunctions" name="test_extract_is_o8601__ut_c" time="0.054"/>
+	<testcase classname="TestTimeFunctions" name="test_extract_rf_c2822__local" time="0.060"/>
+	<testcase classname="TestTimeFunctions" name="test_extract_rf_c2822__ut_c" time="0.062"/>
+	<testcase classname="TestTimeFunctions" name="test_extract_seconds" time="0.001"/>
+	<testcase classname="TestTimeFunctions" name="test_get_is_o8601__ut_c" time="0.001"/>
+	<testcase classname="TestTimeFunctions" name="test_get_rf_c2822__ut_c" time="0.001"/>
+	<testcase classname="TestTimeFunctions" name="test_get_seconds" time="0.001"/>
+	<testcase classname="TestTimeFunctions" name="test_rf_c2822_local_symmetric" time="1.036"/>
+	<testcase classname="TestTimeFunctions" name="test_extract_human" time="0.087">
+		<error message="1518767040.0 != 1518745440.0" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "./test_lib_timeConversion.py", line 64, in test_extract_human
+    self.assertEqual(float(now), float(extractHuman(human)))
+AssertionError: 1518767040.0 != 1518745440.0
+]]>		</error>
+	</testcase>
+	<testcase classname="TestTimeFunctions" name="test_get_human" time="0.007">
+		<error message="'Fri Feb 16 01:44:00 2018' != 'Fri Feb 16 07:44:00 2018'
+- Fri Feb 16 01:44:00 2018
+?             ^
++ Fri Feb 16 07:44:00 2018
+?             ^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "./test_lib_timeConversion.py", line 59, in test_get_human
+    self.assertEqual(human, getHuman(now))
+AssertionError: 'Fri Feb 16 01:44:00 2018' != 'Fri Feb 16 07:44:00 2018'
+- Fri Feb 16 01:44:00 2018
+?             ^
++ Fri Feb 16 07:44:00 2018
+?             ^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="TestTimeFunctions" name="test_get_is_o8601__local" time="0.009">
+		<error message="'2018-02-16T01:44:00-06:00' != '2018-02-16T07:44:00+00:00'
+- 2018-02-16T01:44:00-06:00
+?             ^      ^ ^
++ 2018-02-16T07:44:00+00:00
+?             ^      ^ ^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "./test_lib_timeConversion.py", line 75, in test_get_is_o8601__local
+    self.assertEqual(iso_local, getISO8601_Local(now))
+AssertionError: '2018-02-16T01:44:00-06:00' != '2018-02-16T07:44:00+00:00'
+- 2018-02-16T01:44:00-06:00
+?             ^      ^ ^
++ 2018-02-16T07:44:00+00:00
+?             ^      ^ ^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="TestTimeFunctions" name="test_get_rf_c2822__local" time="0.014">
+		<error message="'Fri, 16 Feb 2018 01:44:00 -0600' != 'Fri, 16 Feb 2018 07:44:00 +0000'
+- Fri, 16 Feb 2018 01:44:00 -0600
+?                   ^       ^ ^
++ Fri, 16 Feb 2018 07:44:00 +0000
+?                   ^       ^ ^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "./test_lib_timeConversion.py", line 104, in test_get_rf_c2822__local
+    self.assertEqual(rfc_2822_local, getRFC2822_Local(now))
+AssertionError: 'Fri, 16 Feb 2018 01:44:00 -0600' != 'Fri, 16 Feb 2018 07:44:00 +0000'
+- Fri, 16 Feb 2018 01:44:00 -0600
+?                   ^       ^ ^
++ Fri, 16 Feb 2018 07:44:00 +0000
+?                   ^       ^ ^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="TestTimeFunctions" name="test_get_t_zval" time="0.002">
+		<error message="0 == 0" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "./test_lib_timeConversion.py", line 127, in test_get_t_zval
+    self.assertNotEqual(getTZval(now), getTZval(now_dst))
+AssertionError: 0 == 0
+]]>		</error>
+	</testcase>
+	<testcase classname="TestTimeFunctions" name="test_get_time_in_format" time="0.009">
+		<error message="'Fri, 16 Feb 2018 01:44:00 -0600' != 'Fri, 16 Feb 2018 07:44:00 -0600'
+- Fri, 16 Feb 2018 01:44:00 -0600
+?                   ^
++ Fri, 16 Feb 2018 07:44:00 -0600
+?                   ^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "./test_lib_timeConversion.py", line 122, in test_get_time_in_format
+    self.assertEqual(rfc_2822_local, get_time_in_format(now, time_format))
+AssertionError: 'Fri, 16 Feb 2018 01:44:00 -0600' != 'Fri, 16 Feb 2018 07:44:00 -0600'
+- Fri, 16 Feb 2018 01:44:00 -0600
+?                   ^
++ Fri, 16 Feb 2018 07:44:00 -0600
+?                   ^
+
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
