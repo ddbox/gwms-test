@@ -1,3 +1,95 @@
+./install/services/Configuration.py:20:1: E266 too many leading '#' for block comment
+./install/services/Configuration.py:23:15: E211 whitespace before '('
+./install/services/Configuration.py:24:12: E221 multiple spaces before operator
+./install/services/Configuration.py:31:7: E114 indentation is not a multiple of four (comment)
+./install/services/Configuration.py:36:7: E114 indentation is not a multiple of four (comment)
+./install/services/Configuration.py:47:3: E114 indentation is not a multiple of four (comment)
+./install/services/Configuration.py:47:3: E303 too many blank lines (2)
+./install/services/Configuration.py:48:3: E301 expected 1 blank line, found 0
+./install/services/Configuration.py:57:3: E114 indentation is not a multiple of four (comment)
+./install/services/Configuration.py:58:14: E211 whitespace before '('
+./install/services/Configuration.py:68:3: E114 indentation is not a multiple of four (comment)
+./install/services/Configuration.py:79:5: E722 do not use bare 'except'
+./install/services/Configuration.py:89:7: E114 indentation is not a multiple of four (comment)
+./install/services/Configuration.py:90:26: W605 invalid escape sequence '\['
+./install/services/Configuration.py:90:32: W605 invalid escape sequence '\]'
+./install/services/Configuration.py:97:29: E202 whitespace before ')'
+./install/services/Configuration.py:100:3: E114 indentation is not a multiple of four (comment)
+./install/services/Configuration.py:112:3: E114 indentation is not a multiple of four (comment)
+./install/services/Configuration.py:121:3: E114 indentation is not a multiple of four (comment)
+./install/services/Configuration.py:125:3: E114 indentation is not a multiple of four (comment)
+./install/services/Configuration.py:130:3: E114 indentation is not a multiple of four (comment)
+./install/services/Configuration.py:135:3: E114 indentation is not a multiple of four (comment)
+./install/services/Configuration.py:147:7: E114 indentation is not a multiple of four (comment)
+./install/services/Configuration.py:152:3: E114 indentation is not a multiple of four (comment)
+./install/services/Configuration.py:155:3: E114 indentation is not a multiple of four (comment)
+./install/services/Configuration.py:156:3: E301 expected 1 blank line, found 0
+./install/services/Configuration.py:158:3: E114 indentation is not a multiple of four (comment)
+./install/services/Configuration.py:159:3: E301 expected 1 blank line, found 0
+./install/services/Configuration.py:163:1: E266 too many leading '#' for block comment
+./install/services/Configuration.py:174:22: E211 whitespace before '('
+./install/services/Configuration.py:181:9: E201 whitespace after '('
+./install/services/Configuration.py:181:27: E202 whitespace before ')'
+./install/services/Configuration.py:185:9: E201 whitespace after '('
+./install/services/Configuration.py:185:46: E202 whitespace before ')'
+./install/services/Configuration.py:194:9: E201 whitespace after '('
+./install/services/Configuration.py:194:36: E222 multiple spaces after operator
+./install/services/Configuration.py:194:61: E202 whitespace before ')'
+./install/services/Configuration.py:201:3: E722 do not use bare 'except'
+./install/services/Configuration.py:211:9: E201 whitespace after '('
+./install/services/Configuration.py:211:35: E202 whitespace before ')'
+./install/services/Configuration.py:223:7: E114 indentation is not a multiple of four (comment)
+./install/services/Configuration.py:223:7: E266 too many leading '#' for block comment
+./install/services/Configuration.py:224:7: E114 indentation is not a multiple of four (comment)
+./install/services/Configuration.py:224:7: E266 too many leading '#' for block comment
+./install/services/Configuration.py:225:7: E114 indentation is not a multiple of four (comment)
+./install/services/Configuration.py:225:7: E266 too many leading '#' for block comment
+./install/services/Configuration.py:226:11: E201 whitespace after '('
+./install/services/Configuration.py:226:45: E712 comparison to False should be 'if cond is False:' or 'if not cond:'
+./install/services/Configuration.py:256:1: E122 continuation line missing indentation or outdented
+./install/services/Configuration.py:257:1: E122 continuation line missing indentation or outdented
+./install/services/Configuration.py:258:1: E122 continuation line missing indentation or outdented
+./install/services/Configuration.py:259:1: E122 continuation line missing indentation or outdented
+./install/services/Configuration.py:261:1: E122 continuation line missing indentation or outdented
+./install/services/Configuration.py:261:1: E266 too many leading '#' for block comment
+./install/services/Configuration.py:262:1: E122 continuation line missing indentation or outdented
+./install/services/Configuration.py:263:1: E122 continuation line missing indentation or outdented
+./install/services/Configuration.py:264:1: E122 continuation line missing indentation or outdented
+./install/services/Configuration.py:265:1: E122 continuation line missing indentation or outdented
+./install/services/Configuration.py:267:1: E122 continuation line missing indentation or outdented
+./install/services/Configuration.py:267:1: E266 too many leading '#' for block comment
+./install/services/Configuration.py:268:1: E122 continuation line missing indentation or outdented
+./install/services/Configuration.py:269:1: E122 continuation line missing indentation or outdented
+./install/services/Configuration.py:270:1: E122 continuation line missing indentation or outdented
+./install/services/Configuration.py:271:1: E122 continuation line missing indentation or outdented
+./install/services/Configuration.py:273:1: E122 continuation line missing indentation or outdented
+./install/services/Configuration.py:273:1: E266 too many leading '#' for block comment
+./install/services/Configuration.py:274:1: E122 continuation line missing indentation or outdented
+./install/services/Configuration.py:275:1: E122 continuation line missing indentation or outdented
+./install/services/Configuration.py:276:1: E122 continuation line missing indentation or outdented
+./install/services/Configuration.py:277:1: E122 continuation line missing indentation or outdented
+./install/services/Configuration.py:279:1: E122 continuation line missing indentation or outdented
+./install/services/Configuration.py:279:1: E266 too many leading '#' for block comment
+./install/services/Configuration.py:280:1: E122 continuation line missing indentation or outdented
+./install/services/Configuration.py:281:1: E122 continuation line missing indentation or outdented
+./install/services/Configuration.py:282:1: E122 continuation line missing indentation or outdented
+./install/services/Configuration.py:283:1: E122 continuation line missing indentation or outdented
+./install/services/Configuration.py:297:11: E201 whitespace after '('
+./install/services/Configuration.py:297:31: E202 whitespace before ')'
+./install/services/Configuration.py:302:3: E722 do not use bare 'except'
+./install/services/Configuration.py:308:7: E201 whitespace after '('
+./install/services/Configuration.py:308:33: E202 whitespace before ')'
+./install/services/Configuration.py:316:1: E266 too many leading '#' for block comment
+./install/services/Configuration.py:320:7: E114 indentation is not a multiple of four (comment)
+./install/services/Configuration.py:321:7: E114 indentation is not a multiple of four (comment)
+./install/services/Configuration.py:325:23: E702 multiple statements on one line (semicolon)
+./install/services/Configuration.py:349:12: E702 multiple statements on one line (semicolon)
+./install/services/Configuration.py:349:49: E702 multiple statements on one line (semicolon)
+./install/services/Configuration.py:352:33: E702 multiple statements on one line (semicolon)
+./install/services/Configuration.py:354:12: E702 multiple statements on one line (semicolon)
+./install/services/Configuration.py:354:65: E702 multiple statements on one line (semicolon)
+./install/services/Configuration.py:358:1: E305 expected 2 blank lines after class or function definition, found 1
+./install/services/Configuration.py:361:1: W391 blank line at end of file
 ./install/services/Factory.py:6:11: E401 multiple imports on one line
 ./install/services/Factory.py:26:20: E201 whitespace after '['
 ./install/services/Factory.py:27:1: E128 continuation line under-indented for visual indent
@@ -1472,46 +1564,46 @@ error count summary
       2  W605 invalid escape sequence '\s'
       3  E117 over-indented
       3  E202 whitespace before '}'
-      3  E712 comparison to False should be 'if cond is False:' or 'if not cond:'
       4  E241 multiple spaces after ':'
       4  E303 too many blank lines (4)
+      4  E712 comparison to False should be 'if cond is False:' or 'if not cond:'
       4  E741 ambiguous variable name 'l'
-      4  W605 invalid escape sequence '\['
-      4  W605 invalid escape sequence '\]'
       5  E227 missing whitespace around bitwise or shift operator
       5  E712 comparison to True should be 'if cond is True:' or 'if cond:'
+      5  W605 invalid escape sequence '\['
+      5  W605 invalid escape sequence '\]'
       6  E129 visually indented line with same indent as next logical line
       6  E703 statement ends with a semicolon
-      7  E222 multiple spaces after operator
+      8  E222 multiple spaces after operator
       8  E701 multiple statements on one line (colon)
-      8  E702 multiple statements on one line (semicolon)
       8  E711 comparison to None should be 'if cond is not None:'
       9  E116 unexpected indentation (comment)
-      9  E202 whitespace before ')'
       9  E271 multiple spaces after keyword
-     10  E201 whitespace after '('
-     10  E211 whitespace before '('
-     13  E266 too many leading '#' for block comment
+     13  E211 whitespace before '('
      13  E303 too many blank lines (3)
      13  W504 line break after binary operator
+     14  E702 multiple statements on one line (semicolon)
      15  E127 continuation line over-indented for visual indent
+     16  E202 whitespace before ')'
      16  E502 the backslash is redundant between brackets
+     17  E201 whitespace after '('
      18  E201 whitespace after '['
      18  E251 unexpected spaces around keyword / parameter equals
      18  E401 multiple imports on one line
      20  E402 module level import not at top of file
      21  E203 whitespace before ':'
-     22  E305 expected 2 blank lines after class or function definition, found 1
-     23  W391 blank line at end of file
+     23  E266 too many leading '#' for block comment
+     23  E305 expected 2 blank lines after class or function definition, found 1
+     24  W391 blank line at end of file
      30  E241 multiple spaces after ','
      34  E711 comparison to None should be 'if cond is None:'
      43  E262 inline comment should start with '# '
-     54  E722 do not use bare 'except'
      55  E124 closing bracket does not match visual indentation
-     64  E303 too many blank lines (2)
-     78  E122 continuation line missing indentation or outdented
+     57  E722 do not use bare 'except'
+     65  E303 too many blank lines (2)
      78  E201 whitespace after '{'
-     93  E221 multiple spaces before operator
-    135  E301 expected 1 blank line, found 0
+     94  E221 multiple spaces before operator
+    102  E122 continuation line missing indentation or outdented
+    138  E301 expected 1 blank line, found 0
     166  E128 continuation line under-indented for visual indent
-    257  E114 indentation is not a multiple of four (comment)
+    278  E114 indentation is not a multiple of four (comment)
