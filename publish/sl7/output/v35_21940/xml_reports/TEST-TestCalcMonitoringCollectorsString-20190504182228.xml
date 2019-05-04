@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="TestCalcMonitoringCollectorsString-20190504182228" tests="1" time="0.000">
+	<testcase classname="TestCalcMonitoringCollectorsString" name="test_calc_monitoring_collectors_string" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

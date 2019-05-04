@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="Test_validate_node-20190504181754" tests="3" time="0.051">
+	<testcase classname="Test_validate_node" name="test_bad" time="0.018"/>
+	<testcase classname="Test_validate_node" name="test_good" time="0.022"/>
+	<testcase classname="Test_validate_node" name="test_range_not_allowed" time="0.011"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="TestFrontendConfig-20190504182224" tests="3" time="0.023">
+	<testcase classname="TestFrontendConfig" name="test__init__" time="0.008"/>
+	<testcase classname="TestFrontendConfig" name="test_get_group_dir" time="0.007"/>
+	<testcase classname="TestFrontendConfig" name="test_split_func" time="0.008"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
