@@ -1,8 +1,0 @@
-<?xml version="1.0" ?>
-<testsuite errors="0" failures="0" name="TestFetchForkResultList-20190506193835" tests="1" time="10.016">
-	<testcase classname="TestFetchForkResultList" name="test_fetch_fork_result_list" time="10.016"/>
-	<system-out>
-<![CDATA[]]>	</system-out>
-	<system-err>
-<![CDATA[]]>	</system-err>
-</testsuite>

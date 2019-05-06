@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="TestGlideinMainDicts-20190506213532" tests="6" time="1.295">
+	<testcase classname="TestGlideinMainDicts" name="test___init__" time="0.203"/>
+	<testcase classname="TestGlideinMainDicts" name="test_get_daemon_log_dir" time="0.200"/>
+	<testcase classname="TestGlideinMainDicts" name="test_get_main_dicts" time="0.210"/>
+	<testcase classname="TestGlideinMainDicts" name="test_load" time="0.213"/>
+	<testcase classname="TestGlideinMainDicts" name="test_reuse" time="0.230"/>
+	<testcase classname="TestGlideinMainDicts" name="test_save" time="0.239"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

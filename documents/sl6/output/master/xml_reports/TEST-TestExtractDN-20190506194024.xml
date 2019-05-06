@@ -1,8 +1,0 @@
-<?xml version="1.0" ?>
-<testsuite errors="0" failures="0" name="TestExtractDN-20190506194024" tests="1" time="0.037">
-	<testcase classname="TestExtractDN" name="test_extract_dn" time="0.037"/>
-	<system-out>
-<![CDATA[]]>	</system-out>
-	<system-err>
-<![CDATA[]]>	</system-err>
-</testsuite>
