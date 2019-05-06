@@ -55,7 +55,7 @@ Running tests...
 Removed 10 files for 0.00MB.
 .
 ----------------------------------------------------------------------
-Ran 1 test in 0.004s
+Ran 1 test in 0.006s
 
 OK
 
@@ -66,7 +66,7 @@ Running tests...
 ----------------------------------------------------------------------
 ...
 ----------------------------------------------------------------------
-Ran 3 tests in 3.185s
+Ran 3 tests in 3.372s
 
 OK
 
@@ -77,7 +77,7 @@ Running tests...
 ----------------------------------------------------------------------
 ....................
 ----------------------------------------------------------------------
-Ran 20 tests in 0.450s
+Ran 20 tests in 0.014s
 
 OK
 
@@ -88,7 +88,7 @@ Running tests...
 ----------------------------------------------------------------------
 .....................
 ----------------------------------------------------------------------
-Ran 21 tests in 0.919s
+Ran 21 tests in 0.010s
 
 OK
 
@@ -121,7 +121,7 @@ Running tests...
 ----------------------------------------------------------------------
 ...
 ----------------------------------------------------------------------
-Ran 3 tests in 0.037s
+Ran 3 tests in 0.033s
 
 OK
 
@@ -143,7 +143,7 @@ Running tests...
 ----------------------------------------------------------------------
 SSS.....SSS...SSSSSSSSSSSS..SSSS.S....S.............S.......SSS...
 ----------------------------------------------------------------------
-Ran 66 tests in 0.650s
+Ran 66 tests in 0.729s
 
 OK (skipped=28)
 
@@ -154,7 +154,7 @@ Running tests...
 ----------------------------------------------------------------------
 ..........S
 ----------------------------------------------------------------------
-Ran 11 tests in 0.330s
+Ran 11 tests in 0.303s
 
 OK (skipped=1)
 
@@ -165,7 +165,7 @@ Running tests...
 ----------------------------------------------------------------------
 .......
 ----------------------------------------------------------------------
-Ran 7 tests in 0.001s
+Ran 7 tests in 0.002s
 
 OK
 
@@ -176,7 +176,7 @@ Running tests...
 ----------------------------------------------------------------------
 ...................
 ----------------------------------------------------------------------
-Ran 19 tests in 0.666s
+Ran 19 tests in 0.608s
 
 OK
 
@@ -187,7 +187,7 @@ Running tests...
 ----------------------------------------------------------------------
 ...........................
 ----------------------------------------------------------------------
-Ran 27 tests in 0.991s
+Ran 27 tests in 1.014s
 
 OK
 
@@ -207,11 +207,11 @@ TESTING ==========> ./test_factory_glideFactoryConfig.py
 
 Running tests...
 ----------------------------------------------------------------------
-.................................................+++
-..........................+++
+..........................................................................................+++
+..................................+++
 ...
 ----------------------------------------------------------------------
-Ran 14 tests in 0.548s
+Ran 14 tests in 0.670s
 
 OK
 
@@ -227,7 +227,7 @@ Running tests...
 ----------------------------------------------------------------------
 S.SS.......SS...SSS.S.SS.SSS.S.S.SSSSSSS
 ----------------------------------------------------------------------
-Ran 40 tests in 1.262s
+Ran 40 tests in 1.302s
 
 OK (skipped=23)
 
@@ -243,7 +243,7 @@ Running tests...
 ----------------------------------------------------------------------
 SSS.SSSSSSSSSSSSSSSS.........S.........SSSSSSSSSSSSSSS.SSSSSSSSSSSS.SS.
 ----------------------------------------------------------------------
-Ran 71 tests in 0.015s
+Ran 71 tests in 0.017s
 
 OK (skipped=49)
 
@@ -268,7 +268,7 @@ Running glidein ids at ('submit.local', 'Site_Name1@v3_0@factory1', 'frontend@fa
 Running glidein ids at ('submit.local', 'Site_Name3@v3_0@factory1', 'frontend@factory1') (total glideins: 0, total jobs 0, cluster matches: 0): 
 ........
 ----------------------------------------------------------------------
-Ran 33 tests in 1.320s
+Ran 33 tests in 1.315s
 
 OK
 
@@ -284,7 +284,7 @@ Running tests...
 ----------------------------------------------------------------------
 ...
 ----------------------------------------------------------------------
-Ran 3 tests in 0.119s
+Ran 3 tests in 0.121s
 
 OK
 
@@ -316,7 +316,7 @@ Running tests...
 ----------------------------------------------------------------------
 .....
 ----------------------------------------------------------------------
-Ran 5 tests in 0.095s
+Ran 5 tests in 0.037s
 
 OK
 
@@ -327,7 +327,7 @@ Running tests...
 ----------------------------------------------------------------------
 ....
 ----------------------------------------------------------------------
-Ran 4 tests in 0.643s
+Ran 4 tests in 0.638s
 
 OK
 
@@ -338,7 +338,7 @@ Running tests...
 ----------------------------------------------------------------------
 ...
 ----------------------------------------------------------------------
-Ran 3 tests in 0.067s
+Ran 3 tests in 0.063s
 
 OK
 
@@ -349,7 +349,7 @@ Running tests...
 ----------------------------------------------------------------------
 .............
 ----------------------------------------------------------------------
-Ran 13 tests in 72.004s
+Ran 13 tests in 72.013s
 
 OK
 
@@ -358,15 +358,15 @@ TESTING ==========> ./test_lib_pubCrypto.py
 
 Running tests...
 ----------------------------------------------------------------------
-.............................................................++++++
+.................................++++++
+.........................++++++
+.........................++++++
+........................++++++
+.............++++++
 .......++++++
-.......++++++
-...........++++++
-....................................................................................++++++
-....++++++
 .
 ----------------------------------------------------------------------
-Ran 3 tests in 0.128s
+Ran 3 tests in 0.099s
 
 OK
 
@@ -388,7 +388,7 @@ Running tests...
 ----------------------------------------------------------------------
 .......S........
 ----------------------------------------------------------------------
-Ran 16 tests in 1.365s
+Ran 16 tests in 1.320s
 
 OK (skipped=1)
 
@@ -402,7 +402,7 @@ Running tests...
 ERROR [0.006s]: test_extract_human (__main__.TestTimeFunctions)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "./test_lib_timeConversion.py", line 64, in test_extract_human
+  File "./test_lib_timeConversion.py", line 69, in test_extract_human
     self.assertEqual(float(now), float(extractHuman(human)))
 AssertionError: 1518767040.0 != 1518745440.0
 
@@ -410,7 +410,7 @@ AssertionError: 1518767040.0 != 1518745440.0
 ERROR [0.001s]: test_get_human (__main__.TestTimeFunctions)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "./test_lib_timeConversion.py", line 59, in test_get_human
+  File "./test_lib_timeConversion.py", line 64, in test_get_human
     self.assertEqual(human, getHuman(now))
 AssertionError: 'Fri Feb 16 01:44:00 2018' != 'Fri Feb 16 07:44:00 2018'
 - Fri Feb 16 01:44:00 2018
@@ -423,7 +423,7 @@ AssertionError: 'Fri Feb 16 01:44:00 2018' != 'Fri Feb 16 07:44:00 2018'
 ERROR [0.001s]: test_get_is_o8601__local (__main__.TestTimeFunctions)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "./test_lib_timeConversion.py", line 75, in test_get_is_o8601__local
+  File "./test_lib_timeConversion.py", line 80, in test_get_is_o8601__local
     self.assertEqual(iso_local, getISO8601_Local(now))
 AssertionError: '2018-02-16T01:44:00-06:00' != '2018-02-16T07:44:00+00:00'
 - 2018-02-16T01:44:00-06:00
@@ -436,7 +436,7 @@ AssertionError: '2018-02-16T01:44:00-06:00' != '2018-02-16T07:44:00+00:00'
 ERROR [0.001s]: test_get_rf_c2822__local (__main__.TestTimeFunctions)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "./test_lib_timeConversion.py", line 104, in test_get_rf_c2822__local
+  File "./test_lib_timeConversion.py", line 109, in test_get_rf_c2822__local
     self.assertEqual(rfc_2822_local, getRFC2822_Local(now))
 AssertionError: 'Fri, 16 Feb 2018 01:44:00 -0600' != 'Fri, 16 Feb 2018 07:44:00 +0000'
 - Fri, 16 Feb 2018 01:44:00 -0600
@@ -449,7 +449,7 @@ AssertionError: 'Fri, 16 Feb 2018 01:44:00 -0600' != 'Fri, 16 Feb 2018 07:44:00 
 ERROR [0.000s]: test_get_t_zval (__main__.TestTimeFunctions)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "./test_lib_timeConversion.py", line 127, in test_get_t_zval
+  File "./test_lib_timeConversion.py", line 132, in test_get_t_zval
     self.assertNotEqual(getTZval(now), getTZval(now_dst))
 AssertionError: 0 == 0
 
@@ -457,7 +457,7 @@ AssertionError: 0 == 0
 ERROR [0.001s]: test_get_time_in_format (__main__.TestTimeFunctions)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "./test_lib_timeConversion.py", line 122, in test_get_time_in_format
+  File "./test_lib_timeConversion.py", line 127, in test_get_time_in_format
     self.assertEqual(rfc_2822_local, get_time_in_format(now, time_format))
 AssertionError: 'Fri, 16 Feb 2018 01:44:00 -0600' != 'Fri, 16 Feb 2018 07:44:00 -0600'
 - Fri, 16 Feb 2018 01:44:00 -0600
@@ -467,19 +467,19 @@ AssertionError: 'Fri, 16 Feb 2018 01:44:00 -0600' != 'Fri, 16 Feb 2018 07:44:00 
 
 
 ----------------------------------------------------------------------
-Ran 16 tests in 0.341s
+Ran 16 tests in 0.327s
 
 FAILED (errors=6)
 
 Generating XML reports...
-Mon May  6 18:18:22 UTC 2019 ERROR: ./test_lib_timeConversion.py failed with non zero exit code (1)
+Mon May  6 19:39:54 UTC 2019 ERROR: ./test_lib_timeConversion.py failed with non zero exit code (1)
 TESTING ==========> ./test_lib_x509Support.py
 
 Running tests...
 ----------------------------------------------------------------------
 .
 ----------------------------------------------------------------------
-Ran 1 test in 0.023s
+Ran 1 test in 0.028s
 
 OK
 
@@ -503,7 +503,7 @@ Running tests...
   self.config = yaml.load(file(config_file, 'r'))
 ....
 ----------------------------------------------------------------------
-Ran 4 tests in 171.510s
+Ran 4 tests in 171.298s
 
 OK
 
@@ -525,7 +525,7 @@ Running tests...
 ----------------------------------------------------------------------
 ..
 ----------------------------------------------------------------------
-Ran 2 tests in 0.015s
+Ran 2 tests in 0.014s
 
 OK
 
@@ -536,7 +536,7 @@ Running tests...
 ----------------------------------------------------------------------
 SSSSSS.........SSSSSSSS
 ----------------------------------------------------------------------
-Ran 23 tests in 1.230s
+Ran 23 tests in 1.237s
 
 OK (skipped=14)
 
@@ -547,7 +547,7 @@ Running tests...
 ----------------------------------------------------------------------
 ...
 ----------------------------------------------------------------------
-Ran 3 tests in 0.394s
+Ran 3 tests in 0.388s
 
 OK
 
@@ -563,7 +563,7 @@ Running tests...
 ----------------------------------------------------------------------
 SS..S.SSS....S.SSSSS
 ----------------------------------------------------------------------
-Ran 20 tests in 0.218s
+Ran 20 tests in 0.255s
 
 OK (skipped=12)
 

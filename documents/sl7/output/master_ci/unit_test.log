@@ -16,7 +16,7 @@ Running tests...
 ----------------------------------------------------------------------
 ...
 ----------------------------------------------------------------------
-Ran 3 tests in 3.387s
+Ran 3 tests in 3.294s
 
 OK
 
@@ -27,7 +27,7 @@ Running tests...
 ----------------------------------------------------------------------
 ....................
 ----------------------------------------------------------------------
-Ran 20 tests in 0.804s
+Ran 20 tests in 0.013s
 
 OK
 
@@ -38,7 +38,7 @@ Running tests...
 ----------------------------------------------------------------------
 .....................
 ----------------------------------------------------------------------
-Ran 21 tests in 0.216s
+Ran 21 tests in 0.014s
 
 OK
 
@@ -60,7 +60,7 @@ Running tests...
 ----------------------------------------------------------------------
 .........
 ----------------------------------------------------------------------
-Ran 9 tests in 0.007s
+Ran 9 tests in 0.005s
 
 OK
 
@@ -71,7 +71,7 @@ Running tests...
 ----------------------------------------------------------------------
 ...
 ----------------------------------------------------------------------
-Ran 3 tests in 0.029s
+Ran 3 tests in 0.032s
 
 OK
 
@@ -93,7 +93,7 @@ Running tests...
 ----------------------------------------------------------------------
 SSSSSSSSS...SSSSSSSSSSSSSSSSSSSS.S..SSSS.S.S.SSSS...S......SS...
 ----------------------------------------------------------------------
-Ran 64 tests in 0.039s
+Ran 64 tests in 0.034s
 
 OK (skipped=43)
 
@@ -104,7 +104,7 @@ Running tests...
 ----------------------------------------------------------------------
 ..........S
 ----------------------------------------------------------------------
-Ran 11 tests in 0.281s
+Ran 11 tests in 0.300s
 
 OK (skipped=1)
 
@@ -115,7 +115,7 @@ Running tests...
 ----------------------------------------------------------------------
 .......
 ----------------------------------------------------------------------
-Ran 7 tests in 0.001s
+Ran 7 tests in 0.002s
 
 OK
 
@@ -126,7 +126,7 @@ Running tests...
 ----------------------------------------------------------------------
 ...................
 ----------------------------------------------------------------------
-Ran 19 tests in 0.636s
+Ran 19 tests in 0.591s
 
 OK
 
@@ -137,7 +137,7 @@ Running tests...
 ----------------------------------------------------------------------
 ...........................
 ----------------------------------------------------------------------
-Ran 27 tests in 0.963s
+Ran 27 tests in 0.957s
 
 OK
 
@@ -157,11 +157,11 @@ TESTING ==========> ./test_factory_glideFactoryConfig.py
 
 Running tests...
 ----------------------------------------------------------------------
-..................+++
-.......................................................................................................................................................................................................+++
+..........................+++
+...............................................................................................+++
 ...
 ----------------------------------------------------------------------
-Ran 14 tests in 0.870s
+Ran 14 tests in 0.684s
 
 OK
 
@@ -175,9 +175,9 @@ Neither the environment variable CONDOR_CONFIG, /etc/condor/,
 
 Running tests...
 ----------------------------------------------------------------------
-S.SS{'log': <logging.Logger object at 0x7f2caad49b10>, 'signatures': <glideinwms.factory.glideFactoryConfig.SignatureFile instance at 0x7f2caad539e0>, 'name': 'el6_osg34', 'downtimes': <glideinwms.factory.glideFactoryDowntimeLib.DowntimeFile instance at 0x7f2caad53f80>, 'jobParams': <glideinwms.factory.glideFactoryConfig.JobParams instance at 0x7f2caad53b90>, 'startupDir': '/test_dir/glideinwms/unittests/fixtures/factory/work-dir', 'securityList': {}, 'frontendWhitelist': 'Off', 'gfiFactoryConfig': <glideinwms.factory.glideFactoryInterface.FactoryConfig instance at 0x7f2caad53e60>, 'scheddName': 'schedd_glideins5@fermicloud322.fnal.gov', 'gflFactoryConfig': <glideinwms.factory.glideFactoryLib.FactoryConfig instance at 0x7f2caad53d88>, 'monitorDir': '/test_dir/glideinwms/unittests/fixtures/factory/work-dir/monitor/entry_el6_osg34', 'jobAttributes': <glideinwms.factory.glideFactoryConfig.JobAttributes instance at 0x7f2caad53b48>, 'frontendDescript': <glideinwms.factory.glideFactoryConfig.FrontendDescript instance at 0x7f2caad53950>, 'glideinDescript': <glideinwms.factory.glideFactoryConfig.GlideinDescript instance at 0x7f2caad53908>, 'glideinTotals': None, 'monitoringConfig': <glideinwms.factory.glideFactoryMonitoring.MonitoringConfig instance at 0x7f2caad53c20>, 'jobDescript': <glideinwms.factory.glideFactoryConfig.JobDescript instance at 0x7f2caad53ab8>, 'limits_triggered': {}, 'logDir': 'server-log/entry_el6_osg34'}
-======= START: <glideinwms.factory.glideFactoryEntry.Entry instance at 0x7f2caad3eb90> ======
-log = <logging.Logger object at 0x7f2caad49b10>
+S.SS{'log': <logging.Logger object at 0x7fad3ae01b10>, 'signatures': <glideinwms.factory.glideFactoryConfig.SignatureFile instance at 0x7fad3ae0b9e0>, 'name': 'el6_osg34', 'downtimes': <glideinwms.factory.glideFactoryDowntimeLib.DowntimeFile instance at 0x7fad3ae0bf80>, 'jobParams': <glideinwms.factory.glideFactoryConfig.JobParams instance at 0x7fad3ae0bb90>, 'startupDir': '/test_dir/glideinwms/unittests/fixtures/factory/work-dir', 'securityList': {}, 'frontendWhitelist': 'Off', 'gfiFactoryConfig': <glideinwms.factory.glideFactoryInterface.FactoryConfig instance at 0x7fad3ae0be60>, 'scheddName': 'schedd_glideins5@fermicloud322.fnal.gov', 'gflFactoryConfig': <glideinwms.factory.glideFactoryLib.FactoryConfig instance at 0x7fad3ae0bd88>, 'monitorDir': '/test_dir/glideinwms/unittests/fixtures/factory/work-dir/monitor/entry_el6_osg34', 'jobAttributes': <glideinwms.factory.glideFactoryConfig.JobAttributes instance at 0x7fad3ae0bb48>, 'frontendDescript': <glideinwms.factory.glideFactoryConfig.FrontendDescript instance at 0x7fad3ae0b950>, 'glideinDescript': <glideinwms.factory.glideFactoryConfig.GlideinDescript instance at 0x7fad3ae0b908>, 'glideinTotals': None, 'monitoringConfig': <glideinwms.factory.glideFactoryMonitoring.MonitoringConfig instance at 0x7fad3ae0bc20>, 'jobDescript': <glideinwms.factory.glideFactoryConfig.JobDescript instance at 0x7fad3ae0bab8>, 'limits_triggered': {}, 'logDir': 'server-log/entry_el6_osg34'}
+======= START: <glideinwms.factory.glideFactoryEntry.Entry instance at 0x7fad3adf6b90> ======
+log = <logging.Logger object at 0x7fad3ae01b10>
 {'data': {'entry_el7_osg33_descript': 'description.i6pevu.cfg', 'entry_el6_osg34_descript': 'description.i6pevu.cfg', 'entry_el7_osg33_sign': 'e90d5f628db820858101ebb75716ccc0fa59ef50', 'entry_el7_osg34_descript': 'description.i6pevu.cfg', 'entry_TEST_SITE_1_sign': '0e7655b1fa2778d9d98e1e2227a246af84a73028', 'entry_el7_osg34_sign': 'b03f6ea38b8cccaf3289d368c6c293d4b144a936', 'entry_el6_osg34_sign': '8241893b98a499d6c108b7e88ba503b3037ab02f', 'entry_el6_osg33_sign': '4ceef7f3100dbc509dc870ecc9e5c81172a722c1', 'main_sign': 'bfc925d3741b3b48114a9d17c4c919dcb638f9f2', 'entry_el6_osg33_descript': 'description.i6pevu.cfg', 'entry_TEST_ENTRY_descript': 'description.i6pevu.cfg', 'entry_TEST_SITE_HTCCE_2_descript': 'description.i6pevu.cfg', 'main_descript': 'description.i6pevu.cfg', 'entry_TEST_SITE_2_descript': 'description.i6pevu.cfg', 'entry_TEST_SITE_2_sign': 'ef8689c229afda5562fee3c0ec77a2b49305b8e0', 'entry_TEST_ENTRY_sign': '96b57620e1a679a500fb28a0b392893c5be8fe5e', 'entry_TEST_SITE_1_descript': 'description.i6pevu.cfg', 'entry_TEST_SITE_HTCCE_2_sign': 'e055ff7b79626afb5159810db6cfbac8d0343475'}, 'config_file': 'signatures.sha1'}
 ======= START: 
 entry_el7_osg33_descript = description.i6pevu.cfg, (<type 'str'>)
@@ -223,10 +223,10 @@ entry_TEST_SITE_HTCCE_2_sign = e055ff7b79626afb5159810db6cfbac8d0343475, (<type 
  ======
 name = el6_osg34
 {'downtime_comment': '', 'fname': '/var/lib/gwms-factory/work-dir/glideinWMS.downtimes'}
-======= START: <glideinwms.factory.glideFactoryDowntimeLib.DowntimeFile instance at 0x7f2caad53f80> ======
+======= START: <glideinwms.factory.glideFactoryDowntimeLib.DowntimeFile instance at 0x7fad3ae0bf80> ======
 downtime_comment = 
 fname = /var/lib/gwms-factory/work-dir/glideinWMS.downtimes
-======= END: <glideinwms.factory.glideFactoryDowntimeLib.DowntimeFile instance at 0x7f2caad53f80> ======
+======= END: <glideinwms.factory.glideFactoryDowntimeLib.DowntimeFile instance at 0x7fad3ae0bf80> ======
 {'data': {'CONDOR_VERSION': '8.6.5', 'CONDOR_OS': 'rhel6', 'GLIDEIN_Collector': 'Fake', 'GLIDEIN_Report_Failed': 'NEVER', 'CONDOR_ARCH': 'x86_64'}, 'config_file': 'params.cfg', 'entry_name': 'el6_osg34'}
 ======= START: 
 CONDOR_VERSION = 8.6.5, (<type 'str'>)
@@ -249,7 +249,7 @@ startupDir = /test_dir/glideinwms/unittests/fixtures/factory/work-dir
 securityList = {}
 frontendWhitelist = Off
 {'glidein_attr_prefix': '', 'client_web_signtype_suffix': 'SignType', 'client_req_prefix': 'Req', 'glidein_config_prefix': 'GlideinConfig', 'client_web_prefix': 'Web', 'glidein_web_prefix': 'Web', 'factory_global': 'glidefactoryglobal', 'encrypted_param_prefix': 'GlideinEncParam', 'factoryclient_id': 'glidefactoryclient', 'glideinwms_version': 'glideinWMS UNKNOWN', 'factory_id': 'glidefactory', 'glidein_monitor_prefix': 'GlideinMonitor', 'factory_collector': None, 'advertise_use_multi': False, 'client_id': 'glideclient', 'factory_signtype_id': 'SupportedSignTypes', 'glidein_param_prefix': 'GlideinParam', 'lock_dir': '.', 'advertise_use_tcp': False}
-======= START: <glideinwms.factory.glideFactoryInterface.FactoryConfig instance at 0x7f2caad53e60> ======
+======= START: <glideinwms.factory.glideFactoryInterface.FactoryConfig instance at 0x7fad3ae0be60> ======
 glidein_attr_prefix = 
 client_web_signtype_suffix = SignType
 client_req_prefix = Req
@@ -269,18 +269,18 @@ factory_signtype_id = SupportedSignTypes
 glidein_param_prefix = GlideinParam
 lock_dir = .
 advertise_use_tcp = False
-======= END: <glideinwms.factory.glideFactoryInterface.FactoryConfig instance at 0x7f2caad53e60> ======
+======= END: <glideinwms.factory.glideFactoryInterface.FactoryConfig instance at 0x7fad3ae0be60> ======
 scheddName = schedd_glideins5@fermicloud322.fnal.gov
-{'credential_id_startd_attribute': 'GLIDEIN_CredentialIdentifier', 'glidein_startd_attribute': 'GLIDEIN_Name', 'log_base_dir': 'server-log', 'log_stats': <glideinwms.factory.glideFactoryMonitoring.condorLogSummary instance at 0x7f2caad53ea8>, 'slots_layout': 'fixed', 'entry_schedd_attribute': 'GlideinEntryName', 'remove_sleep': 0.2, 'supported_signtypes': ['sha1', 'sha256'], 'schedd_startd_attribute': 'GLIDEIN_Schedd', 'stale_maxage': {1: 604800, 2: 2678400, -1: 7200}, 'max_releases': 20, 'client_startd_attribute': 'GLIDEIN_Client', 'glidein_schedd_attribute': 'GlideinName', 'factory_startd_attribute': 'GLIDEIN_Factory', 'min_release_time': 300, 'credential_secclass_schedd_attribute': 'GlideinSecurityClass', 'rrd_stats': <glideinwms.factory.glideFactoryMonitoring.FactoryStatusData instance at 0x7f2caad53cf8>, 'clusterid_startd_attribute': 'GLIDEIN_ClusterId', 'procid_startd_attribute': 'GLIDEIN_ProcId', 'glidein_name': 'gfactory_instance', 'client_log_base_dir': 'client-log', 'max_submits': 100, 'credential_id_schedd_attribute': 'GlideinCredentialIdentifier', 'client_internals': None, 'submit_sleep': 0.2, 'max_release_count': 10, 'max_cluster_size': 10, 'factory_name': 'gfactory_service', 'client_proxies_base_dir': '/var/lib/gwms-factory/client-proxies', 'frontend_name_attribute': 'GlideinFrontendName', 'qc_stats': None, 'factory_schedd_attribute': 'GlideinFactory', 'max_removes': 5, 'count_env': 'GLIDEIN_COUNT', 'client_stats': None, 'release_sleep': 0.2, 'submit_dir': '/test_dir/glideinwms/unittests/fixtures/factory/work-dir', 'entry_startd_attribute': 'GLIDEIN_Entry_Name', 'client_schedd_attribute': 'GlideinClient'}
-======= START: <glideinwms.factory.glideFactoryLib.FactoryConfig instance at 0x7f2caad53d88> ======
+{'credential_id_startd_attribute': 'GLIDEIN_CredentialIdentifier', 'glidein_startd_attribute': 'GLIDEIN_Name', 'log_base_dir': 'server-log', 'log_stats': <glideinwms.factory.glideFactoryMonitoring.condorLogSummary instance at 0x7fad3ae0bea8>, 'slots_layout': 'fixed', 'entry_schedd_attribute': 'GlideinEntryName', 'remove_sleep': 0.2, 'supported_signtypes': ['sha1', 'sha256'], 'schedd_startd_attribute': 'GLIDEIN_Schedd', 'stale_maxage': {1: 604800, 2: 2678400, -1: 7200}, 'max_releases': 20, 'client_startd_attribute': 'GLIDEIN_Client', 'glidein_schedd_attribute': 'GlideinName', 'factory_startd_attribute': 'GLIDEIN_Factory', 'min_release_time': 300, 'credential_secclass_schedd_attribute': 'GlideinSecurityClass', 'rrd_stats': <glideinwms.factory.glideFactoryMonitoring.FactoryStatusData instance at 0x7fad3ae0bcf8>, 'clusterid_startd_attribute': 'GLIDEIN_ClusterId', 'procid_startd_attribute': 'GLIDEIN_ProcId', 'glidein_name': 'gfactory_instance', 'client_log_base_dir': 'client-log', 'max_submits': 100, 'credential_id_schedd_attribute': 'GlideinCredentialIdentifier', 'client_internals': None, 'submit_sleep': 0.2, 'max_release_count': 10, 'max_cluster_size': 10, 'factory_name': 'gfactory_service', 'client_proxies_base_dir': '/var/lib/gwms-factory/client-proxies', 'frontend_name_attribute': 'GlideinFrontendName', 'qc_stats': None, 'factory_schedd_attribute': 'GlideinFactory', 'max_removes': 5, 'count_env': 'GLIDEIN_COUNT', 'client_stats': None, 'release_sleep': 0.2, 'submit_dir': '/test_dir/glideinwms/unittests/fixtures/factory/work-dir', 'entry_startd_attribute': 'GLIDEIN_Entry_Name', 'client_schedd_attribute': 'GlideinClient'}
+======= START: <glideinwms.factory.glideFactoryLib.FactoryConfig instance at 0x7fad3ae0bd88> ======
 credential_id_startd_attribute = GLIDEIN_CredentialIdentifier
 glidein_startd_attribute = GLIDEIN_Name
 log_base_dir = server-log
-{'updated': 1557166617.130407, 'old_stats_data': {}, 'log': <logging.Logger object at 0x7f2caad49b10>, 'current_stats_data': {}, 'stats_diff': {}, 'job_statuses': ('Running', 'Idle', 'Wait', 'Held', 'Completed', 'Removed'), 'updated_year': 2019, 'files_updated': None, 'job_statuses_short': ('Running', 'Idle', 'Wait', 'Held'), 'data': {}}
-======= START: <glideinwms.factory.glideFactoryMonitoring.condorLogSummary instance at 0x7f2caad53ea8> ======
-updated = 1557166617.13
+{'updated': 1557171508.7331, 'old_stats_data': {}, 'log': <logging.Logger object at 0x7fad3ae01b10>, 'current_stats_data': {}, 'stats_diff': {}, 'job_statuses': ('Running', 'Idle', 'Wait', 'Held', 'Completed', 'Removed'), 'updated_year': 2019, 'files_updated': None, 'job_statuses_short': ('Running', 'Idle', 'Wait', 'Held'), 'data': {}}
+======= START: <glideinwms.factory.glideFactoryMonitoring.condorLogSummary instance at 0x7fad3ae0bea8> ======
+updated = 1557171508.73
 old_stats_data = {}
-log = <logging.Logger object at 0x7f2caad49b10>
+log = <logging.Logger object at 0x7fad3ae01b10>
 current_stats_data = {}
 stats_diff = {}
 job_statuses = ('Running', 'Idle', 'Wait', 'Held', 'Completed', 'Removed')
@@ -288,7 +288,7 @@ updated_year = 2019
 files_updated = None
 job_statuses_short = ('Running', 'Idle', 'Wait', 'Held')
 data = {}
-======= END: <glideinwms.factory.glideFactoryMonitoring.condorLogSummary instance at 0x7f2caad53ea8> ======
+======= END: <glideinwms.factory.glideFactoryMonitoring.condorLogSummary instance at 0x7fad3ae0bea8> ======
 slots_layout = fixed
 entry_schedd_attribute = GlideinEntryName
 remove_sleep = 0.2
@@ -301,17 +301,17 @@ glidein_schedd_attribute = GlideinName
 factory_startd_attribute = GLIDEIN_Factory
 min_release_time = 300
 credential_secclass_schedd_attribute = GlideinSecurityClass
-{'updated': 1557166617.130472, 'log': <logging.Logger object at 0x7f2caad49b10>, 'data': {'Log_Counts.rrd': {}, 'Status_Attributes.rrd': {}, 'Log_Completed.rrd': {}, 'Log_Completed_WasteTime.rrd': {}, 'Log_Completed_Stats.rrd': {}}, 'tab': '   ', 'total': 'total/', 'resolution': (7200, 86400, 604800), 'frontends': [], 'base_dir': '/test_dir/glideinwms/unittests/fixtures/factory/work-dir/monitor/entry_el6_osg34'}
-======= START: <glideinwms.factory.glideFactoryMonitoring.FactoryStatusData instance at 0x7f2caad53cf8> ======
-updated = 1557166617.13
-log = <logging.Logger object at 0x7f2caad49b10>
+{'updated': 1557171508.733157, 'log': <logging.Logger object at 0x7fad3ae01b10>, 'data': {'Log_Counts.rrd': {}, 'Status_Attributes.rrd': {}, 'Log_Completed.rrd': {}, 'Log_Completed_WasteTime.rrd': {}, 'Log_Completed_Stats.rrd': {}}, 'tab': '   ', 'total': 'total/', 'resolution': (7200, 86400, 604800), 'frontends': [], 'base_dir': '/test_dir/glideinwms/unittests/fixtures/factory/work-dir/monitor/entry_el6_osg34'}
+======= START: <glideinwms.factory.glideFactoryMonitoring.FactoryStatusData instance at 0x7fad3ae0bcf8> ======
+updated = 1557171508.73
+log = <logging.Logger object at 0x7fad3ae01b10>
 data = {'Log_Counts.rrd': {}, 'Status_Attributes.rrd': {}, 'Log_Completed.rrd': {}, 'Log_Completed_WasteTime.rrd': {}, 'Log_Completed_Stats.rrd': {}}
 tab =    
 total = total/
 resolution = (7200, 86400, 604800)
 frontends = []
 base_dir = /test_dir/glideinwms/unittests/fixtures/factory/work-dir/monitor/entry_el6_osg34
-======= END: <glideinwms.factory.glideFactoryMonitoring.FactoryStatusData instance at 0x7f2caad53cf8> ======
+======= END: <glideinwms.factory.glideFactoryMonitoring.FactoryStatusData instance at 0x7fad3ae0bcf8> ======
 clusterid_startd_attribute = GLIDEIN_ClusterId
 procid_startd_attribute = GLIDEIN_ProcId
 glidein_name = gfactory_instance
@@ -334,7 +334,7 @@ release_sleep = 0.2
 submit_dir = /test_dir/glideinwms/unittests/fixtures/factory/work-dir
 entry_startd_attribute = GLIDEIN_Entry_Name
 client_schedd_attribute = GlideinClient
-======= END: <glideinwms.factory.glideFactoryLib.FactoryConfig instance at 0x7f2caad53d88> ======
+======= END: <glideinwms.factory.glideFactoryLib.FactoryConfig instance at 0x7fad3ae0bd88> ======
 monitorDir = /test_dir/glideinwms/unittests/fixtures/factory/work-dir/monitor/entry_el6_osg34
 {'data': {'SINGULARITY_BIN': '/usr/bin', 'GLIDEIN_Gatekeeper': u'fermicloud105.fnal.gov fermicloud105.fnal.gov:9619', 'GLIDEIN_Supported_VOs': 'OSG', 'GLIDEIN_GridType': u'condor', 'GLIDEIN_SupportedAuthenticationMethod': u'grid_proxy', 'GLIDEIN_REQUIRE_GLEXEC_USE': u'False', 'GLIDEIN_Site': 'el6_osg34', 'GLIDEIN_SlotsLayout': u'fixed', 'GLIDEIN_REQUIRE_VOMS': u'False', 'GLIDEIN_Verbosity': u'fast', 'GLIDEIN_TrustDomain': u'OSG', 'USE_CCB': 'True', 'GLIDEIN_Downtime_Comment': '', 'GLEXEC_JOB': 'True', 'USE_MATCH_AUTH': 'True', 'GLIDEIN_SINGULARITY_REQUIRE': 'False', 'GLIDEIN_WorkDir': u'OSG', 'GLIDEIN_GlobusRSL': u'(queue=default)(jobtype=single)'}, 'config_file': 'attributes.cfg', 'entry_name': 'el6_osg34'}
 ======= START: 
@@ -469,22 +469,22 @@ DowntimesFile = /var/lib/gwms-factory/work-dir/glideinWMS.downtimes, (<type 'str
 CondorLogRetentionMaxDays = 14.0, (<type 'str'>)
  ======
 glideinTotals = None
-{'logCleanupObj': None, 'rrd_ds_name': 'val', 'my_name': 'el6_osg34@gfactory_instance', 'log': <logging.Logger object at 0x7f2caad49b10>, 'rrd_obj': <glideinwms.lib.rrdSupport.rrdSupport instance at 0x7f2caad53c68>, 'rrd_heartbeat': 1800, 'log_dir': 'server-log/entry_el6_osg34', 'rrd_archives': [('AVERAGE', 0.8, 1, 740), ('AVERAGE', 0.92, 12, 740), ('AVERAGE', 0.98, 144, 740)], 'rrd_step': 300, 'monitor_dir': '/test_dir/glideinwms/unittests/fixtures/factory/work-dir/monitor/entry_el6_osg34'}
-======= START: <glideinwms.factory.glideFactoryMonitoring.MonitoringConfig instance at 0x7f2caad53c20> ======
+{'logCleanupObj': None, 'rrd_ds_name': 'val', 'my_name': 'el6_osg34@gfactory_instance', 'log': <logging.Logger object at 0x7fad3ae01b10>, 'rrd_obj': <glideinwms.lib.rrdSupport.rrdSupport instance at 0x7fad3ae0bc68>, 'rrd_heartbeat': 1800, 'log_dir': 'server-log/entry_el6_osg34', 'rrd_archives': [('AVERAGE', 0.8, 1, 740), ('AVERAGE', 0.92, 12, 740), ('AVERAGE', 0.98, 144, 740)], 'rrd_step': 300, 'monitor_dir': '/test_dir/glideinwms/unittests/fixtures/factory/work-dir/monitor/entry_el6_osg34'}
+======= START: <glideinwms.factory.glideFactoryMonitoring.MonitoringConfig instance at 0x7fad3ae0bc20> ======
 logCleanupObj = None
 rrd_ds_name = val
 my_name = el6_osg34@gfactory_instance
-log = <logging.Logger object at 0x7f2caad49b10>
+log = <logging.Logger object at 0x7fad3ae01b10>
 {'rrd_obj': None}
-======= START: <glideinwms.lib.rrdSupport.rrdSupport instance at 0x7f2caad53c68> ======
+======= START: <glideinwms.lib.rrdSupport.rrdSupport instance at 0x7fad3ae0bc68> ======
 rrd_obj = None
-======= END: <glideinwms.lib.rrdSupport.rrdSupport instance at 0x7f2caad53c68> ======
+======= END: <glideinwms.lib.rrdSupport.rrdSupport instance at 0x7fad3ae0bc68> ======
 rrd_heartbeat = 1800
 log_dir = server-log/entry_el6_osg34
 rrd_archives = [('AVERAGE', 0.8, 1, 740), ('AVERAGE', 0.92, 12, 740), ('AVERAGE', 0.98, 144, 740)]
 rrd_step = 300
 monitor_dir = /test_dir/glideinwms/unittests/fixtures/factory/work-dir/monitor/entry_el6_osg34
-======= END: <glideinwms.factory.glideFactoryMonitoring.MonitoringConfig instance at 0x7f2caad53c20> ======
+======= END: <glideinwms.factory.glideFactoryMonitoring.MonitoringConfig instance at 0x7fad3ae0bc20> ======
 {'data': {'PerFrontendMaxIdle': '', 'PerEntryMaxGlideins': '10000', 'RemoveSleep': '0.2', 'RequireGlideinGlexecUse': 'False', 'GridType': 'condor', 'TrustDomain': 'OSG', 'PerEntryMaxHeld': '1000', 'DowntimesFile': '/var/lib/gwms-factory/work-dir/entry_el6_osg34/glideinWMS.downtimes', 'AllowedVOs': '', 'WhitelistMode': 'Off', 'PerFrontendMaxGlideins': '', 'Verbosity': 'fast', 'DefaultPerFrontendMaxHeld': '50', 'Schedd': 'schedd_glideins5@fermicloud322.fnal.gov', 'MaxReleaseRate': '20', 'StartupDir': 'OSG', 'EntryName': 'el6_osg34', 'SubmitSleep': '0.2', 'SubmitCluster': '10', 'DefaultPerFrontendMaxIdle': '100', 'Gatekeeper': 'fermicloud105.fnal.gov fermicloud105.fnal.gov:9619', 'SubmitSlotsLayout': 'fixed', 'MaxRemoveRate': '5', 'PerFrontendMaxHeld': '', 'MaxSubmitRate': '100', 'AuthMethod': 'grid_proxy', 'DefaultPerFrontendMaxGlideins': '5000', 'GlobusRSL': '(queue=default)(jobtype=single)', 'RequireVomsProxy': 'False', 'ReleaseSleep': '0.2', 'PerEntryMaxIdle': '2000'}, 'config_file': 'entry_el6_osg34/job.descript', 'entry_name': 'el6_osg34', 'config_file_short': 'job.descript'}
 ======= START: 
 PerFrontendMaxIdle = , (<type 'str'>)
@@ -544,14 +544,14 @@ EntryName = el6_osg34, (<type 'str'>)
 SubmitSleep = 0.2, (<type 'str'>)
 SubmitCluster = 10, (<type 'str'>)
 DefaultPerFrontendMaxIdle = 100, (<type 'str'>)
-Gatekeeper = fermicloud105.fna.......SS...SSS.S.SS.SSS.S.S.SSSSSSS
+Gatekeeper = fermicloud105.fnal........SS...SSS.S.SS.SSS.S.S.SSSSSSS
 ----------------------------------------------------------------------
-Ran 40 tests in 1.292s
+Ran 40 tests in 1.504s
 
 OK (skipped=23)
 
 Generating XML reports...
-l.gov fermicloud105.fnal.gov:9619, (<type 'str'>)
+gov fermicloud105.fnal.gov:9619, (<type 'str'>)
 SubmitSlotsLayout = fixed, (<type 'str'>)
 MaxRemoveRate = 5, (<type 'str'>)
 PerFrontendMaxHeld = , (<type 'str'>)
@@ -565,7 +565,7 @@ PerEntryMaxIdle = 2000, (<type 'str'>)
  ======
 limits_triggered = {}
 logDir = server-log/entry_el6_osg34
-======= END: <glideinwms.factory.glideFactoryEntry.Entry instance at 0x7f2caad3eb90> ======
+======= END: <glideinwms.factory.glideFactoryEntry.Entry instance at 0x7fad3adf6b90> ======
 TESTING ==========> ./test_factory_glideFactoryLib.py
 /test_dir/venv-2.7/lib/python2.7/site-packages/htcondor/__init__.py:25: UserWarning: 
 Using a null condor_config.
@@ -577,7 +577,7 @@ Running tests...
 ----------------------------------------------------------------------
 SSS.SSSSSSSSSSSSSSSS.........S.........SSSSSSSSSSSSSSS.SSSSSSSSSSSS.SS.
 ----------------------------------------------------------------------
-Ran 71 tests in 0.015s
+Ran 71 tests in 0.018s
 
 OK (skipped=49)
 
@@ -602,7 +602,7 @@ Running glidein ids at ('submit.local', 'Site_Name1@v3_0@factory1', 'frontend@fa
 Running glidein ids at ('submit.local', 'Site_Name3@v3_0@factory1', 'frontend@factory1') (total glideins: 0, total jobs 0, cluster matches: 0): 
 ........
 ----------------------------------------------------------------------
-Ran 32 tests in 1.270s
+Ran 32 tests in 1.296s
 
 OK
 
@@ -618,7 +618,7 @@ Running tests...
 ----------------------------------------------------------------------
 ..
 ----------------------------------------------------------------------
-Ran 2 tests in 0.024s
+Ran 2 tests in 0.020s
 
 OK
 
@@ -634,7 +634,7 @@ Running tests...
 ----------------------------------------------------------------------
 .....
 ----------------------------------------------------------------------
-Ran 5 tests in 0.018s
+Ran 5 tests in 0.017s
 
 OK
 
@@ -650,7 +650,7 @@ Running tests...
 ----------------------------------------------------------------------
 .....
 ----------------------------------------------------------------------
-Ran 5 tests in 0.041s
+Ran 5 tests in 0.054s
 
 OK
 
@@ -661,7 +661,7 @@ Running tests...
 ----------------------------------------------------------------------
 ....
 ----------------------------------------------------------------------
-Ran 4 tests in 0.569s
+Ran 4 tests in 0.652s
 
 OK
 
@@ -672,7 +672,7 @@ Running tests...
 ----------------------------------------------------------------------
 ...
 ----------------------------------------------------------------------
-Ran 3 tests in 0.057s
+Ran 3 tests in 0.063s
 
 OK
 
@@ -683,7 +683,7 @@ Running tests...
 ----------------------------------------------------------------------
 .............
 ----------------------------------------------------------------------
-Ran 13 tests in 71.995s
+Ran 13 tests in 72.008s
 
 OK
 
@@ -692,15 +692,15 @@ TESTING ==========> ./test_lib_pubCrypto.py
 
 Running tests...
 ----------------------------------------------------------------------
-..++++++
-...................................++++++
-..................++++++
-..................................++++++
-.....................................++++++
+........................++++++
+.......................................................++++++
 .......++++++
+.....................++++++
+...++++++
+....++++++
 .
 ----------------------------------------------------------------------
-Ran 3 tests in 0.102s
+Ran 3 tests in 0.087s
 
 OK
 
@@ -722,7 +722,7 @@ Running tests...
 ----------------------------------------------------------------------
 .......S........
 ----------------------------------------------------------------------
-Ran 16 tests in 1.394s
+Ran 16 tests in 1.427s
 
 OK (skipped=1)
 
@@ -801,19 +801,19 @@ AssertionError: 'Fri, 16 Feb 2018 01:44:00 -0600' != 'Fri, 16 Feb 2018 07:44:00 
 
 
 ----------------------------------------------------------------------
-Ran 16 tests in 0.329s
+Ran 16 tests in 0.327s
 
 FAILED (errors=6)
 
 Generating XML reports...
-Mon May  6 18:18:19 UTC 2019 ERROR: ./test_lib_timeConversion.py failed with non zero exit code (1)
+Mon May  6 19:39:51 UTC 2019 ERROR: ./test_lib_timeConversion.py failed with non zero exit code (1)
 TESTING ==========> ./test_lib_x509Support.py
 
 Running tests...
 ----------------------------------------------------------------------
 .
 ----------------------------------------------------------------------
-Ran 1 test in 0.023s
+Ran 1 test in 0.022s
 
 OK
 
@@ -837,7 +837,7 @@ Running tests...
   self.config = yaml.load(file(config_file, 'r'))
 ....
 ----------------------------------------------------------------------
-Ran 4 tests in 169.804s
+Ran 4 tests in 171.022s
 
 OK
 
@@ -859,7 +859,7 @@ Running tests...
 ----------------------------------------------------------------------
 ..
 ----------------------------------------------------------------------
-Ran 2 tests in 0.014s
+Ran 2 tests in 0.015s
 
 OK
 

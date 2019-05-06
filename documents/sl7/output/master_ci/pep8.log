@@ -1,3 +1,241 @@
+./install/services/Condor.py:28:17: E221 multiple spaces before operator
+./install/services/Condor.py:33:25: E221 multiple spaces before operator
+./install/services/Condor.py:40:24: E221 multiple spaces before operator
+./install/services/Condor.py:41:26: E221 multiple spaces before operator
+./install/services/Condor.py:44:5: E266 too many leading '#' for block comment
+./install/services/Condor.py:45:5: E266 too many leading '#' for block comment
+./install/services/Condor.py:46:5: E266 too many leading '#' for block comment
+./install/services/Condor.py:50:32: E201 whitespace after '{'
+./install/services/Condor.py:56:31: E124 closing bracket does not match visual indentation
+./install/services/Condor.py:62:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:64:19: E711 comparison to None should be 'if cond is None:'
+./install/services/Condor.py:67:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:68:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:69:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:91:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:92:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:93:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:94:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:95:3: E301 expected 1 blank line, found 0
+./install/services/Condor.py:97:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:98:3: E301 expected 1 blank line, found 0
+./install/services/Condor.py:100:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:101:3: E301 expected 1 blank line, found 0
+./install/services/Condor.py:103:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:104:3: E301 expected 1 blank line, found 0
+./install/services/Condor.py:106:13: E271 multiple spaces after keyword
+./install/services/Condor.py:107:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:108:3: E301 expected 1 blank line, found 0
+./install/services/Condor.py:110:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:111:3: E301 expected 1 blank line, found 0
+./install/services/Condor.py:118:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:119:3: E301 expected 1 blank line, found 0
+./install/services/Condor.py:126:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:127:3: E301 expected 1 blank line, found 0
+./install/services/Condor.py:129:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:130:3: E301 expected 1 blank line, found 0
+./install/services/Condor.py:137:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:138:3: E301 expected 1 blank line, found 0
+./install/services/Condor.py:141:38: E203 whitespace before ':'
+./install/services/Condor.py:145:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:146:3: E301 expected 1 blank line, found 0
+./install/services/Condor.py:148:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:149:3: E301 expected 1 blank line, found 0
+./install/services/Condor.py:151:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:152:3: E301 expected 1 blank line, found 0
+./install/services/Condor.py:154:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:155:3: E301 expected 1 blank line, found 0
+./install/services/Condor.py:157:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:158:3: E301 expected 1 blank line, found 0
+./install/services/Condor.py:160:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:161:3: E301 expected 1 blank line, found 0
+./install/services/Condor.py:163:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:164:3: E301 expected 1 blank line, found 0
+./install/services/Condor.py:166:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:167:3: E301 expected 1 blank line, found 0
+./install/services/Condor.py:169:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:170:3: E301 expected 1 blank line, found 0
+./install/services/Condor.py:172:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:173:3: E301 expected 1 blank line, found 0
+./install/services/Condor.py:177:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:178:3: E301 expected 1 blank line, found 0
+./install/services/Condor.py:180:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:181:3: E301 expected 1 blank line, found 0
+./install/services/Condor.py:183:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:184:3: E301 expected 1 blank line, found 0
+./install/services/Condor.py:186:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:187:3: E301 expected 1 blank line, found 0
+./install/services/Condor.py:188:11: E271 multiple spaces after keyword
+./install/services/Condor.py:189:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:190:3: E301 expected 1 blank line, found 0
+./install/services/Condor.py:192:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:193:3: E301 expected 1 blank line, found 0
+./install/services/Condor.py:197:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:198:3: E301 expected 1 blank line, found 0
+./install/services/Condor.py:203:12: E222 multiple spaces after operator
+./install/services/Condor.py:207:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:208:3: E301 expected 1 blank line, found 0
+./install/services/Condor.py:213:12: E222 multiple spaces after operator
+./install/services/Condor.py:219:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:220:3: E301 expected 1 blank line, found 0
+./install/services/Condor.py:228:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:229:3: E301 expected 1 blank line, found 0
+./install/services/Condor.py:237:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:238:3: E301 expected 1 blank line, found 0
+./install/services/Condor.py:246:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:247:3: E301 expected 1 blank line, found 0
+./install/services/Condor.py:248:33: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+./install/services/Condor.py:249:21: E201 whitespace after '('
+./install/services/Condor.py:254:22: E201 whitespace after '('
+./install/services/Condor.py:258:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:260:33: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+./install/services/Condor.py:261:21: E201 whitespace after '('
+./install/services/Condor.py:266:22: E201 whitespace after '('
+./install/services/Condor.py:271:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:272:3: E301 expected 1 blank line, found 0
+./install/services/Condor.py:273:33: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+./install/services/Condor.py:274:21: E201 whitespace after '('
+./install/services/Condor.py:279:22: E201 whitespace after '('
+./install/services/Condor.py:285:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:291:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:299:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:301:18: E201 whitespace after '('
+./install/services/Condor.py:308:74: E202 whitespace before ')'
+./install/services/Condor.py:310:89: E202 whitespace before ')'
+./install/services/Condor.py:316:18: E201 whitespace after '('
+./install/services/Condor.py:318:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:324:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:331:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:339:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:353:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:360:28: E711 comparison to None should be 'if cond is not None:'
+./install/services/Condor.py:378:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:409:22: E201 whitespace after '('
+./install/services/Condor.py:417:11: E127 continuation line over-indented for visual indent
+./install/services/Condor.py:417:12: E201 whitespace after '{'
+./install/services/Condor.py:437:12: E127 continuation line over-indented for visual indent
+./install/services/Condor.py:437:13: E201 whitespace after '{'
+./install/services/Condor.py:439:12: E124 closing bracket does not match visual indentation
+./install/services/Condor.py:443:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:447:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:458:50: E502 the backslash is redundant between brackets
+./install/services/Condor.py:459:25: E127 continuation line over-indented for visual indent
+./install/services/Condor.py:459:26: E201 whitespace after '{'
+./install/services/Condor.py:459:35: E203 whitespace before ':'
+./install/services/Condor.py:459:51: E203 whitespace before ':'
+./install/services/Condor.py:459:66: E202 whitespace before '}'
+./install/services/Condor.py:465:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:479:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:493:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:501:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:513:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:514:3: E301 expected 1 blank line, found 0
+./install/services/Condor.py:523:29: E262 inline comment should start with '# '
+./install/services/Condor.py:529:13: E262 inline comment should start with '# '
+./install/services/Condor.py:533:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:548:5: E722 do not use bare 'except'
+./install/services/Condor.py:560:17: E201 whitespace after '('
+./install/services/Condor.py:564:26: E201 whitespace after '('
+./install/services/Condor.py:567:13: E722 do not use bare 'except'
+./install/services/Condor.py:574:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:577:33: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+./install/services/Condor.py:578:20: E201 whitespace after '('
+./install/services/Condor.py:592:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:597:9: E221 multiple spaces before operator
+./install/services/Condor.py:598:11: E221 multiple spaces before operator
+./install/services/Condor.py:599:11: E221 multiple spaces before operator
+./install/services/Condor.py:602:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:627:12: E222 multiple spaces after operator
+./install/services/Condor.py:634:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:636:33: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+./install/services/Condor.py:648:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:792:8: E201 whitespace after '{'
+./install/services/Condor.py:795:7: E124 closing bracket does not match visual indentation
+./install/services/Condor.py:798:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:801:37: E222 multiple spaces after operator
+./install/services/Condor.py:806:8: E201 whitespace after '{'
+./install/services/Condor.py:811:37: E222 multiple spaces after operator
+./install/services/Condor.py:825:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:859:8: E201 whitespace after '{'
+./install/services/Condor.py:860:7: E124 closing bracket does not match visual indentation
+./install/services/Condor.py:863:33: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+./install/services/Condor.py:871:8: E201 whitespace after '{'
+./install/services/Condor.py:872:7: E124 closing bracket does not match visual indentation
+./install/services/Condor.py:881:8: E201 whitespace after '{'
+./install/services/Condor.py:881:25: E203 whitespace before ':'
+./install/services/Condor.py:882:25: E203 whitespace before ':'
+./install/services/Condor.py:883:25: E203 whitespace before ':'
+./install/services/Condor.py:884:7: E124 closing bracket does not match visual indentation
+./install/services/Condor.py:899:33: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+./install/services/Condor.py:916:11: E221 multiple spaces before operator
+./install/services/Condor.py:917:13: E221 multiple spaces before operator
+./install/services/Condor.py:921:11: E127 continuation line over-indented for visual indent
+./install/services/Condor.py:921:12: E201 whitespace after '{'
+./install/services/Condor.py:921:24: E203 whitespace before ':'
+./install/services/Condor.py:922:24: E203 whitespace before ':'
+./install/services/Condor.py:923:24: E203 whitespace before ':'
+./install/services/Condor.py:924:24: E203 whitespace before ':'
+./install/services/Condor.py:924:29: E202 whitespace before '}'
+./install/services/Condor.py:927:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:930:33: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+./install/services/Condor.py:948:6: E222 multiple spaces after operator
+./install/services/Condor.py:948:9: E201 whitespace after '{'
+./install/services/Condor.py:950:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:955:37: E222 multiple spaces after operator
+./install/services/Condor.py:1015:39: E222 multiple spaces after operator
+./install/services/Condor.py:1027:39: E222 multiple spaces after operator
+./install/services/Condor.py:1034:8: E201 whitespace after '{'
+./install/services/Condor.py:1047:39: E222 multiple spaces after operator
+./install/services/Condor.py:1052:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:1062:37: E222 multiple spaces after operator
+./install/services/Condor.py:1071:11: E221 multiple spaces before operator
+./install/services/Condor.py:1072:21: E127 continuation line over-indented for visual indent
+./install/services/Condor.py:1072:22: E201 whitespace after '{'
+./install/services/Condor.py:1075:21: E127 continuation line over-indented for visual indent
+./install/services/Condor.py:1075:22: E201 whitespace after '{'
+./install/services/Condor.py:1077:39: E222 multiple spaces after operator
+./install/services/Condor.py:1093:7: E122 continuation line missing indentation or outdented
+./install/services/Condor.py:1093:8: E201 whitespace after '{'
+./install/services/Condor.py:1099:41: E222 multiple spaces after operator
+./install/services/Condor.py:1100:127: E201 whitespace after '{'
+./install/services/Condor.py:1103:7: E303 too many blank lines (2)
+./install/services/Condor.py:1103:39: E222 multiple spaces after operator
+./install/services/Condor.py:1105:8: E201 whitespace after '{'
+./install/services/Condor.py:1107:46: E201 whitespace after '{'
+./install/services/Condor.py:1107:59: E203 whitespace before ':'
+./install/services/Condor.py:1110:37: E222 multiple spaces after operator
+./install/services/Condor.py:1114:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:1129:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:1135:39: E222 multiple spaces after operator
+./install/services/Condor.py:1149:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:1189:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:1193:36: E221 multiple spaces before operator
+./install/services/Condor.py:1216:8: E201 whitespace after '{'
+./install/services/Condor.py:1216:15: E203 whitespace before ':'
+./install/services/Condor.py:1217:15: E203 whitespace before ':'
+./install/services/Condor.py:1218:7: E124 closing bracket does not match visual indentation
+./install/services/Condor.py:1220:36: E221 multiple spaces before operator
+./install/services/Condor.py:1226:8: E201 whitespace after '{'
+./install/services/Condor.py:1228:7: E124 closing bracket does not match visual indentation
+./install/services/Condor.py:1230:3: E114 indentation is not a multiple of four (comment)
+./install/services/Condor.py:1236:36: E221 multiple spaces before operator
+./install/services/Condor.py:1246:36: E221 multiple spaces before operator
+./install/services/Condor.py:1255:36: E221 multiple spaces before operator
+./install/services/Condor.py:1259:8: E201 whitespace after '{'
+./install/services/Condor.py:1259:15: E203 whitespace before ':'
+./install/services/Condor.py:1259:17: E241 multiple spaces after ':'
+./install/services/Condor.py:1260:15: E203 whitespace before ':'
+./install/services/Condor.py:1261:7: E124 closing bracket does not match visual indentation
+./install/services/Condor.py:1263:34: E221 multiple spaces before operator
+./install/services/Condor.py:1267:36: E221 multiple spaces before operator
+./install/services/Condor.py:1269:8: E201 whitespace after '{'
+./install/services/Condor.py:1269:14: E203 whitespace before ':'
+./install/services/Condor.py:1269:20: E202 whitespace before '}'
+./install/services/Condor.py:1285:27: E702 multiple statements on one line (semicolon)
+./install/services/Condor.py:1287:22: E702 multiple statements on one line (semicolon)
+./install/services/Condor.py:1294:1: E303 too many blank lines (3)
+./install/services/Condor.py:1295:1: E305 expected 2 blank lines after class or function definition, found 3
+./install/services/Condor.py:1298:1: W391 blank line at end of file
 ./install/services/Configuration.py:20:1: E266 too many leading '#' for block comment
 ./install/services/Configuration.py:23:15: E211 whitespace before '('
 ./install/services/Configuration.py:24:12: E221 multiple spaces before operator
@@ -1554,7 +1792,6 @@ error count summary
 -------------------
       1  E115 expected an indented block (comment)
       1  E203 whitespace before ','
-      1  E305 expected 2 blank lines after class or function definition, found 3
       1  E712 comparison to True should be 'if cond is not True:' or 'if not cond:'
       1  E713 test for membership should be 'not in'
       1  E731 do not assign a lambda expression, use a def
@@ -1567,52 +1804,53 @@ error count summary
       2  E126 continuation line over-indented for hanging indent
       2  E202 whitespace before ']'
       2  E303 too many blank lines (4)
+      2  E305 expected 2 blank lines after class or function definition, found 3
       2  W601 .has_key() is deprecated, use 'in'
       2  W605 invalid escape sequence '\('
       2  W605 invalid escape sequence '\)'
       2  W605 invalid escape sequence '\.'
       2  W605 invalid escape sequence '\:'
-      3  E202 whitespace before '}'
-      4  E241 multiple spaces after ':'
       4  E712 comparison to False should be 'if cond is False:' or 'if not cond:'
       4  E741 ambiguous variable name 'l'
       4  W605 invalid escape sequence '\s'
       5  E227 missing whitespace around bitwise or shift operator
-      5  E712 comparison to True should be 'if cond is True:' or 'if cond:'
+      5  E241 multiple spaces after ':'
       5  W605 invalid escape sequence '\['
       5  W605 invalid escape sequence '\]'
       6  E129 visually indented line with same indent as next logical line
+      6  E202 whitespace before '}'
       6  E703 statement ends with a semicolon
       8  E701 multiple statements on one line (colon)
-      8  E711 comparison to None should be 'if cond is not None:'
       9  E116 unexpected indentation (comment)
-     10  E271 multiple spaces after keyword
-     10  E303 too many blank lines (3)
+      9  E711 comparison to None should be 'if cond is not None:'
+     11  E303 too many blank lines (3)
+     12  E271 multiple spaces after keyword
      13  E211 whitespace before '('
+     13  E712 comparison to True should be 'if cond is True:' or 'if cond:'
      13  W504 line break after binary operator
-     14  E702 multiple statements on one line (semicolon)
-     15  E127 continuation line over-indented for visual indent
-     16  E202 whitespace before ')'
-     16  E502 the backslash is redundant between brackets
-     17  E201 whitespace after '('
+     16  E702 multiple statements on one line (semicolon)
      17  E201 whitespace after '['
-     18  E222 multiple spaces after operator
+     17  E502 the backslash is redundant between brackets
+     18  E202 whitespace before ')'
      18  E251 unexpected spaces around keyword / parameter equals
      18  E401 multiple imports on one line
      20  E402 module level import not at top of file
-     23  E203 whitespace before ':'
-     23  E262 inline comment should start with '# '
-     23  E266 too many leading '#' for block comment
-     25  W391 blank line at end of file
+     21  E127 continuation line over-indented for visual indent
+     25  E262 inline comment should start with '# '
+     26  E266 too many leading '#' for block comment
+     26  W391 blank line at end of file
+     29  E201 whitespace after '('
      29  E305 expected 2 blank lines after class or function definition, found 1
      30  E241 multiple spaces after ','
-     34  E711 comparison to None should be 'if cond is None:'
-     55  E124 closing bracket does not match visual indentation
-     57  E722 do not use bare 'except'
-     64  E303 too many blank lines (2)
-     78  E201 whitespace after '{'
-     89  E221 multiple spaces before operator
-    101  E122 continuation line missing indentation or outdented
-    138  E301 expected 1 blank line, found 0
+     34  E222 multiple spaces after operator
+     35  E711 comparison to None should be 'if cond is None:'
+     39  E203 whitespace before ':'
+     59  E722 do not use bare 'except'
+     64  E124 closing bracket does not match visual indentation
+     65  E303 too many blank lines (2)
+    100  E201 whitespace after '{'
+    102  E122 continuation line missing indentation or outdented
+    106  E221 multiple spaces before operator
+    172  E301 expected 1 blank line, found 0
     179  E128 continuation line under-indented for visual indent
-    282  E114 indentation is not a multiple of four (comment)
+    355  E114 indentation is not a multiple of four (comment)

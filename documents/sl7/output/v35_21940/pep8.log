@@ -1409,6 +1409,7 @@
 ./unittests/test_frontend.py:208:5: E303 too many blank lines (2)
 ./unittests/test_glideinFrontendPlugins.py:38:1: E303 too many blank lines (3)
 ./unittests/test_lib_pubCrypto.py:29:1: E303 too many blank lines (3)
+./unittests/test_lib_timeConversion.py:57:5: E303 too many blank lines (2)
 ./unittests/test_lib_x509Support.py:17:1: E303 too many blank lines (3)
 ./unittests/worker_scripts/log_writer.py:39:21: E128 continuation line under-indented for visual indent
 ./unittests/worker_scripts/log_writer.py:40:21: E128 continuation line under-indented for visual indent
@@ -1508,7 +1509,7 @@ error count summary
      43  E262 inline comment should start with '# '
      54  E722 do not use bare 'except'
      55  E124 closing bracket does not match visual indentation
-     64  E303 too many blank lines (2)
+     65  E303 too many blank lines (2)
      78  E122 continuation line missing indentation or outdented
      78  E201 whitespace after '{'
      93  E221 multiple spaces before operator
