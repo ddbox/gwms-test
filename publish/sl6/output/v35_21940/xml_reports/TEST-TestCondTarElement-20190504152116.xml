@@ -1,8 +1,0 @@
-<?xml version="1.0" ?>
-<testsuite errors="0" failures="0" name="TestCondTarElement-20190504152116" tests="1" time="0.232">
-	<testcase classname="TestCondTarElement" name="test_validate" time="0.232"/>
-	<system-out>
-<![CDATA[]]>	</system-out>
-	<system-err>
-<![CDATA[]]>	</system-err>
-</testsuite>

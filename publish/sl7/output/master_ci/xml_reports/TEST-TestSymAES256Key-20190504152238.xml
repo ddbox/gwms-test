@@ -1,9 +1,0 @@
-<?xml version="1.0" ?>
-<testsuite errors="0" failures="0" name="TestSymAES256Key-20190504152238" tests="2" time="0.416">
-	<testcase classname="TestSymAES256Key" name="test___init__" time="0.000"/>
-	<testcase classname="TestSymAES256Key" name="test_symmetric" time="0.416"/>
-	<system-out>
-<![CDATA[]]>	</system-out>
-	<system-err>
-<![CDATA[]]>	</system-err>
-</testsuite>

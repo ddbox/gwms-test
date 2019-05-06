@@ -1,8 +1,0 @@
-<?xml version="1.0" ?>
-<testsuite errors="0" failures="0" name="TestGetEntryStageDir-20190504152112" tests="1" time="0.000">
-	<testcase classname="TestGetEntryStageDir" name="test_get_entry_stage_dir" time="0.000"/>
-	<system-out>
-<![CDATA[]]>	</system-out>
-	<system-err>
-<![CDATA[]]>	</system-err>
-</testsuite>
