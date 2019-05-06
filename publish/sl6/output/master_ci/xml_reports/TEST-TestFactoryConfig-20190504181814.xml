@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="TestFactoryConfig-20190504181814" tests="20" time="0.047">
+	<testcase classname="TestFactoryConfig" name="test__init__" time="0.001"/>
+	<testcase classname="TestFactoryConfig" name="test_config_dirs" time="0.001"/>
+	<testcase classname="TestFactoryConfig" name="test_config_remove_freq" time="0.001"/>
+	<testcase classname="TestFactoryConfig" name="test_config_submit_freq" time="0.001"/>
+	<testcase classname="TestFactoryConfig" name="test_config_whoamI" time="0.001"/>
+	<testcase classname="TestFactoryConfig" name="test_config_whoamI_" time="0.001"/>
+	<testcase classname="TestFactoryConfig" name="test_env_list2dict" time="0.001"/>
+	<testcase classname="TestFactoryConfig" name="test_get_client_log_dir" time="0.001"/>
+	<testcase classname="TestFactoryConfig" name="test_get_client_proxies_dir" time="0.001"/>
+	<testcase classname="TestFactoryConfig" name="test_get_condor_q_data" time="0.006"/>
+	<testcase classname="TestFactoryConfig" name="test_get_condor_status_data" time="0.006"/>
+	<testcase classname="TestFactoryConfig" name="test_get_q_credentials" time="0.005"/>
+	<testcase classname="TestFactoryConfig" name="test_get_q_prox_sec_class" time="0.006"/>
+	<testcase classname="TestFactoryConfig" name="test_get_q_status" time="0.005"/>
+	<testcase classname="TestFactoryConfig" name="test_get_q_status_s_f" time="0.002"/>
+	<testcase classname="TestFactoryConfig" name="test_get_q_status_stale" time="0.004"/>
+	<testcase classname="TestFactoryConfig" name="test_is_str_safe" time="0.001"/>
+	<testcase classname="TestFactoryConfig" name="test_sec_class2_name" time="0.001"/>
+	<testcase classname="TestFactoryConfig" name="test_get_condor_q_credential_list" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<testcase classname="TestFactoryConfig" name="test_update_x509_proxy_file" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

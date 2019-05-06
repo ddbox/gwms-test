@@ -18,10 +18,10 @@ before_script:
 pages:   
   stage: deploy   
   script:   
-  #- mkdir .public   
-  #- cp -r * .public   
-  #- mv .public public   
-  - date > public/last_build_date 
+  - mkdir .public   
+  - cp -r documents/* .public   
+  - mv .public public   
+  
   artifacts:     
     paths:     
     - public   

@@ -20,6 +20,7 @@ HEAD_FMT="""
 <h3>CI build of GlideinWMS workflow  Succeeded</h3> 
 <br>Build number: <a href="{BUILD_URL}/ws/{build_number}" />{build_number}</a>
 <br>Jenkins : <a href="{BUILD_URL}" />Build Page </a>
+<b>Build Date:</b>{build_date} </br>
 <br> <b>HOSTNAME:</b> {hostname} <br/>
 <b>LINUX DISTRO:</b>{distro}<br/>
 <b>PYTHON LOCATION:</b>{py_loc}<br/>
@@ -92,7 +93,8 @@ def get_color(acol):
 
 def print_head(rh_rel=7, build_number=0, gwms_ci_url='burp',
                jenkins_ci_url='burp', hostname='container', distro='burp',
-               py_loc='virtualenv', pylint_ver='burp', pep8_ver='burp'):
+               py_loc='virtualenv', pylint_ver='burp', pep8_ver='burp',
+               build_date=str(datetime.datetime.now())):
     print(HEAD_FMT.format(bold=BOLD,
                           bl=BL,
                           br=BR,
@@ -106,7 +108,8 @@ def print_head(rh_rel=7, build_number=0, gwms_ci_url='burp',
                           distro=distro,
                           py_loc=py_loc,
                           pylint_ver=pylint_ver,
-                          pep8_ver=pep8_ver))
+                          pep8_ver=pep8_ver,
+                          build_date=build_date))
                           
 def print_tail():
     print(TAIL_FMT)

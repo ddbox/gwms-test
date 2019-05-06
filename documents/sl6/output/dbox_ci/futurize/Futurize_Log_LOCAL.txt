@@ -1,0 +1,372 @@
+WARNING: not writing files and not printing diffs; that's not very useful
+RefactoringTool: Skipping implicit fixer: idioms
+RefactoringTool: Skipping implicit fixer: ws_comma
+RefactoringTool: No changes to ./build/ReleaseManager/ReleaseManagerLib.py
+RefactoringTool: No changes to ./build/ReleaseManager/release.py
+RefactoringTool: No changes to ./creation/lib/cWConsts.py
+RefactoringTool: No changes to ./creation/lib/cWDictFile.py
+RefactoringTool: No changes to ./creation/lib/cWParamDict.py
+RefactoringTool: No changes to ./creation/lib/cWParams.py
+RefactoringTool: No changes to ./creation/lib/cgWConsts.py
+RefactoringTool: No changes to ./creation/lib/cgWCreate.py
+RefactoringTool: No changes to ./creation/lib/cgWDictFile.py
+RefactoringTool: No changes to ./creation/lib/cgWParamDict.py
+RefactoringTool: No changes to ./creation/lib/cgWParams.py
+RefactoringTool: No changes to ./creation/lib/check_config_frontend.py
+RefactoringTool: No changes to ./creation/lib/cvWConsts.py
+RefactoringTool: No changes to ./creation/lib/cvWCreate.py
+RefactoringTool: No changes to ./creation/lib/cvWDictFile.py
+RefactoringTool: No changes to ./creation/lib/cvWParamDict.py
+RefactoringTool: No changes to ./creation/lib/cvWParams.py
+RefactoringTool: No changes to ./creation/lib/factoryXmlConfig.py
+RefactoringTool: No changes to ./creation/lib/matchPolicy.py
+RefactoringTool: No changes to ./creation/lib/xmlConfig.py
+RefactoringTool: No changes to ./creation/lib/xslt.py
+RefactoringTool: No changes to ./creation/web_base/update_proxy.py
+RefactoringTool: No changes to ./factory/checkFactory.py
+RefactoringTool: No changes to ./factory/glideFactory.py
+RefactoringTool: No changes to ./factory/glideFactoryConfig.py
+RefactoringTool: No changes to ./factory/glideFactoryCredentials.py
+RefactoringTool: No changes to ./factory/glideFactoryDowntimeLib.py
+RefactoringTool: No changes to ./factory/glideFactoryEntry.py
+RefactoringTool: No changes to ./factory/glideFactoryEntryGroup.py
+RefactoringTool: No changes to ./factory/glideFactoryInterface.py
+RefactoringTool: No changes to ./factory/glideFactoryLib.py
+RefactoringTool: No changes to ./factory/glideFactoryLogParser.py
+RefactoringTool: No changes to ./factory/glideFactoryMonitorAggregator.py
+RefactoringTool: No changes to ./factory/glideFactoryMonitoring.py
+RefactoringTool: No changes to ./factory/glideFactoryPidLib.py
+RefactoringTool: No changes to ./factory/glideFactorySelectionAlgorithms.py
+RefactoringTool: No changes to ./factory/manageFactoryDowntimes.py
+RefactoringTool: No changes to ./factory/stopFactory.py
+RefactoringTool: No changes to ./factory/tools/cat_MasterLog.py
+RefactoringTool: No changes to ./factory/tools/cat_StartdHistoryLog.py
+RefactoringTool: No changes to ./factory/tools/cat_StartdLog.py
+RefactoringTool: No changes to ./factory/tools/cat_StarterLog.py
+RefactoringTool: No changes to ./factory/tools/cat_XMLResult.py
+RefactoringTool: No changes to ./factory/tools/cat_logs.py
+RefactoringTool: No changes to ./factory/tools/find_StartdLogs.py
+RefactoringTool: No changes to ./factory/tools/find_logs.py
+RefactoringTool: No changes to ./factory/tools/manual_glidein_submit.py
+RefactoringTool: No changes to ./factory/tools/lib/analyze.py
+RefactoringTool: No changes to ./factory/tools/lib/gWftArgsHelper.py
+RefactoringTool: No changes to ./factory/tools/lib/gWftLogParser.py
+RefactoringTool: No changes to ./frontend/checkFrontend.py
+RefactoringTool: No changes to ./frontend/glideinFrontend.py
+RefactoringTool: No changes to ./frontend/glideinFrontendConfig.py
+RefactoringTool: No changes to ./frontend/glideinFrontendDowntimeLib.py
+RefactoringTool: No changes to ./frontend/glideinFrontendElement.py
+RefactoringTool: No changes to ./frontend/glideinFrontendInterface.py
+RefactoringTool: No changes to ./frontend/glideinFrontendLib.py
+RefactoringTool: No changes to ./frontend/glideinFrontendMonitorAggregator.py
+RefactoringTool: No changes to ./frontend/glideinFrontendMonitoring.py
+RefactoringTool: No changes to ./frontend/glideinFrontendPidLib.py
+RefactoringTool: No changes to ./frontend/glideinFrontendPlugins.py
+RefactoringTool: No changes to ./frontend/gwms_renew_proxies.py
+RefactoringTool: No changes to ./frontend/manageFrontendDowntimes.py
+RefactoringTool: No changes to ./frontend/stopFrontend.py
+RefactoringTool: No changes to ./frontend/tools/lib/frontenvparse.py
+RefactoringTool: No changes to ./install/services/Certificates.py
+RefactoringTool: No changes to ./install/services/Condor.py
+RefactoringTool: No changes to ./install/services/Configuration.py
+RefactoringTool: No changes to ./install/services/Factory.py
+RefactoringTool: No changes to ./install/services/Glidein.py
+RefactoringTool: No changes to ./install/services/PrivilegeSeparation.py
+RefactoringTool: No changes to ./install/services/RPM.py
+RefactoringTool: No changes to ./install/services/Submit.py
+RefactoringTool: No changes to ./install/services/UserCollector.py
+RefactoringTool: No changes to ./install/services/VDT.py
+RefactoringTool: No changes to ./install/services/VDTClient.py
+RefactoringTool: No changes to ./install/services/VOFrontend.py
+RefactoringTool: No changes to ./install/services/WMSCollector.py
+RefactoringTool: No changes to ./install/services/common.py
+RefactoringTool: No changes to ./lib/classadSupport.py
+RefactoringTool: No changes to ./lib/cleanupSupport.py
+RefactoringTool: No changes to ./lib/condorExe.py
+RefactoringTool: No changes to ./lib/condorLogParser.py
+RefactoringTool: No changes to ./lib/condorManager.py
+RefactoringTool: No changes to ./lib/condorMonitor.py
+RefactoringTool: No changes to ./lib/condorPrivsep.py
+RefactoringTool: No changes to ./lib/condorSecurity.py
+RefactoringTool: No changes to ./lib/encodingSupport.py
+RefactoringTool: No changes to ./lib/exprParser.py
+RefactoringTool: No changes to ./lib/fork.py
+RefactoringTool: No changes to ./lib/glideinWMSVersion.py
+RefactoringTool: No changes to ./lib/glideinwms_tarfile.py
+RefactoringTool: No changes to ./lib/ldapMonitor.py
+RefactoringTool: No changes to ./lib/logSupport.py
+RefactoringTool: No changes to ./lib/pidSupport.py
+RefactoringTool: No changes to ./lib/pubCrypto.py
+RefactoringTool: No changes to ./lib/rrdSupport.py
+RefactoringTool: No changes to ./lib/servicePerformance.py
+RefactoringTool: No changes to ./lib/subprocessSupport.py
+RefactoringTool: No changes to ./lib/symCrypto.py
+RefactoringTool: No changes to ./lib/tarSupport.py
+RefactoringTool: No changes to ./lib/util.py
+RefactoringTool: No changes to ./lib/x509Support.py
+RefactoringTool: No changes to ./lib/xmlFormat.py
+RefactoringTool: No changes to ./lib/xmlParse.py
+RefactoringTool: No changes to ./tools/glidein_cat.py
+RefactoringTool: No changes to ./tools/glidein_gdb.py
+RefactoringTool: No changes to ./tools/glidein_interactive.py
+RefactoringTool: No changes to ./tools/glidein_ls.py
+RefactoringTool: No changes to ./tools/glidein_ps.py
+RefactoringTool: No changes to ./tools/glidein_status.py
+RefactoringTool: No changes to ./tools/glidein_top.py
+RefactoringTool: No changes to ./tools/wmsTxtView.py
+RefactoringTool: No changes to ./tools/wmsXMLView.py
+RefactoringTool: No changes to ./tools/lib/glideinCmd.py
+RefactoringTool: No changes to ./tools/lib/glideinMonitor.py
+RefactoringTool: No changes to ./unittests/test_cleanupSupport.py
+RefactoringTool: No changes to ./unittests/test_condorExe.py
+RefactoringTool: Refactored ./unittests/test_creation_lib_cWDictFile_DictFile.py
+RefactoringTool: Refactored ./unittests/test_creation_lib_cWDictFile_DictFileTwoKeys.py
+RefactoringTool: No changes to ./unittests/test_creation_lib_cWDictFile_DictFileTwoKeys_SubClasses.py
+RefactoringTool: No changes to ./unittests/test_creation_lib_cWDictFile_SHADicts.py
+RefactoringTool: No changes to ./unittests/test_creation_lib_cWDictFile_validate_node.py
+RefactoringTool: No changes to ./unittests/test_creation_lib_cgWConsts.py
+RefactoringTool: No changes to ./unittests/test_creation_lib_cgWDictFile.py
+RefactoringTool: No changes to ./unittests/test_creation_lib_cgWParamDict.py
+RefactoringTool: No changes to ./unittests/test_creation_lib_cgWParams.py
+RefactoringTool: No changes to ./unittests/test_creation_lib_cvWConsts.py
+RefactoringTool: No changes to ./unittests/test_creation_lib_cvWCreate.py
+RefactoringTool: No changes to ./unittests/test_creation_lib_cvWParamDict.py
+RefactoringTool: No changes to ./unittests/test_creation_lib_cvWParams.py
+RefactoringTool: No changes to ./unittests/test_creation_lib_factoryXmlConfig.py
+RefactoringTool: No changes to ./unittests/test_factory_glideFactoryConfig.py
+RefactoringTool: No changes to ./unittests/test_factory_glideFactoryEntry.py
+RefactoringTool: No changes to ./unittests/test_factory_glideFactoryLib.py
+RefactoringTool: No changes to ./unittests/test_frontend.py
+RefactoringTool: Refactored ./unittests/test_frontend_element.py
+RefactoringTool: No changes to ./unittests/test_frontend_glideinFrontendConfig.py
+RefactoringTool: No changes to ./unittests/test_frontend_glideinFrontendElement.py
+RefactoringTool: No changes to ./unittests/test_glideinFrontendPlugins.py
+RefactoringTool: No changes to ./unittests/test_lib_encodingSupport.py
+RefactoringTool: No changes to ./unittests/test_lib_exprParser.py
+RefactoringTool: No changes to ./unittests/test_lib_fork.py
+RefactoringTool: No changes to ./unittests/test_lib_pubCrypto.py
+RefactoringTool: No changes to ./unittests/test_lib_symCrypto.py
+RefactoringTool: No changes to ./unittests/test_lib_timeConversion.py
+RefactoringTool: No changes to ./unittests/test_lib_x509Support.py
+RefactoringTool: No changes to ./unittests/test_logSupport.py
+RefactoringTool: No changes to ./unittests/test_tarSupport.py
+RefactoringTool: No changes to ./unittests/unittest_utils.py
+RefactoringTool: No changes to ./unittests/fixtures/factory/work-dir/update_proxy.py
+RefactoringTool: No changes to ./unittests/worker_scripts/log_writer.py
+RefactoringTool: No changes to ./unittests/worker_scripts/master_writer.py
+RefactoringTool: No changes to ./unittests/worker_scripts/write_exit_0.py
+RefactoringTool: No changes to ./unittests/worker_scripts/write_exit_1.py
+RefactoringTool: Files that need to be modified:
+RefactoringTool: ./build/ReleaseManager/ReleaseManagerLib.py
+RefactoringTool: ./build/ReleaseManager/release.py
+RefactoringTool: ./creation/lib/cWConsts.py
+RefactoringTool: ./creation/lib/cWDictFile.py
+RefactoringTool: ./creation/lib/cWParamDict.py
+RefactoringTool: ./creation/lib/cWParams.py
+RefactoringTool: ./creation/lib/cgWConsts.py
+RefactoringTool: ./creation/lib/cgWCreate.py
+RefactoringTool: ./creation/lib/cgWDictFile.py
+RefactoringTool: ./creation/lib/cgWParamDict.py
+RefactoringTool: ./creation/lib/cgWParams.py
+RefactoringTool: ./creation/lib/check_config_frontend.py
+RefactoringTool: ./creation/lib/cvWConsts.py
+RefactoringTool: ./creation/lib/cvWCreate.py
+RefactoringTool: ./creation/lib/cvWDictFile.py
+RefactoringTool: ./creation/lib/cvWParamDict.py
+RefactoringTool: ./creation/lib/cvWParams.py
+RefactoringTool: ./creation/lib/factoryXmlConfig.py
+RefactoringTool: ./creation/lib/matchPolicy.py
+RefactoringTool: ./creation/lib/xmlConfig.py
+RefactoringTool: ./creation/lib/xslt.py
+RefactoringTool: ./creation/web_base/update_proxy.py
+RefactoringTool: ./factory/checkFactory.py
+RefactoringTool: ./factory/glideFactory.py
+RefactoringTool: ./factory/glideFactoryConfig.py
+RefactoringTool: ./factory/glideFactoryCredentials.py
+RefactoringTool: ./factory/glideFactoryDowntimeLib.py
+RefactoringTool: ./factory/glideFactoryEntry.py
+RefactoringTool: ./factory/glideFactoryEntryGroup.py
+RefactoringTool: ./factory/glideFactoryInterface.py
+RefactoringTool: ./factory/glideFactoryLib.py
+RefactoringTool: ./factory/glideFactoryLogParser.py
+RefactoringTool: ./factory/glideFactoryMonitorAggregator.py
+RefactoringTool: ./factory/glideFactoryMonitoring.py
+RefactoringTool: ./factory/glideFactoryPidLib.py
+RefactoringTool: ./factory/glideFactorySelectionAlgorithms.py
+RefactoringTool: ./factory/manageFactoryDowntimes.py
+RefactoringTool: ./factory/stopFactory.py
+RefactoringTool: ./factory/tools/cat_MasterLog.py
+RefactoringTool: ./factory/tools/cat_StartdHistoryLog.py
+RefactoringTool: ./factory/tools/cat_StartdLog.py
+RefactoringTool: ./factory/tools/cat_StarterLog.py
+RefactoringTool: ./factory/tools/cat_XMLResult.py
+RefactoringTool: ./factory/tools/cat_logs.py
+RefactoringTool: ./factory/tools/find_StartdLogs.py
+RefactoringTool: ./factory/tools/find_logs.py
+RefactoringTool: ./factory/tools/manual_glidein_submit.py
+RefactoringTool: ./factory/tools/lib/analyze.py
+RefactoringTool: ./factory/tools/lib/gWftArgsHelper.py
+RefactoringTool: ./factory/tools/lib/gWftLogParser.py
+RefactoringTool: ./frontend/checkFrontend.py
+RefactoringTool: ./frontend/glideinFrontend.py
+RefactoringTool: ./frontend/glideinFrontendConfig.py
+RefactoringTool: ./frontend/glideinFrontendDowntimeLib.py
+RefactoringTool: ./frontend/glideinFrontendElement.py
+RefactoringTool: ./frontend/glideinFrontendInterface.py
+RefactoringTool: ./frontend/glideinFrontendLib.py
+RefactoringTool: ./frontend/glideinFrontendMonitorAggregator.py
+RefactoringTool: ./frontend/glideinFrontendMonitoring.py
+RefactoringTool: ./frontend/glideinFrontendPidLib.py
+RefactoringTool: ./frontend/glideinFrontendPlugins.py
+RefactoringTool: ./frontend/gwms_renew_proxies.py
+RefactoringTool: ./frontend/manageFrontendDowntimes.py
+RefactoringTool: ./frontend/stopFrontend.py
+RefactoringTool: ./frontend/tools/lib/frontenvparse.py
+RefactoringTool: ./install/services/Certificates.py
+RefactoringTool: ./install/services/Condor.py
+RefactoringTool: ./install/services/Configuration.py
+RefactoringTool: ./install/services/Factory.py
+RefactoringTool: ./install/services/Glidein.py
+RefactoringTool: ./install/services/PrivilegeSeparation.py
+RefactoringTool: ./install/services/RPM.py
+RefactoringTool: ./install/services/Submit.py
+RefactoringTool: ./install/services/UserCollector.py
+RefactoringTool: ./install/services/VDT.py
+RefactoringTool: ./install/services/VDTClient.py
+RefactoringTool: ./install/services/VOFrontend.py
+RefactoringTool: ./install/services/WMSCollector.py
+RefactoringTool: ./install/services/common.py
+RefactoringTool: ./lib/classadSupport.py
+RefactoringTool: ./lib/cleanupSupport.py
+RefactoringTool: ./lib/condorExe.py
+RefactoringTool: ./lib/condorLogParser.py
+RefactoringTool: ./lib/condorManager.py
+RefactoringTool: ./lib/condorMonitor.py
+RefactoringTool: ./lib/condorPrivsep.py
+RefactoringTool: ./lib/condorSecurity.py
+RefactoringTool: ./lib/encodingSupport.py
+RefactoringTool: ./lib/exprParser.py
+RefactoringTool: ./lib/fork.py
+RefactoringTool: ./lib/glideinWMSVersion.py
+RefactoringTool: ./lib/glideinwms_tarfile.py
+RefactoringTool: ./lib/ldapMonitor.py
+RefactoringTool: ./lib/logSupport.py
+RefactoringTool: ./lib/pidSupport.py
+RefactoringTool: ./lib/pubCrypto.py
+RefactoringTool: ./lib/rrdSupport.py
+RefactoringTool: ./lib/servicePerformance.py
+RefactoringTool: ./lib/subprocessSupport.py
+RefactoringTool: ./lib/symCrypto.py
+RefactoringTool: ./lib/tarSupport.py
+RefactoringTool: ./lib/util.py
+RefactoringTool: ./lib/x509Support.py
+RefactoringTool: ./lib/xmlFormat.py
+RefactoringTool: ./lib/xmlParse.py
+RefactoringTool: ./tools/glidein_cat.py
+RefactoringTool: ./tools/glidein_gdb.py
+RefactoringTool: ./tools/glidein_interactive.py
+RefactoringTool: ./tools/glidein_ls.py
+RefactoringTool: ./tools/glidein_ps.py
+RefactoringTool: ./tools/glidein_status.py
+RefactoringTool: ./tools/glidein_top.py
+RefactoringTool: ./tools/wmsTxtView.py
+RefactoringTool: ./tools/wmsXMLView.py
+RefactoringTool: ./tools/lib/glideinCmd.py
+RefactoringTool: ./tools/lib/glideinMonitor.py
+RefactoringTool: ./unittests/test_cleanupSupport.py
+RefactoringTool: ./unittests/test_condorExe.py
+RefactoringTool: ./unittests/test_creation_lib_cWDictFile_DictFile.py
+RefactoringTool: ./unittests/test_creation_lib_cWDictFile_DictFileTwoKeys.py
+RefactoringTool: ./unittests/test_creation_lib_cWDictFile_DictFileTwoKeys_SubClasses.py
+RefactoringTool: ./unittests/test_creation_lib_cWDictFile_SHADicts.py
+RefactoringTool: ./unittests/test_creation_lib_cWDictFile_validate_node.py
+RefactoringTool: ./unittests/test_creation_lib_cgWConsts.py
+RefactoringTool: ./unittests/test_creation_lib_cgWDictFile.py
+RefactoringTool: ./unittests/test_creation_lib_cgWParamDict.py
+RefactoringTool: ./unittests/test_creation_lib_cgWParams.py
+RefactoringTool: ./unittests/test_creation_lib_cvWConsts.py
+RefactoringTool: ./unittests/test_creation_lib_cvWCreate.py
+RefactoringTool: ./unittests/test_creation_lib_cvWParamDict.py
+RefactoringTool: ./unittests/test_creation_lib_cvWParams.py
+RefactoringTool: ./unittests/test_creation_lib_factoryXmlConfig.py
+RefactoringTool: ./unittests/test_factory_glideFactoryConfig.py
+RefactoringTool: ./unittests/test_factory_glideFactoryEntry.py
+RefactoringTool: ./unittests/test_factory_glideFactoryLib.py
+RefactoringTool: ./unittests/test_frontend.py
+RefactoringTool: ./unittests/test_frontend_element.py
+RefactoringTool: ./unittests/test_frontend_glideinFrontendConfig.py
+RefactoringTool: ./unittests/test_frontend_glideinFrontendElement.py
+RefactoringTool: ./unittests/test_glideinFrontendPlugins.py
+RefactoringTool: ./unittests/test_lib_encodingSupport.py
+RefactoringTool: ./unittests/test_lib_exprParser.py
+RefactoringTool: ./unittests/test_lib_fork.py
+RefactoringTool: ./unittests/test_lib_pubCrypto.py
+RefactoringTool: ./unittests/test_lib_symCrypto.py
+RefactoringTool: ./unittests/test_lib_timeConversion.py
+RefactoringTool: ./unittests/test_lib_x509Support.py
+RefactoringTool: ./unittests/test_logSupport.py
+RefactoringTool: ./unittests/test_tarSupport.py
+RefactoringTool: ./unittests/unittest_utils.py
+RefactoringTool: ./unittests/fixtures/factory/work-dir/update_proxy.py
+RefactoringTool: ./unittests/worker_scripts/log_writer.py
+RefactoringTool: ./unittests/worker_scripts/master_writer.py
+RefactoringTool: ./unittests/worker_scripts/write_exit_0.py
+RefactoringTool: ./unittests/worker_scripts/write_exit_1.py
+WARNING: not writing files and not printing diffs; that's not very useful
+RefactoringTool: Skipping implicit fixer: idioms
+RefactoringTool: Skipping implicit fixer: ws_comma
+RefactoringTool: No changes to ./creation/add_entry
+RefactoringTool: No changes to ./creation/clone_glidein
+RefactoringTool: No changes to ./creation/create_condor_tarball
+RefactoringTool: No changes to ./creation/create_frontend
+RefactoringTool: No changes to ./creation/create_glidein
+RefactoringTool: No changes to ./creation/create_rpm_startup
+RefactoringTool: No changes to ./creation/info_glidein
+RefactoringTool: No changes to ./creation/reconfig_frontend
+RefactoringTool: No changes to ./creation/reconfig_glidein
+RefactoringTool: No changes to ./factory/tools/analyze_entries
+RefactoringTool: No changes to ./factory/tools/analyze_frontends
+RefactoringTool: No changes to ./factory/tools/analyze_queues
+RefactoringTool: No changes to ./factory/tools/entry_ls
+RefactoringTool: No changes to ./factory/tools/entry_q
+RefactoringTool: No changes to ./factory/tools/entry_rm
+RefactoringTool: No changes to ./frontend/tools/enter_frontend_env
+RefactoringTool: No changes to ./frontend/tools/fetch_glidein_log
+RefactoringTool: No changes to ./frontend/tools/frontend_match_ana
+RefactoringTool: No changes to ./frontend/tools/frontend_match_list
+RefactoringTool: No changes to ./frontend/tools/glidein_off
+RefactoringTool: No changes to ./frontend/tools/remove_requested_glideins
+RefactoringTool: No changes to ./install/glidecondor_addDN
+RefactoringTool: No changes to ./install/glidecondor_createSecCol
+RefactoringTool: No changes to ./install/glidecondor_createSecSched
+RefactoringTool: No changes to ./install/glidecondor_upgrade
+RefactoringTool: No changes to ./install/manage-glideins
+RefactoringTool: No changes to ./tools/manual_glidein_startup
+RefactoringTool: Files that need to be modified:
+RefactoringTool: ./creation/add_entry
+RefactoringTool: ./creation/clone_glidein
+RefactoringTool: ./creation/create_condor_tarball
+RefactoringTool: ./creation/create_frontend
+RefactoringTool: ./creation/create_glidein
+RefactoringTool: ./creation/create_rpm_startup
+RefactoringTool: ./creation/info_glidein
+RefactoringTool: ./creation/reconfig_frontend
+RefactoringTool: ./creation/reconfig_glidein
+RefactoringTool: ./factory/tools/analyze_entries
+RefactoringTool: ./factory/tools/analyze_frontends
+RefactoringTool: ./factory/tools/analyze_queues
+RefactoringTool: ./factory/tools/entry_ls
+RefactoringTool: ./factory/tools/entry_q
+RefactoringTool: ./factory/tools/entry_rm
+RefactoringTool: ./frontend/tools/enter_frontend_env
+RefactoringTool: ./frontend/tools/fetch_glidein_log
+RefactoringTool: ./frontend/tools/frontend_match_ana
+RefactoringTool: ./frontend/tools/frontend_match_list
+RefactoringTool: ./frontend/tools/glidein_off
+RefactoringTool: ./frontend/tools/remove_requested_glideins
+RefactoringTool: ./install/glidecondor_addDN
+RefactoringTool: ./install/glidecondor_createSecCol
+RefactoringTool: ./install/glidecondor_createSecSched
+RefactoringTool: ./install/glidecondor_upgrade
+RefactoringTool: ./install/manage-glideins
+RefactoringTool: ./tools/manual_glidein_startup

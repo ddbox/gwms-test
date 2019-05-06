@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="TestPlugins-20190504181821" tests="5" time="0.125">
+	<testcase classname="TestPlugins" name="test_proxy_all" time="0.023"/>
+	<testcase classname="TestPlugins" name="test_proxy_cardinality" time="0.020"/>
+	<testcase classname="TestPlugins" name="test_proxy_first" time="0.019"/>
+	<testcase classname="TestPlugins" name="test_proxy_usermap" time="0.043"/>
+	<testcase classname="TestPlugins" name="test_proxy_userr" time="0.021"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

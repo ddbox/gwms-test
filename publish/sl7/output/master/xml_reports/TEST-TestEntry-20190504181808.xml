@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="TestEntry-20190504181808" tests="32" time="1.289">
+	<testcase classname="TestEntry" name="test___init__" time="0.038"/>
+	<testcase classname="TestEntry" name="test_dump_obj" time="0.033"/>
+	<testcase classname="TestEntry" name="test_getGlideinConfiguredLimits" time="0.031"/>
+	<testcase classname="TestEntry" name="test_getGlideinExpectedCores" time="0.033"/>
+	<testcase classname="TestEntry" name="test_getLogStatsCurrentStatsData" time="0.033"/>
+	<testcase classname="TestEntry" name="test_getLogStatsData" time="0.031"/>
+	<testcase classname="TestEntry" name="test_getLogStatsOldStatsData" time="0.026"/>
+	<testcase classname="TestEntry" name="test_getState" time="0.028"/>
+	<testcase classname="TestEntry" name="test_isClientBlacklisted" time="0.030"/>
+	<testcase classname="TestEntry" name="test_isClientInWhitelist" time="0.030"/>
+	<testcase classname="TestEntry" name="test_isClientWhitelisted" time="0.029"/>
+	<testcase classname="TestEntry" name="test_loadContext" time="0.029"/>
+	<testcase classname="TestEntry" name="test_loadWhitelist" time="0.030"/>
+	<testcase classname="TestEntry" name="test_setDowntime" time="0.030"/>
+	<testcase classname="TestEntry" name="test_setState" time="0.030"/>
+	<testcase classname="TestEntry" name="test_unsetInDowntime" time="0.029"/>
+	<testcase classname="TestEntry" name="test_writeStats" time="0.799"/>
+	<testcase classname="TestEntry" name="test_advertise" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<testcase classname="TestEntry" name="test_dump" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<testcase classname="TestEntry" name="test_glideinsWithinLimits" time="0.000">
+		<skipped message="4#@!&amp;&amp;*$%" type="skip"/>
+	</testcase>
+	<testcase classname="TestEntry" name="test_initIteration" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<testcase classname="TestEntry" name="test_isInDowntime" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<testcase classname="TestEntry" name="test_isSecurityClassAllowed" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<testcase classname="TestEntry" name="test_isSecurityClassInDowntime" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<testcase classname="TestEntry" name="test_loadDowntimes" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<testcase classname="TestEntry" name="test_logLogStats" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<testcase classname="TestEntry" name="test_queryQueuedGlideins" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<testcase classname="TestEntry" name="test_setLogStatsCurrentStatsData" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<testcase classname="TestEntry" name="test_setLogStatsData" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<testcase classname="TestEntry" name="test_setLogStatsOldStatsData" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<testcase classname="TestEntry" name="test_setState_old" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<testcase classname="TestEntry" name="test_writeClassadsToFile" time="0.000">
+		<skipped message="doeesnt work" type="skip"/>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

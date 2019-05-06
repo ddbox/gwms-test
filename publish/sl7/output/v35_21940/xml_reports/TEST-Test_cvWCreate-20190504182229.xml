@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="Test_cvWCreate-20190504182229" tests="3" time="0.389">
+	<testcase classname="Test_cvWCreate" name="test_create_client_condor_config" time="0.388"/>
+	<testcase classname="Test_cvWCreate" name="test_create_client_mapfile" time="0.001"/>
+	<testcase classname="Test_cvWCreate" name="test_get_template" time="0.000"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
