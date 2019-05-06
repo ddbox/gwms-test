@@ -28,10 +28,10 @@ after_success:
 - docker push  dbox/gwms-test:sl6
 deploy:
   provider: pages
+  local_dir: documents
   skip-cleanup: true
   github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
   keep-history: true
-  file: documents/test-results/results.tar
   on:
     branch: master
 env:
