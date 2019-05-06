@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="TestForkManager-20190506213554" tests="7" time="40.937">
+	<testcase classname="TestForkManager" name="test___init__" time="0.000"/>
+	<testcase classname="TestForkManager" name="test_add_fork_and_len" time="0.000"/>
+	<testcase classname="TestForkManager" name="test_bounded_fork_and_collect_use_epoll" time="10.252"/>
+	<testcase classname="TestForkManager" name="test_bounded_fork_and_collect_use_poll" time="10.245"/>
+	<testcase classname="TestForkManager" name="test_bounded_fork_and_collect_use_select" time="10.206"/>
+	<testcase classname="TestForkManager" name="test_fork_and_collect" time="5.137"/>
+	<testcase classname="TestForkManager" name="test_fork_and_wait" time="5.095"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
