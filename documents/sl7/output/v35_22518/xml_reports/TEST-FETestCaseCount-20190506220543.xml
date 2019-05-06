@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="FETestCaseCount-20190506220543" tests="7" time="0.263">
+	<testcase classname="FETestCaseCount" name="test_countMatch" time="0.031"/>
+	<testcase classname="FETestCaseCount" name="test_countMatchDowntime" time="0.032"/>
+	<testcase classname="FETestCaseCount" name="test_countMatch_missingKey" time="0.040"/>
+	<testcase classname="FETestCaseCount" name="test_countMatch_otherException" time="0.040"/>
+	<testcase classname="FETestCaseCount" name="test_countRealRunning_match" time="0.044"/>
+	<testcase classname="FETestCaseCount" name="test_countRealRunning_missingKey" time="0.040"/>
+	<testcase classname="FETestCaseCount" name="test_countRealRunning_otherException" time="0.037"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

@@ -1,8 +1,0 @@
-<?xml version="1.0" ?>
-<testsuite errors="0" failures="0" name="TestDomel2dict-20190506213710" tests="1" time="0.004">
-	<testcase classname="TestDomel2dict" name="test_domel2dict" time="0.004"/>
-	<system-out>
-<![CDATA[]]>	</system-out>
-	<system-err>
-<![CDATA[]]>	</system-err>
-</testsuite>

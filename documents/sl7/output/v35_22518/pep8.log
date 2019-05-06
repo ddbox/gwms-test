@@ -1,3 +1,222 @@
+./install/services/Factory.py:6:11: E401 multiple imports on one line
+./install/services/Factory.py:26:20: E201 whitespace after '['
+./install/services/Factory.py:27:1: E128 continuation line under-indented for visual indent
+./install/services/Factory.py:28:1: E128 continuation line under-indented for visual indent
+./install/services/Factory.py:29:1: E128 continuation line under-indented for visual indent
+./install/services/Factory.py:30:1: E128 continuation line under-indented for visual indent
+./install/services/Factory.py:31:1: E128 continuation line under-indented for visual indent
+./install/services/Factory.py:32:1: E128 continuation line under-indented for visual indent
+./install/services/Factory.py:33:1: E128 continuation line under-indented for visual indent
+./install/services/Factory.py:34:1: E128 continuation line under-indented for visual indent
+./install/services/Factory.py:35:1: E128 continuation line under-indented for visual indent
+./install/services/Factory.py:36:1: E128 continuation line under-indented for visual indent
+./install/services/Factory.py:37:1: E128 continuation line under-indented for visual indent
+./install/services/Factory.py:38:1: E128 continuation line under-indented for visual indent
+./install/services/Factory.py:39:1: E128 continuation line under-indented for visual indent
+./install/services/Factory.py:40:1: E128 continuation line under-indented for visual indent
+./install/services/Factory.py:41:1: E128 continuation line under-indented for visual indent
+./install/services/Factory.py:42:1: E128 continuation line under-indented for visual indent
+./install/services/Factory.py:43:1: E128 continuation line under-indented for visual indent
+./install/services/Factory.py:44:1: E128 continuation line under-indented for visual indent
+./install/services/Factory.py:45:1: E128 continuation line under-indented for visual indent
+./install/services/Factory.py:46:1: E124 closing bracket does not match visual indentation
+./install/services/Factory.py:48:25: E201 whitespace after '['
+./install/services/Factory.py:49:1: E128 continuation line under-indented for visual indent
+./install/services/Factory.py:50:1: E128 continuation line under-indented for visual indent
+./install/services/Factory.py:51:1: E128 continuation line under-indented for visual indent
+./install/services/Factory.py:52:1: E128 continuation line under-indented for visual indent
+./install/services/Factory.py:53:1: E128 continuation line under-indented for visual indent
+./install/services/Factory.py:54:1: E124 closing bracket does not match visual indentation
+./install/services/Factory.py:57:15: E221 multiple spaces before operator
+./install/services/Factory.py:62:18: E201 whitespace after '{'
+./install/services/Factory.py:67:1: E124 closing bracket does not match visual indentation
+./install/services/Factory.py:78:20: E711 comparison to None should be 'if cond is not None:'
+./install/services/Factory.py:83:13: E221 multiple spaces before operator
+./install/services/Factory.py:88:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:90:17: E711 comparison to None should be 'if cond is None:'
+./install/services/Factory.py:94:22: E711 comparison to None should be 'if cond is None:'
+./install/services/Factory.py:97:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:100:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:101:3: E301 expected 1 blank line, found 0
+./install/services/Factory.py:103:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:104:3: E301 expected 1 blank line, found 0
+./install/services/Factory.py:106:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:107:3: E301 expected 1 blank line, found 0
+./install/services/Factory.py:109:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:110:3: E301 expected 1 blank line, found 0
+./install/services/Factory.py:112:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:113:3: E301 expected 1 blank line, found 0
+./install/services/Factory.py:116:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:117:3: E301 expected 1 blank line, found 0
+./install/services/Factory.py:119:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:120:3: E301 expected 1 blank line, found 0
+./install/services/Factory.py:122:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:123:3: E301 expected 1 blank line, found 0
+./install/services/Factory.py:125:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:126:3: E301 expected 1 blank line, found 0
+./install/services/Factory.py:128:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:129:3: E301 expected 1 blank line, found 0
+./install/services/Factory.py:131:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:132:3: E301 expected 1 blank line, found 0
+./install/services/Factory.py:135:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:146:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:149:20: E201 whitespace after '('
+./install/services/Factory.py:155:20: E201 whitespace after '('
+./install/services/Factory.py:161:20: E201 whitespace after '('
+./install/services/Factory.py:165:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:167:17: E211 whitespace before '('
+./install/services/Factory.py:174:17: E211 whitespace before '('
+./install/services/Factory.py:176:43: E262 inline comment should start with '# '
+./install/services/Factory.py:179:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:187:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:198:22: E127 continuation line over-indented for visual indent
+./install/services/Factory.py:198:23: E201 whitespace after '{'
+./install/services/Factory.py:204:26: E221 multiple spaces before operator
+./install/services/Factory.py:221:48: E502 the backslash is redundant between brackets
+./install/services/Factory.py:222:25: E127 continuation line over-indented for visual indent
+./install/services/Factory.py:222:26: E201 whitespace after '{'
+./install/services/Factory.py:222:33: E203 whitespace before ':'
+./install/services/Factory.py:222:47: E203 whitespace before ':'
+./install/services/Factory.py:222:60: E202 whitespace before '}'
+./install/services/Factory.py:238:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:245:7: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:246:7: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:248:17: E221 multiple spaces before operator
+./install/services/Factory.py:248:29: E221 multiple spaces before operator
+./install/services/Factory.py:265:8: E201 whitespace after '{'
+./install/services/Factory.py:266:9: E122 continuation line missing indentation or outdented
+./install/services/Factory.py:267:9: E122 continuation line missing indentation or outdented
+./install/services/Factory.py:267:22: E202 whitespace before ')'
+./install/services/Factory.py:270:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:279:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:298:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:304:15: E271 multiple spaces after keyword
+./install/services/Factory.py:307:45: E202 whitespace before ']'
+./install/services/Factory.py:313:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:313:3: E303 too many blank lines (2)
+./install/services/Factory.py:314:3: E301 expected 1 blank line, found 0
+./install/services/Factory.py:320:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:325:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:329:7: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:337:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:341:7: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:349:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:359:8: E201 whitespace after '{'
+./install/services/Factory.py:366:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:366:3: E303 too many blank lines (2)
+./install/services/Factory.py:367:3: E301 expected 1 blank line, found 0
+./install/services/Factory.py:376:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:385:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:392:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:404:1: E122 continuation line missing indentation or outdented
+./install/services/Factory.py:404:2: E201 whitespace after '{'
+./install/services/Factory.py:404:18: E203 whitespace before ':'
+./install/services/Factory.py:405:18: E203 whitespace before ':'
+./install/services/Factory.py:406:18: E203 whitespace before ':'
+./install/services/Factory.py:407:1: E124 closing bracket does not match visual indentation
+./install/services/Factory.py:429:1: E128 continuation line under-indented for visual indent
+./install/services/Factory.py:429:2: E201 whitespace after '{'
+./install/services/Factory.py:436:1: E124 closing bracket does not match visual indentation
+./install/services/Factory.py:438:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:439:3: E301 expected 1 blank line, found 0
+./install/services/Factory.py:444:1: E122 continuation line missing indentation or outdented
+./install/services/Factory.py:444:2: E201 whitespace after '{'
+./install/services/Factory.py:447:1: E124 closing bracket does not match visual indentation
+./install/services/Factory.py:448:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:449:3: E301 expected 1 blank line, found 0
+./install/services/Factory.py:455:1: E122 continuation line missing indentation or outdented
+./install/services/Factory.py:455:2: E201 whitespace after '{'
+./install/services/Factory.py:460:1: E124 closing bracket does not match visual indentation
+./install/services/Factory.py:461:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:462:3: E301 expected 1 blank line, found 0
+./install/services/Factory.py:467:1: E122 continuation line missing indentation or outdented
+./install/services/Factory.py:467:2: E201 whitespace after '{'
+./install/services/Factory.py:471:1: E124 closing bracket does not match visual indentation
+./install/services/Factory.py:472:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:473:3: E301 expected 1 blank line, found 0
+./install/services/Factory.py:479:48: E221 multiple spaces before operator
+./install/services/Factory.py:480:1: E128 continuation line under-indented for visual indent
+./install/services/Factory.py:480:2: E201 whitespace after '{'
+./install/services/Factory.py:485:1: E124 closing bracket does not match visual indentation
+./install/services/Factory.py:487:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:493:1: E122 continuation line missing indentation or outdented
+./install/services/Factory.py:493:2: E201 whitespace after '{'
+./install/services/Factory.py:495:1: E124 closing bracket does not match visual indentation
+./install/services/Factory.py:497:26: E222 multiple spaces after operator
+./install/services/Factory.py:504:1: E122 continuation line missing indentation or outdented
+./install/services/Factory.py:504:2: E201 whitespace after '{'
+./install/services/Factory.py:510:1: E124 closing bracket does not match visual indentation
+./install/services/Factory.py:515:1: E128 continuation line under-indented for visual indent
+./install/services/Factory.py:515:2: E201 whitespace after '{'
+./install/services/Factory.py:517:1: E124 closing bracket does not match visual indentation
+./install/services/Factory.py:522:1: E128 continuation line under-indented for visual indent
+./install/services/Factory.py:522:2: E201 whitespace after '{'
+./install/services/Factory.py:524:1: E124 closing bracket does not match visual indentation
+./install/services/Factory.py:527:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:534:30: E221 multiple spaces before operator
+./install/services/Factory.py:536:144: E221 multiple spaces before operator
+./install/services/Factory.py:538:7: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:540:143: E221 multiple spaces before operator
+./install/services/Factory.py:549:1: E128 continuation line under-indented for visual indent
+./install/services/Factory.py:549:2: E201 whitespace after '{'
+./install/services/Factory.py:551:1: E124 closing bracket does not match visual indentation
+./install/services/Factory.py:555:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:555:3: E303 too many blank lines (2)
+./install/services/Factory.py:556:3: E301 expected 1 blank line, found 0
+./install/services/Factory.py:558:28: E201 whitespace after '{'
+./install/services/Factory.py:584:8: E201 whitespace after '{'
+./install/services/Factory.py:585:3: E128 continuation line under-indented for visual indent
+./install/services/Factory.py:586:3: E128 continuation line under-indented for visual indent
+./install/services/Factory.py:587:3: E128 continuation line under-indented for visual indent
+./install/services/Factory.py:588:3: E128 continuation line under-indented for visual indent
+./install/services/Factory.py:589:3: E128 continuation line under-indented for visual indent
+./install/services/Factory.py:590:3: E128 continuation line under-indented for visual indent
+./install/services/Factory.py:591:3: E128 continuation line under-indented for visual indent
+./install/services/Factory.py:592:3: E128 continuation line under-indented for visual indent
+./install/services/Factory.py:593:3: E128 continuation line under-indented for visual indent
+./install/services/Factory.py:594:3: E128 continuation line under-indented for visual indent
+./install/services/Factory.py:595:3: E128 continuation line under-indented for visual indent
+./install/services/Factory.py:596:1: E124 closing bracket does not match visual indentation
+./install/services/Factory.py:600:1: E128 continuation line under-indented for visual indent
+./install/services/Factory.py:600:2: E201 whitespace after '{'
+./install/services/Factory.py:601:1: E124 closing bracket does not match visual indentation
+./install/services/Factory.py:604:4: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:608:7: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:612:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:618:1: E122 continuation line missing indentation or outdented
+./install/services/Factory.py:618:2: E201 whitespace after '{'
+./install/services/Factory.py:622:1: E124 closing bracket does not match visual indentation
+./install/services/Factory.py:625:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:635:18: E221 multiple spaces before operator
+./install/services/Factory.py:647:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:647:3: E303 too many blank lines (2)
+./install/services/Factory.py:648:3: E301 expected 1 blank line, found 0
+./install/services/Factory.py:679:7: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:684:7: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:703:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:723:19: E221 multiple spaces before operator
+./install/services/Factory.py:729:14: E221 multiple spaces before operator
+./install/services/Factory.py:731:9: E128 continuation line under-indented for visual indent
+./install/services/Factory.py:732:9: E128 continuation line under-indented for visual indent
+./install/services/Factory.py:742:11: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:773:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:783:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:794:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:803:11: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:810:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:817:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:858:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:866:15: E221 multiple spaces before operator
+./install/services/Factory.py:881:3: E114 indentation is not a multiple of four (comment)
+./install/services/Factory.py:893:1: E266 too many leading '#' for block comment
+./install/services/Factory.py:913:24: E711 comparison to None should be 'if cond is None:'
+./install/services/Factory.py:936:69: E703 statement ends with a semicolon
+./install/services/Factory.py:939:69: E703 statement ends with a semicolon
+./install/services/Factory.py:942:12: E702 multiple statements on one line (semicolon)
+./install/services/Factory.py:942:74: E702 multiple statements on one line (semicolon)
+./install/services/Factory.py:944:12: E702 multiple statements on one line (semicolon)
+./install/services/Factory.py:948:1: E305 expected 2 blank lines after class or function definition, found 1
+./install/services/Factory.py:950:1: W391 blank line at end of file
 ./install/services/Glidein.py:6:11: E401 multiple imports on one line
 ./install/services/Glidein.py:22:17: E221 multiple spaces before operator
 ./install/services/Glidein.py:29:18: E221 multiple spaces before operator
@@ -1225,7 +1444,6 @@
 error count summary
 -------------------
       1  E115 expected an indented block (comment)
-      1  E202 whitespace before ']'
       1  E305 expected 2 blank lines after class or function definition, found 3
       1  E712 comparison to True should be 'if cond is not True:' or 'if not cond:'
       1  E713 test for membership should be 'not in'
@@ -1236,53 +1454,54 @@ error count summary
       2  E117 over-indented
       2  E121 continuation line under-indented for hanging indent
       2  E126 continuation line over-indented for hanging indent
-      2  E202 whitespace before '}'
+      2  E202 whitespace before ']'
       2  W601 .has_key() is deprecated, use 'in'
       2  W605 invalid escape sequence '\('
       2  W605 invalid escape sequence '\)'
       2  W605 invalid escape sequence '\.'
       2  W605 invalid escape sequence '\:'
       2  W605 invalid escape sequence '\s'
+      3  E202 whitespace before '}'
       3  E712 comparison to False should be 'if cond is False:' or 'if not cond:'
       4  E241 multiple spaces after ':'
       4  E303 too many blank lines (4)
-      4  E703 statement ends with a semicolon
       4  E741 ambiguous variable name 'l'
       4  W605 invalid escape sequence '\['
       4  W605 invalid escape sequence '\]'
       5  E227 missing whitespace around bitwise or shift operator
-      5  E702 multiple statements on one line (semicolon)
       5  E712 comparison to True should be 'if cond is True:' or 'if cond:'
       6  E129 visually indented line with same indent as next logical line
-      6  E222 multiple spaces after operator
-      7  E201 whitespace after '('
-      7  E711 comparison to None should be 'if cond is not None:'
-      8  E202 whitespace before ')'
-      8  E211 whitespace before '('
-      8  E271 multiple spaces after keyword
+      6  E703 statement ends with a semicolon
+      7  E222 multiple spaces after operator
       8  E701 multiple statements on one line (colon)
+      8  E702 multiple statements on one line (semicolon)
+      8  E711 comparison to None should be 'if cond is not None:'
       9  E116 unexpected indentation (comment)
-     12  E266 too many leading '#' for block comment
+      9  E202 whitespace before ')'
+      9  E271 multiple spaces after keyword
+     10  E201 whitespace after '('
+     10  E211 whitespace before '('
      12  E303 too many blank lines (3)
-     13  E127 continuation line over-indented for visual indent
+     13  E266 too many leading '#' for block comment
      13  W504 line break after binary operator
-     15  E502 the backslash is redundant between brackets
-     16  E201 whitespace after '['
-     16  E203 whitespace before ':'
-     17  E401 multiple imports on one line
+     15  E127 continuation line over-indented for visual indent
+     16  E502 the backslash is redundant between brackets
+     18  E201 whitespace after '['
      18  E251 unexpected spaces around keyword / parameter equals
-     20  E305 expected 2 blank lines after class or function definition, found 1
+     18  E401 multiple imports on one line
      20  E402 module level import not at top of file
-     22  W391 blank line at end of file
+     21  E203 whitespace before ':'
+     21  E305 expected 2 blank lines after class or function definition, found 1
+     23  W391 blank line at end of file
      30  E241 multiple spaces after ','
-     31  E711 comparison to None should be 'if cond is None:'
-     38  E124 closing bracket does not match visual indentation
-     42  E262 inline comment should start with '# '
+     34  E711 comparison to None should be 'if cond is None:'
+     43  E262 inline comment should start with '# '
      54  E722 do not use bare 'except'
-     58  E201 whitespace after '{'
-     58  E303 too many blank lines (2)
-     68  E122 continuation line missing indentation or outdented
-     76  E221 multiple spaces before operator
-    116  E301 expected 1 blank line, found 0
-    123  E128 continuation line under-indented for visual indent
-    197  E114 indentation is not a multiple of four (comment)
+     55  E124 closing bracket does not match visual indentation
+     62  E303 too many blank lines (2)
+     77  E122 continuation line missing indentation or outdented
+     78  E201 whitespace after '{'
+     89  E221 multiple spaces before operator
+    135  E301 expected 1 blank line, found 0
+    166  E128 continuation line under-indented for visual indent
+    257  E114 indentation is not a multiple of four (comment)

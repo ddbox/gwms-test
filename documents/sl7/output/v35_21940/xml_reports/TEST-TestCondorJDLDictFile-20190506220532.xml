@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="TestCondorJDLDictFile-20190506220532" tests="15" time="0.003">
+	<testcase classname="TestCondorJDLDictFile" name="test__init__" time="0.001"/>
+	<testcase classname="TestCondorJDLDictFile" name="test_file_footer_CondorJDLDictFile" time="0.001"/>
+	<testcase classname="TestCondorJDLDictFile" name="test_format_val_CondorJDLDictFile" time="0.001"/>
+	<testcase classname="TestCondorJDLDictFile" name="test_is_equal_CondorJDLDictFile" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<testcase classname="TestCondorJDLDictFile" name="test_parse_val_CondorJDLDictFile" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<testcase classname="TestCondorJDLDictFile" name="test_refresh_description" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<testcase classname="TestCondorJDLDictFile" name="test_refresh_file_list" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<testcase classname="TestCondorJDLDictFile" name="test_refresh_signature" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<testcase classname="TestCondorJDLDictFile" name="test_reuse_common_dicts" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<testcase classname="TestCondorJDLDictFile" name="test_reuse_entry_dicts" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<testcase classname="TestCondorJDLDictFile" name="test_reuse_file_dict" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<testcase classname="TestCondorJDLDictFile" name="test_reuse_main_dicts" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<testcase classname="TestCondorJDLDictFile" name="test_reuse_simple_dict" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<testcase classname="TestCondorJDLDictFile" name="test_save_common_dicts" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<testcase classname="TestCondorJDLDictFile" name="test_save_entry_dicts" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

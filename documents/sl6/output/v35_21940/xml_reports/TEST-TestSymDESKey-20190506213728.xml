@@ -1,9 +1,0 @@
-<?xml version="1.0" ?>
-<testsuite errors="0" failures="0" name="TestSymDESKey-20190506213728" tests="2" time="2.117">
-	<testcase classname="TestSymDESKey" name="test___init__" time="0.001"/>
-	<testcase classname="TestSymDESKey" name="test_symmetric" time="2.116"/>
-	<system-out>
-<![CDATA[]]>	</system-out>
-	<system-err>
-<![CDATA[]]>	</system-err>
-</testsuite>

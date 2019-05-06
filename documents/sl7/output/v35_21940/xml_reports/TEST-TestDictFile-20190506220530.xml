@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="TestDictFile-20190506220530" tests="20" time="0.012">
+	<testcase classname="TestDictFile" name="test___getitem__" time="0.000"/>
+	<testcase classname="TestDictFile" name="test___init__" time="0.000"/>
+	<testcase classname="TestDictFile" name="test_add" time="0.000"/>
+	<testcase classname="TestDictFile" name="test_bad_init" time="0.000"/>
+	<testcase classname="TestDictFile" name="test_erase" time="0.000"/>
+	<testcase classname="TestDictFile" name="test_file_footer" time="0.000"/>
+	<testcase classname="TestDictFile" name="test_file_header" time="0.000"/>
+	<testcase classname="TestDictFile" name="test_format_val" time="0.000"/>
+	<testcase classname="TestDictFile" name="test_get_dir" time="0.000"/>
+	<testcase classname="TestDictFile" name="test_get_filepath" time="0.000"/>
+	<testcase classname="TestDictFile" name="test_get_fname" time="0.000"/>
+	<testcase classname="TestDictFile" name="test_has_key" time="0.000"/>
+	<testcase classname="TestDictFile" name="test_is_compatible" time="0.000"/>
+	<testcase classname="TestDictFile" name="test_is_equal" time="0.004"/>
+	<testcase classname="TestDictFile" name="test_parse_val" time="0.001"/>
+	<testcase classname="TestDictFile" name="test_remove" time="0.000"/>
+	<testcase classname="TestDictFile" name="test_save" time="0.001"/>
+	<testcase classname="TestDictFile" name="test_save_into_load_from_fd" time="0.001"/>
+	<testcase classname="TestDictFile" name="test_save_to_load_from_str" time="0.001"/>
+	<testcase classname="TestDictFile" name="test_set_readonly" time="0.000"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
