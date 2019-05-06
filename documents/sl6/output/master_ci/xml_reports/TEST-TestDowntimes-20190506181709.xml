@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<testsuite errors="1" failures="0" name="TestDowntimes-20190506181709" tests="5" time="0.162">
+	<testcase classname="TestDowntimes" name="test_downtimesfile" time="0.087"/>
+	<testcase classname="TestDowntimes" name="test_entryonlydowntime" time="0.011"/>
+	<testcase classname="TestDowntimes" name="test_setdelayedperiod" time="0.010"/>
+	<testcase classname="TestDowntimes" name="test_setfrontendsecclass" time="0.017"/>
+	<testcase classname="TestDowntimes" name="test_setperiodwithendtime" time="0.036">
+		<error message="True is not false" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "./test_glideFactoryDowntimeLib.py", line 56, in test_setperiodwithendtime
+    self.assertFalse(self.downtime.checkDowntime(entry="All", check_time=now+1))
+AssertionError: True is not false
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

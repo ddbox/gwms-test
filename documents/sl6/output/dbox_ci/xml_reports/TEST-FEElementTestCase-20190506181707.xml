@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="FEElementTestCase-20190506181707" tests="3" time="0.885">
+	<testcase classname="FEElementTestCase" name="test_compute_glidein_max_run" time="0.029"/>
+	<testcase classname="FEElementTestCase" name="test_get_condor_q" time="0.065"/>
+	<testcase classname="FEElementTestCase" name="test_some_iterate_one_artifacts" time="0.790"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

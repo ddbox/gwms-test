@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="TestStageFiles-20190506182925" tests="3" time="0.003">
+	<testcase classname="TestStageFiles" name="test___init__" time="0.001"/>
+	<testcase classname="TestStageFiles" name="test_get_file_list" time="0.002"/>
+	<testcase classname="TestStageFiles" name="test_get_stage_file" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="TestExtractAttrVal-20190506181652" tests="1" time="0.001">
+	<testcase classname="TestExtractAttrVal" name="test_extract_attr_val" time="0.001"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
