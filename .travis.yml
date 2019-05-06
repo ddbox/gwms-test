@@ -12,10 +12,10 @@ before_install:
 - docker ps -a
 - docker run dbox/gwms-test help
 script:
-- echo TRAVIS_BUILD_NUMBER is $TRAVIS_BUILD_NUMBER
-- docker run dbox/gwms-test help > index.html
-- find . -ls >> documents/index.html 2>&1
-- cp documents/index.html documents/list.$(date +%s)
+  #- echo TRAVIS_BUILD_NUMBER is $TRAVIS_BUILD_NUMBER
+  #- docker run dbox/gwms-test help > index.html
+  #- find . -ls >> documents/index.html 2>&1
+  #- cp documents/index.html documents/list.$(date +%s)
   #- examples/run_tests.sh 3
   #- echo TRAVIS_BUILD_NUMBER is $TRAVIS_BUILD_NUMBER
   #- examples/make_report.sh $TRAVIS_BUILD_NUMBER
