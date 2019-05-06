@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="TestClientWeb-20190506152531" tests="2" time="0.000">
+	<testcase classname="TestClientWeb" name="test___init__" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<testcase classname="TestClientWeb" name="test_get_glidein_args" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

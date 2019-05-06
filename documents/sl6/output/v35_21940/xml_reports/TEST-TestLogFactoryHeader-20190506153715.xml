@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="TestLogFactoryHeader-20190506153715" tests="1" time="0.000">
+	<testcase classname="TestLogFactoryHeader" name="test_log_factory_header" time="0.000">
+		<skipped message="grr" type="skip"/>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
