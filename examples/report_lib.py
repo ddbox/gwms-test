@@ -94,7 +94,7 @@ def get_color(acol):
 def print_head(rh_rel=7, build_number=0, gwms_ci_url='burp',
                jenkins_ci_url='burp', hostname='container', distro='burp',
                py_loc='virtualenv', pylint_ver='burp', pep8_ver='burp',
-               build_date=str(datetime.datetime.now())):
+               build_date='burp'):
     print(HEAD_FMT.format(bold=BOLD,
                           bl=BL,
                           br=BR,
