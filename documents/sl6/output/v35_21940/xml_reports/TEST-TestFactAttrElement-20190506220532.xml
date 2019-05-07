@@ -1,8 +1,0 @@
-<?xml version="1.0" ?>
-<testsuite errors="0" failures="0" name="TestFactAttrElement-20190506220532" tests="1" time="0.219">
-	<testcase classname="TestFactAttrElement" name="test_validate" time="0.219"/>
-	<system-out>
-<![CDATA[]]>	</system-out>
-	<system-err>
-<![CDATA[]]>	</system-err>
-</testsuite>
