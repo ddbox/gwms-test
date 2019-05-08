@@ -10,7 +10,7 @@ before_install:
 - docker build --build-arg rel=6 -t dbox/gwms-test:sl6 .
 - docker run --rm  dbox/gwms-test new_gwms_branches 10
 - docker ps -a
-- docker run dbox/gwms-test help
+  #- docker run dbox/gwms-test help
 script:
   #- echo TRAVIS_BUILD_NUMBER is $TRAVIS_BUILD_NUMBER
   #- docker run dbox/gwms-test help > index.html
