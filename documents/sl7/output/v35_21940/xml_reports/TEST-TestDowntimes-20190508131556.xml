@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="TestDowntimes-20190508131556" tests="5" time="0.020">
+	<testcase classname="TestDowntimes" name="test_downtimesfile" time="0.011"/>
+	<testcase classname="TestDowntimes" name="test_entryonlydowntime" time="0.003"/>
+	<testcase classname="TestDowntimes" name="test_setdelayedperiod" time="0.002"/>
+	<testcase classname="TestDowntimes" name="test_setfrontendsecclass" time="0.002"/>
+	<testcase classname="TestDowntimes" name="test_setperiodwithendtime" time="0.002"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

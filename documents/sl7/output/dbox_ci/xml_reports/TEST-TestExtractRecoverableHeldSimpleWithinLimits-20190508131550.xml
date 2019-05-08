@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="TestExtractRecoverableHeldSimpleWithinLimits-20190508131550" tests="1" time="0.000">
+	<testcase classname="TestExtractRecoverableHeldSimpleWithinLimits" name="test_extract_recoverable_held_simple_within_limits" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

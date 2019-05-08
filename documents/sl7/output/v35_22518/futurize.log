@@ -28,7 +28,7 @@ find: './unittests/test_creation_lib_cvWCreate.py': No such file or directory
 find: './unittests/test_frontend_glideinFrontendConfig.py': No such file or directory
 find: './unittests/test_frontend_glideinFrontendElement.py': No such file or directory
 
-There are 2 files that need to be refactered
+There are 2 files that need to be refactored
 ERROR: Futurize CRASHED while analyzing branch LOCAL
 More than 2 files may need to be refactored
 

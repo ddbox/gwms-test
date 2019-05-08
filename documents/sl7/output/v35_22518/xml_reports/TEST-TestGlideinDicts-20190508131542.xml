@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="TestGlideinDicts-20190508131542" tests="6" time="0.087">
+	<testcase classname="TestGlideinDicts" name="test___init__" time="0.045"/>
+	<testcase classname="TestGlideinDicts" name="test_new_MainDicts" time="0.042"/>
+	<testcase classname="TestGlideinDicts" name="test_new_SubDicts" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<testcase classname="TestGlideinDicts" name="test_populate" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<testcase classname="TestGlideinDicts" name="test_reuse" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<testcase classname="TestGlideinDicts" name="test_sortit" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

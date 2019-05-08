@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="TestEncodeDecodeData-20190508131555" tests="4" time="0.766">
+	<testcase classname="TestEncodeDecodeData" name="test_decode_data" time="0.003"/>
+	<testcase classname="TestEncodeDecodeData" name="test_encode_data" time="0.001"/>
+	<testcase classname="TestEncodeDecodeData" name="test_symmetric_binary" time="0.356"/>
+	<testcase classname="TestEncodeDecodeData" name="test_symmetric_text" time="0.407"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

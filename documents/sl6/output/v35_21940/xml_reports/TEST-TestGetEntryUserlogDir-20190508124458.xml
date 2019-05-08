@@ -1,8 +1,0 @@
-<?xml version="1.0" ?>
-<testsuite errors="0" failures="0" name="TestGetEntryUserlogDir-20190508124458" tests="1" time="0.001">
-	<testcase classname="TestGetEntryUserlogDir" name="test_get_entry_userlog_dir" time="0.001"/>
-	<system-out>
-<![CDATA[]]>	</system-out>
-	<system-err>
-<![CDATA[]]>	</system-err>
-</testsuite>
