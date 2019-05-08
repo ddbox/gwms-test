@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="TestConfig-20190508124510" tests="17" time="0.591">
+	<testcase classname="TestConfig" name="test___init__" time="0.032"/>
+	<testcase classname="TestConfig" name="test_get_client_log_dirs" time="0.033"/>
+	<testcase classname="TestConfig" name="test_get_client_proxy_dirs" time="0.036"/>
+	<testcase classname="TestConfig" name="test_get_entries" time="0.038"/>
+	<testcase classname="TestConfig" name="test_get_log_dir" time="0.033"/>
+	<testcase classname="TestConfig" name="test_get_monitor_dir" time="0.038"/>
+	<testcase classname="TestConfig" name="test_get_stage_dir" time="0.037"/>
+	<testcase classname="TestConfig" name="test_get_submit_dir" time="0.038"/>
+	<testcase classname="TestConfig" name="test_get_web_url" time="0.040"/>
+	<testcase classname="TestConfig" name="test_set_client_log_dirs" time="0.039"/>
+	<testcase classname="TestConfig" name="test_set_client_proxy_dirs" time="0.029"/>
+	<testcase classname="TestConfig" name="test_set_log_dir" time="0.029"/>
+	<testcase classname="TestConfig" name="test_set_monitor_dir" time="0.034"/>
+	<testcase classname="TestConfig" name="test_set_stage_dir" time="0.032"/>
+	<testcase classname="TestConfig" name="test_set_submit_dir" time="0.035"/>
+	<testcase classname="TestConfig" name="test_set_web_url" time="0.034"/>
+	<testcase classname="TestConfig" name="test_validate" time="0.036"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

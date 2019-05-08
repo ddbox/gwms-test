@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="TestGetPerfMetricEventLifetime-20190508124629" tests="1" time="0.000">
+	<testcase classname="TestGetPerfMetricEventLifetime" name="test_get_perf_metric_event_lifetime" time="0.000"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
