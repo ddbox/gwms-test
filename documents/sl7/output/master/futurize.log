@@ -14,61 +14,26 @@ Running on local files in glideinwms subdirectory (LOCAL)
 Now running test
 
 find: './creation/add_entry': No such file or directory
-find: './unittests/fixtures/factory/stage/advertise_failure.i6pevu.helper': No such file or directory
-find: './unittests/fixtures/factory/stage/after_file_list.i6pevu.lst': No such file or directory
-find: './unittests/fixtures/factory/stage/after_file_list.i8egGb.lst': No such file or directory
-find: './unittests/fixtures/factory/stage/cat_consts.i6pevu.sh': No such file or directory
-find: './unittests/fixtures/factory/stage/check_proxy.i6pevu.sh': No such file or directory
-find: './unittests/fixtures/factory/stage/check_wn_drainstate.i6pevu.sh': No such file or directory
-find: './unittests/fixtures/factory/stage/collector_setup.i6pevu.sh': No such file or directory
-find: './unittests/fixtures/factory/stage/condor_bin_0.i6pevu.tgz': No such file or directory
-find: './unittests/fixtures/factory/stage/condor_bin_1.i6pevu.tgz': No such file or directory
-find: './unittests/fixtures/factory/stage/condor_bin_2.i6pevu.tgz': No such file or directory
-find: './unittests/fixtures/factory/stage/condor_config.check.i6pevu.include': No such file or directory
-find: './unittests/fixtures/factory/stage/condor_config.dedicated_starter.i6pevu.include': No such file or directory
-find: './unittests/fixtures/factory/stage/condor_config.i6pevu': No such file or directory
-find: './unittests/fixtures/factory/stage/condor_config.monitor.i6pevu.include': No such file or directory
-find: './unittests/fixtures/factory/stage/condor_config.multi_schedd.i6pevu.include': No such file or directory
-find: './unittests/fixtures/factory/stage/condor_platform_select.i6pevu.sh': No such file or directory
-find: './unittests/fixtures/factory/stage/condor_startup.i6pevu.sh': No such file or directory
-find: './unittests/fixtures/factory/stage/condor_vars.i6pdq1.lst': No such file or directory
-find: './unittests/fixtures/factory/stage/condor_vars.i8egGb.lst': No such file or directory
-find: './unittests/fixtures/factory/stage/constants.i6pdq1.cfg': No such file or directory
-find: './unittests/fixtures/factory/stage/constants.i8egGb.cfg': No such file or directory
-find: './unittests/fixtures/factory/stage/create_mapfile.i6pevu.sh': No such file or directory
-find: './unittests/fixtures/factory/stage/create_temp_mapfile.i6pevu.sh': No such file or directory
-find: './unittests/fixtures/factory/stage/description.i6pevu.cfg': No such file or directory
-find: './unittests/fixtures/factory/stage/description.i8egGb.cfg': No such file or directory
-find: './unittests/fixtures/factory/stage/error_augment.i6pevu.sh': No such file or directory
-find: './unittests/fixtures/factory/stage/error_gen.i6pevu.sh': No such file or directory
-find: './unittests/fixtures/factory/stage/file_list.i6pevu.lst': No such file or directory
-find: './unittests/fixtures/factory/stage/file_list.i8egGb.lst': No such file or directory
-find: './unittests/fixtures/factory/stage/gcb_setup.i6pevu.sh': No such file or directory
-find: './unittests/fixtures/factory/stage/glexec_setup.i6pevu.sh': No such file or directory
-find: './unittests/fixtures/factory/stage/glidein_cpus_setup.i6pevu.sh': No such file or directory
-find: './unittests/fixtures/factory/stage/glidein_lib.i6pevu.sh': No such file or directory
-find: './unittests/fixtures/factory/stage/glidein_memory_setup.i6pevu.sh': No such file or directory
-find: './unittests/fixtures/factory/stage/glidein_sitewms_setup.i6pevu.sh': No such file or directory
-find: './unittests/fixtures/factory/stage/grid-mapfile.i6pdq1': No such file or directory
-find: './unittests/fixtures/factory/stage/grid-mapfile.i8egGb': No such file or directory
-find: './unittests/fixtures/factory/stage/java_setup.i6pevu.sh': No such file or directory
-find: './unittests/fixtures/factory/stage/mjf_setparams.i6pevu.sh': No such file or directory
-find: './unittests/fixtures/factory/stage/parse_starterlog.i6pevu.awk': No such file or directory
-find: './unittests/fixtures/factory/stage/setup_network.i6pevu.sh': No such file or directory
-find: './unittests/fixtures/factory/stage/setup_script.i6pevu.sh': No such file or directory
-find: './unittests/fixtures/factory/stage/setup_x509.i6pevu.sh': No such file or directory
-find: './unittests/fixtures/factory/stage/signature.i6pevu.sha1': No such file or directory
-find: './unittests/fixtures/factory/stage/signature.i8egGb.sha1': No such file or directory
-find: './unittests/fixtures/factory/stage/singularity_setup.i6pevu.sh': No such file or directory
-find: './unittests/fixtures/factory/stage/smart_partitionable.i6pevu.sh': No such file or directory
-find: './unittests/fixtures/factory/stage/untar.i6pdq1.cfg': No such file or directory
-find: './unittests/fixtures/factory/stage/untar.i8egGb.cfg': No such file or directory
-find: './unittests/fixtures/factory/stage/validate_node.i6pevu.sh': No such file or directory
+find: './unittests/fixtures/frontend/ccvd.fixture': No such file or directory
+find: './unittests/fixtures/frontend/pipe_out.do_match': No such file or directory
+find: './unittests/fixtures/frontend/pipe_out.iterate_one': No such file or directory
+find: './unittests/fixtures/frontend/vofrontend/signatures.sha1': No such file or directory
+find: './unittests/fixtures/frontend/web-area/stage/description.e98f4o.cfg': No such file or directory
+find: './unittests/fixtures/frontend/web-area/stage/file_list.j4j7WK.lst': No such file or directory
+find: './unittests/fixtures/frontend/web-area/stage/group_group1/description.e98f4o.cfg': No such file or directory
+find: './unittests/fixtures/frontend/web-area/stage/group_group1/nodes.blacklist': No such file or directory
+find: './unittests/fixtures/frontend/web-area/stage/group_group1/signature.j4j84x.sha1': No such file or directory
+find: './unittests/fixtures/frontend/web-area/stage/signature.j4j84x.sha1': No such file or directory
+find: './unittests/test_creation_lib_cvWCreate.py': No such file or directory
+find: './unittests/test_frontend_glideinFrontendConfig.py': No such file or directory
+find: './unittests/test_frontend_glideinFrontendElement.py': No such file or directory
 
 There are 2 files that need to be refactered
+ERROR: Futurize CRASHED while analyzing branch LOCAL
+More than 2 files may need to be refactored
 
 
-Complete with branch LOCAL (ec:201)
+Complete with branch LOCAL (ec:301)
 
 
 Logs are in /test_dir/output/master/futurize

@@ -3362,22 +3362,6 @@ tools/manual_glidein_startup:227:19: W504 line break after binary operator
 ./unittests/test_creation_lib_cgWDictFile.py:262:5: E301 expected 1 blank line, found 0
 ./unittests/test_creation_lib_cgWDictFile.py:496:15: E221 multiple spaces before operator
 ./unittests/test_creation_lib_cgWDictFile.py:611:5: E303 too many blank lines (2)
-./unittests/test_factory_glideFactoryEntry.py:33:1: E303 too many blank lines (4)
-./unittests/test_factory_glideFactoryEntry.py:87:9: E303 too many blank lines (2)
-./unittests/test_factory_glideFactoryEntry.py:257:21: E222 multiple spaces after operator
-./unittests/test_frontend.py:188:5: E303 too many blank lines (2)
-./unittests/test_frontend.py:208:5: E303 too many blank lines (2)
-./unittests/test_frontend_element.py:31:1: E303 too many blank lines (4)
-./unittests/test_glideinFrontendPlugins.py:38:1: E303 too many blank lines (3)
-./unittests/test_lib_pubCrypto.py:29:1: E303 too many blank lines (3)
-./unittests/test_lib_x509Support.py:17:1: E303 too many blank lines (3)
-./unittests/worker_scripts/log_writer.py:39:21: E128 continuation line under-indented for visual indent
-./unittests/worker_scripts/log_writer.py:40:21: E128 continuation line under-indented for visual indent
-./unittests/worker_scripts/log_writer.py:46:5: E722 do not use bare 'except'
-./unittests/worker_scripts/log_writer.py:49:1: E305 expected 2 blank lines after class or function definition, found 1
-./unittests/worker_scripts/master_writer.py:19:5: E301 expected 1 blank line, found 0
-./unittests/worker_scripts/master_writer.py:60:1: E305 expected 2 blank lines after class or function definition, found 1
-./unittests/worker_scripts/master_writer.py:61:21: W292 no newline at end of file
 ./unittests/test_creation_lib_cgWParamDict.py:84:22: E262 inline comment should start with '# '
 ./unittests/test_creation_lib_cgWParamDict.py:91:22: E262 inline comment should start with '# '
 ./unittests/test_creation_lib_cgWParamDict.py:98:22: E262 inline comment should start with '# '
@@ -3399,7 +3383,23 @@ tools/manual_glidein_startup:227:19: W504 line break after binary operator
 ./unittests/test_creation_lib_cvWParamDict.py:159:22: E262 inline comment should start with '# '
 ./unittests/test_creation_lib_cvWParamDict.py:168:22: E262 inline comment should start with '# '
 ./unittests/test_creation_lib_cvWParamDict.py:180:22: E262 inline comment should start with '# '
+./unittests/test_factory_glideFactoryEntry.py:33:1: E303 too many blank lines (4)
+./unittests/test_factory_glideFactoryEntry.py:87:9: E303 too many blank lines (2)
+./unittests/test_factory_glideFactoryEntry.py:257:21: E222 multiple spaces after operator
+./unittests/test_frontend.py:188:5: E303 too many blank lines (2)
+./unittests/test_frontend.py:208:5: E303 too many blank lines (2)
+./unittests/test_frontend_element.py:31:1: E303 too many blank lines (4)
+./unittests/test_glideinFrontendPlugins.py:38:1: E303 too many blank lines (3)
+./unittests/test_lib_pubCrypto.py:29:1: E303 too many blank lines (3)
+./unittests/test_lib_x509Support.py:17:1: E303 too many blank lines (3)
 ./unittests/test_util.py:33:1: E305 expected 2 blank lines after class or function definition, found 1
+./unittests/worker_scripts/log_writer.py:39:21: E128 continuation line under-indented for visual indent
+./unittests/worker_scripts/log_writer.py:40:21: E128 continuation line under-indented for visual indent
+./unittests/worker_scripts/log_writer.py:46:5: E722 do not use bare 'except'
+./unittests/worker_scripts/log_writer.py:49:1: E305 expected 2 blank lines after class or function definition, found 1
+./unittests/worker_scripts/master_writer.py:19:5: E301 expected 1 blank line, found 0
+./unittests/worker_scripts/master_writer.py:60:1: E305 expected 2 blank lines after class or function definition, found 1
+./unittests/worker_scripts/master_writer.py:61:21: W292 no newline at end of file
 -------------------
 error count summary
 -------------------

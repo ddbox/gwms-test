@@ -1,53 +1,16 @@
-find: `./fixtures/factory/stage/advertise_failure.i6pevu.helper': No such file or directory
-find: `./fixtures/factory/stage/after_file_list.i6pevu.lst': No such file or directory
-find: `./fixtures/factory/stage/after_file_list.i8egGb.lst': No such file or directory
-find: `./fixtures/factory/stage/cat_consts.i6pevu.sh': No such file or directory
-find: `./fixtures/factory/stage/check_proxy.i6pevu.sh': No such file or directory
-find: `./fixtures/factory/stage/check_wn_drainstate.i6pevu.sh': No such file or directory
-find: `./fixtures/factory/stage/collector_setup.i6pevu.sh': No such file or directory
-find: `./fixtures/factory/stage/condor_bin_0.i6pevu.tgz': No such file or directory
-find: `./fixtures/factory/stage/condor_bin_1.i6pevu.tgz': No such file or directory
-find: `./fixtures/factory/stage/condor_bin_2.i6pevu.tgz': No such file or directory
-find: `./fixtures/factory/stage/condor_config.check.i6pevu.include': No such file or directory
-find: `./fixtures/factory/stage/condor_config.dedicated_starter.i6pevu.include': No such file or directory
-find: `./fixtures/factory/stage/condor_config.i6pevu': No such file or directory
-find: `./fixtures/factory/stage/condor_config.monitor.i6pevu.include': No such file or directory
-find: `./fixtures/factory/stage/condor_config.multi_schedd.i6pevu.include': No such file or directory
-find: `./fixtures/factory/stage/condor_platform_select.i6pevu.sh': No such file or directory
-find: `./fixtures/factory/stage/condor_startup.i6pevu.sh': No such file or directory
-find: `./fixtures/factory/stage/condor_vars.i6pdq1.lst': No such file or directory
-find: `./fixtures/factory/stage/condor_vars.i8egGb.lst': No such file or directory
-find: `./fixtures/factory/stage/constants.i6pdq1.cfg': No such file or directory
-find: `./fixtures/factory/stage/constants.i8egGb.cfg': No such file or directory
-find: `./fixtures/factory/stage/create_mapfile.i6pevu.sh': No such file or directory
-find: `./fixtures/factory/stage/create_temp_mapfile.i6pevu.sh': No such file or directory
-find: `./fixtures/factory/stage/description.i6pevu.cfg': No such file or directory
-find: `./fixtures/factory/stage/description.i8egGb.cfg': No such file or directory
-find: `./fixtures/factory/stage/error_augment.i6pevu.sh': No such file or directory
-find: `./fixtures/factory/stage/error_gen.i6pevu.sh': No such file or directory
-find: `./fixtures/factory/stage/file_list.i6pevu.lst': No such file or directory
-find: `./fixtures/factory/stage/file_list.i8egGb.lst': No such file or directory
-find: `./fixtures/factory/stage/gcb_setup.i6pevu.sh': No such file or directory
-find: `./fixtures/factory/stage/glexec_setup.i6pevu.sh': No such file or directory
-find: `./fixtures/factory/stage/glidein_cpus_setup.i6pevu.sh': No such file or directory
-find: `./fixtures/factory/stage/glidein_lib.i6pevu.sh': No such file or directory
-find: `./fixtures/factory/stage/glidein_memory_setup.i6pevu.sh': No such file or directory
-find: `./fixtures/factory/stage/glidein_sitewms_setup.i6pevu.sh': No such file or directory
-find: `./fixtures/factory/stage/grid-mapfile.i6pdq1': No such file or directory
-find: `./fixtures/factory/stage/grid-mapfile.i8egGb': No such file or directory
-find: `./fixtures/factory/stage/java_setup.i6pevu.sh': No such file or directory
-find: `./fixtures/factory/stage/mjf_setparams.i6pevu.sh': No such file or directory
-find: `./fixtures/factory/stage/parse_starterlog.i6pevu.awk': No such file or directory
-find: `./fixtures/factory/stage/setup_network.i6pevu.sh': No such file or directory
-find: `./fixtures/factory/stage/setup_script.i6pevu.sh': No such file or directory
-find: `./fixtures/factory/stage/setup_x509.i6pevu.sh': No such file or directory
-find: `./fixtures/factory/stage/signature.i6pevu.sha1': No such file or directory
-find: `./fixtures/factory/stage/signature.i8egGb.sha1': No such file or directory
-find: `./fixtures/factory/stage/singularity_setup.i6pevu.sh': No such file or directory
-find: `./fixtures/factory/stage/smart_partitionable.i6pevu.sh': No such file or directory
-find: `./fixtures/factory/stage/untar.i6pdq1.cfg': No such file or directory
-find: `./fixtures/factory/stage/untar.i8egGb.cfg': No such file or directory
-find: `./fixtures/factory/stage/validate_node.i6pevu.sh': No such file or directory
+find: `./fixtures/frontend/ccvd.fixture': No such file or directory
+find: `./fixtures/frontend/pipe_out.do_match': No such file or directory
+find: `./fixtures/frontend/pipe_out.iterate_one': No such file or directory
+find: `./fixtures/frontend/vofrontend/signatures.sha1': No such file or directory
+find: `./fixtures/frontend/web-area/stage/description.e98f4o.cfg': No such file or directory
+find: `./fixtures/frontend/web-area/stage/file_list.j4j7WK.lst': No such file or directory
+find: `./fixtures/frontend/web-area/stage/group_group1/description.e98f4o.cfg': No such file or directory
+find: `./fixtures/frontend/web-area/stage/group_group1/nodes.blacklist': No such file or directory
+find: `./fixtures/frontend/web-area/stage/group_group1/signature.j4j84x.sha1': No such file or directory
+find: `./fixtures/frontend/web-area/stage/signature.j4j84x.sha1': No such file or directory
+find: `./test_creation_lib_cvWCreate.py': No such file or directory
+find: `./test_frontend_glideinFrontendConfig.py': No such file or directory
+find: `./test_frontend_glideinFrontendElement.py': No such file or directory
 TESTING ==========> ./test_cleanupSupport.py
 
 Running tests...
@@ -55,7 +18,7 @@ Running tests...
 Removed 10 files for 0.00MB.
 .
 ----------------------------------------------------------------------
-Ran 1 test in 0.014s
+Ran 1 test in 0.017s
 
 OK
 
@@ -66,7 +29,7 @@ Running tests...
 ----------------------------------------------------------------------
 ...
 ----------------------------------------------------------------------
-Ran 3 tests in 3.025s
+Ran 3 tests in 2.834s
 
 OK
 
@@ -77,7 +40,7 @@ Running tests...
 ----------------------------------------------------------------------
 ....................
 ----------------------------------------------------------------------
-Ran 20 tests in 0.071s
+Ran 20 tests in 0.347s
 
 OK
 
@@ -88,7 +51,7 @@ Running tests...
 ----------------------------------------------------------------------
 .....................
 ----------------------------------------------------------------------
-Ran 21 tests in 0.068s
+Ran 21 tests in 0.059s
 
 OK
 
@@ -99,7 +62,7 @@ Running tests...
 ----------------------------------------------------------------------
 .....
 ----------------------------------------------------------------------
-Ran 5 tests in 0.010s
+Ran 5 tests in 0.012s
 
 OK
 
@@ -110,7 +73,7 @@ Running tests...
 ----------------------------------------------------------------------
 .........
 ----------------------------------------------------------------------
-Ran 9 tests in 0.023s
+Ran 9 tests in 0.021s
 
 OK
 
@@ -121,7 +84,7 @@ Running tests...
 ----------------------------------------------------------------------
 ...
 ----------------------------------------------------------------------
-Ran 3 tests in 0.057s
+Ran 3 tests in 0.066s
 
 OK
 
@@ -143,9 +106,20 @@ Running tests...
 ----------------------------------------------------------------------
 SSS.....SSS...SSSSSSSSSSSS..SSSS.S....S.............S.......SSS...
 ----------------------------------------------------------------------
-Ran 66 tests in 4.477s
+Ran 66 tests in 4.635s
 
 OK (skipped=28)
+
+Generating XML reports...
+TESTING ==========> ./test_creation_lib_cgWParamDict.py
+
+Running tests...
+----------------------------------------------------------------------
+SSSSSS.......SSSSSSSS
+----------------------------------------------------------------------
+Ran 21 tests in 3.580s
+
+OK (skipped=14)
 
 Generating XML reports...
 TESTING ==========> ./test_creation_lib_cgWParams.py
@@ -154,7 +128,7 @@ Running tests...
 ----------------------------------------------------------------------
 ..........S
 ----------------------------------------------------------------------
-Ran 11 tests in 0.509s
+Ran 11 tests in 0.488s
 
 OK (skipped=1)
 
@@ -166,9 +140,20 @@ Running tests...
 ----------------------------------------------------------------------
 .......
 ----------------------------------------------------------------------
-Ran 7 tests in 0.010s
+Ran 7 tests in 0.011s
 
 OK
+
+Generating XML reports...
+TESTING ==========> ./test_creation_lib_cvWParamDict.py
+
+Running tests...
+----------------------------------------------------------------------
+SS..S.SSS....S.SSSSS
+----------------------------------------------------------------------
+Ran 20 tests in 1.883s
+
+OK (skipped=12)
 
 Generating XML reports...
 TESTING ==========> ./test_creation_lib_cvWParams.py
@@ -177,7 +162,7 @@ Running tests...
 ----------------------------------------------------------------------
 ...................
 ----------------------------------------------------------------------
-Ran 19 tests in 0.693s
+Ran 19 tests in 0.738s
 
 OK
 
@@ -189,7 +174,7 @@ Running tests...
 ----------------------------------------------------------------------
 ...........................
 ----------------------------------------------------------------------
-Ran 27 tests in 7.168s
+Ran 27 tests in 7.078s
 
 OK
 
@@ -200,7 +185,7 @@ Running tests...
 ----------------------------------------------------------------------
 .....
 ----------------------------------------------------------------------
-Ran 5 tests in 0.025s
+Ran 5 tests in 0.020s
 
 OK
 
@@ -209,11 +194,11 @@ TESTING ==========> ./test_factory_glideFactoryConfig.py
 
 Running tests...
 ----------------------------------------------------------------------
-................+++
-.............+++
+............................................+++
+..............+++
 ...
 ----------------------------------------------------------------------
-Ran 14 tests in 0.574s
+Ran 14 tests in 0.592s
 
 OK
 
@@ -224,7 +209,7 @@ Running tests...
 ----------------------------------------------------------------------
 S.SS.......SS...SSS.S.SS.SSS.S.S.SSSSSSS
 ----------------------------------------------------------------------
-Ran 40 tests in 3.113s
+Ran 40 tests in 2.821s
 
 OK (skipped=23)
 
@@ -235,7 +220,7 @@ Running tests...
 ----------------------------------------------------------------------
 SSS.SSSSSSSSSSSSSSSS.........S.........SSSSSSSSSSSSSSS.SSSSSSSSSSSS.SS.
 ----------------------------------------------------------------------
-Ran 71 tests in 0.073s
+Ran 71 tests in 0.085s
 
 OK (skipped=49)
 
@@ -255,7 +240,7 @@ Running glidein ids at ('submit.local', 'Site_Name1@v3_0@factory1', 'frontend@fa
 Running glidein ids at ('submit.local', 'Site_Name3@v3_0@factory1', 'frontend@factory1') (total glideins: 0, total jobs 0, cluster matches: 0): 
 ........
 ----------------------------------------------------------------------
-Ran 33 tests in 8.638s
+Ran 33 tests in 8.933s
 
 OK
 
@@ -266,7 +251,7 @@ Running tests...
 ----------------------------------------------------------------------
 ..
 ----------------------------------------------------------------------
-Ran 2 tests in 0.091s
+Ran 2 tests in 0.096s
 
 OK
 
@@ -277,7 +262,7 @@ Running tests...
 ----------------------------------------------------------------------
 .....
 ----------------------------------------------------------------------
-Ran 5 tests in 0.167s
+Ran 5 tests in 0.112s
 
 OK
 
@@ -288,7 +273,7 @@ Running tests...
 ----------------------------------------------------------------------
 .....
 ----------------------------------------------------------------------
-Ran 5 tests in 0.150s
+Ran 5 tests in 0.153s
 
 OK
 
@@ -299,7 +284,7 @@ Running tests...
 ----------------------------------------------------------------------
 ....
 ----------------------------------------------------------------------
-Ran 4 tests in 3.557s
+Ran 4 tests in 3.479s
 
 OK
 
@@ -310,7 +295,7 @@ Running tests...
 ----------------------------------------------------------------------
 ...
 ----------------------------------------------------------------------
-Ran 3 tests in 0.330s
+Ran 3 tests in 0.331s
 
 OK
 
@@ -321,7 +306,7 @@ Running tests...
 ----------------------------------------------------------------------
 .............
 ----------------------------------------------------------------------
-Ran 13 tests in 72.366s
+Ran 13 tests in 72.193s
 
 OK
 
@@ -330,15 +315,15 @@ TESTING ==========> ./test_lib_pubCrypto.py
 
 Running tests...
 ----------------------------------------------------------------------
-...............................++++++
-.....++++++
+......................++++++
 ..............++++++
-......++++++
-...++++++
-.++++++
+.............................++++++
+..................................++++++
+................................................++++++
+..........++++++
 .
 ----------------------------------------------------------------------
-Ran 3 tests in 0.063s
+Ran 3 tests in 0.132s
 
 OK
 
@@ -360,7 +345,7 @@ Running tests...
 ----------------------------------------------------------------------
 .......S........
 ----------------------------------------------------------------------
-Ran 16 tests in 8.773s
+Ran 16 tests in 8.733s
 
 OK (skipped=1)
 
@@ -369,89 +354,20 @@ TESTING ==========> ./test_lib_timeConversion.py
 
 Running tests...
 ----------------------------------------------------------------------
-.F.....FF.F..FF.
-======================================================================
-ERROR [0.087s]: test_extract_human (__main__.TestTimeFunctions)
+................
 ----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "./test_lib_timeConversion.py", line 64, in test_extract_human
-    self.assertEqual(float(now), float(extractHuman(human)))
-AssertionError: 1518767040.0 != 1518745440.0
+Ran 16 tests in 2.562s
 
-======================================================================
-ERROR [0.007s]: test_get_human (__main__.TestTimeFunctions)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "./test_lib_timeConversion.py", line 59, in test_get_human
-    self.assertEqual(human, getHuman(now))
-AssertionError: 'Fri Feb 16 01:44:00 2018' != 'Fri Feb 16 07:44:00 2018'
-- Fri Feb 16 01:44:00 2018
-?             ^
-+ Fri Feb 16 07:44:00 2018
-?             ^
-
-
-======================================================================
-ERROR [0.009s]: test_get_is_o8601__local (__main__.TestTimeFunctions)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "./test_lib_timeConversion.py", line 75, in test_get_is_o8601__local
-    self.assertEqual(iso_local, getISO8601_Local(now))
-AssertionError: '2018-02-16T01:44:00-06:00' != '2018-02-16T07:44:00+00:00'
-- 2018-02-16T01:44:00-06:00
-?             ^      ^ ^
-+ 2018-02-16T07:44:00+00:00
-?             ^      ^ ^
-
-
-======================================================================
-ERROR [0.011s]: test_get_rf_c2822__local (__main__.TestTimeFunctions)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "./test_lib_timeConversion.py", line 104, in test_get_rf_c2822__local
-    self.assertEqual(rfc_2822_local, getRFC2822_Local(now))
-AssertionError: 'Fri, 16 Feb 2018 01:44:00 -0600' != 'Fri, 16 Feb 2018 07:44:00 +0000'
-- Fri, 16 Feb 2018 01:44:00 -0600
-?                   ^       ^ ^
-+ Fri, 16 Feb 2018 07:44:00 +0000
-?                   ^       ^ ^
-
-
-======================================================================
-ERROR [0.002s]: test_get_t_zval (__main__.TestTimeFunctions)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "./test_lib_timeConversion.py", line 127, in test_get_t_zval
-    self.assertNotEqual(getTZval(now), getTZval(now_dst))
-AssertionError: 0 == 0
-
-======================================================================
-ERROR [0.009s]: test_get_time_in_format (__main__.TestTimeFunctions)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "./test_lib_timeConversion.py", line 122, in test_get_time_in_format
-    self.assertEqual(rfc_2822_local, get_time_in_format(now, time_format))
-AssertionError: 'Fri, 16 Feb 2018 01:44:00 -0600' != 'Fri, 16 Feb 2018 07:44:00 -0600'
-- Fri, 16 Feb 2018 01:44:00 -0600
-?                   ^
-+ Fri, 16 Feb 2018 07:44:00 -0600
-?                   ^
-
-
-----------------------------------------------------------------------
-Ran 16 tests in 2.494s
-
-FAILED (errors=6)
+OK
 
 Generating XML reports...
-Tue May  7 18:18:54 UTC 2019 ERROR: ./test_lib_timeConversion.py failed with non zero exit code (1)
 TESTING ==========> ./test_lib_x509Support.py
 
 Running tests...
 ----------------------------------------------------------------------
 .
 ----------------------------------------------------------------------
-Ran 1 test in 0.033s
+Ran 1 test in 0.030s
 
 OK
 
@@ -462,7 +378,7 @@ Running tests...
 ----------------------------------------------------------------------
 .................
 ----------------------------------------------------------------------
-Ran 17 tests in 0.084s
+Ran 17 tests in 0.116s
 
 OK
 
@@ -475,7 +391,7 @@ Running tests...
   self.config = yaml.load(file(config_file, 'r'))
 ....
 ----------------------------------------------------------------------
-Ran 4 tests in 567.450s
+Ran 4 tests in 576.636s
 
 OK
 
@@ -497,31 +413,9 @@ Running tests...
 ----------------------------------------------------------------------
 ..
 ----------------------------------------------------------------------
-Ran 2 tests in 0.041s
+Ran 2 tests in 0.042s
 
 OK
-
-Generating XML reports...
-TESTING ==========> ./test_creation_lib_cgWParamDict.py
-
-Running tests...
-----------------------------------------------------------------------
-SSSSSS.......SSSSSSSS
-----------------------------------------------------------------------
-Ran 21 tests in 3.785s
-
-OK (skipped=14)
-
-Generating XML reports...
-TESTING ==========> ./test_creation_lib_cvWParamDict.py
-
-Running tests...
-----------------------------------------------------------------------
-SS..S.SSS....S.SSSSS
-----------------------------------------------------------------------
-Ran 20 tests in 1.568s
-
-OK (skipped=12)
 
 Generating XML reports...
 TESTING ==========> ./test_util.py

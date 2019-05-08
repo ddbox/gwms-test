@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="TestInitFactoryStatsArr-20190508075603" tests="1" time="0.000">
+	<testcase classname="TestInitFactoryStatsArr" name="test_init_factory_stats_arr" time="0.000">
+		<skipped message="grr" type="skip"/>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

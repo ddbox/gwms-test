@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="TestSummarySHA1DictFile-20190508075542" tests="5" time="0.008">
+	<testcase classname="TestSummarySHA1DictFile" name="test_add" time="0.001"/>
+	<testcase classname="TestSummarySHA1DictFile" name="test_add_from_file" time="0.001"/>
+	<testcase classname="TestSummarySHA1DictFile" name="test_format_val" time="0.001"/>
+	<testcase classname="TestSummarySHA1DictFile" name="test_init" time="0.001"/>
+	<testcase classname="TestSummarySHA1DictFile" name="test_parse_val" time="0.003"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
