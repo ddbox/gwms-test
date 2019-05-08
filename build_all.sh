@@ -1,4 +1,5 @@
 #!/bin/bash
+#a script to build all the flavors
 if [ "$builder" = "" ];then
     builder=$(whoami)
 fi
