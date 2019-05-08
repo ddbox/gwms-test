@@ -7,7 +7,9 @@ ENV TEST_DIR /test_dir
 
 #RUN rpm -Uvh https://repo.opensciencegrid.org/osg/3.4/osg-3.4-el${rel}-release-latest.rpm
 #RUN yum -y -q update &&  yum -y -q install osg-ca-certs
-RUN for PKG in javascriptrrd m2crypto openssl findutils which file git tzdata; do yum -y -q install $PKG; done 
+RUN for PKG in epel ipc javascriptrrd m2crypto openssl findutils which file git tzdata rpm-build mock; do echo $PKG; yum -y -q install $PKG || true ; done 
+RUN for PKG in epel ipc javascriptrrd m2crypto openssl findutils which file git tzdata rpm-build mock; do echo $PKG; yum -y -q reinstall $PKG || true ; done 
+#RUN for PKG in epel javascriptrrd m2crypto openssl findutils which file git tzdata ; do echo installing-->$PKG; yum -y -q install $PKG; done 
 RUN yum -y reinstall tzdata
 RUN mkdir -p $TEST_DIR/output
 
@@ -25,6 +27,7 @@ COPY help            /usr/local/bin/help
 COPY run_pylint      /usr/local/bin/run_gwms_pylint
 COPY run_pylint      /usr/local/bin
 COPY run_futurize    /usr/local/bin
+COPY build_rpms      /usr/local/bin
 COPY slow_tests      $TEST_DIR/slow_test_list
 COPY jenkins_scripts $TEST_DIR/jenkins_scripts
 

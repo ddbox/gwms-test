@@ -12,5 +12,6 @@ echo "      setup_test_env <branch>:  checkout & prep <branch> for the following
 echo "   run_gwms_coverage <branch>:  run a full coverage test on <branch>"
 echo "     run_gwms_pylint <branch>:  run pylint and pycodestyle on <branch>"
 echo "        run_futurize <branch>:  run futurize on <branch>"
+echo "          build_rpms <branch>:  test build the rpms for <branch>"
 echo
 

@@ -1,0 +1,29 @@
+#!/bin/sh
+cd "$TEST_DIR/$PROJECT"
+if [ "$1" = "" ]; then
+    branch="master"
+else
+    branch=$1
+fi
+
+thisbranch=$(git branch | grep '\*' | awk '{print $2}')
+
+if [ "$thisbranch" != "$branch" ]; then
+    echo "want to run $0 on $branch but $thisbranch is checked out"
+    echo "set_test_env '$branch' must be run prior to this job"
+    exit 1
+fi
+
+
+cd "$TEST_DIR"
+which coverage > /dev/null 2>&1
+if [ $? -ne 0 ]; then
+    . "$VIRTUAL_ENV"/bin/activate
+fi
+thisbranch=$(echo "$branch"| sed -e 's/\//_/g')`
+branch_dir=/test_dir/output/${thisbranch}
+rel=${thisbranch}.`date +%s`
+glideinwms/build/ReleaseManager/release.py --release-version $rel \
+        --source-dir=$TEST_DIR/glideinwms  --release-dir=/var/tmp/$thisbranch --rpm-release=1 \
+        --rpm-version=$rel | tee ${branch_dir}.rpm.log
+
