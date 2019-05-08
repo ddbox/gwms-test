@@ -8,7 +8,7 @@ ENV TEST_DIR /test_dir
 #RUN rpm -Uvh https://repo.opensciencegrid.org/osg/3.4/osg-3.4-el${rel}-release-latest.rpm
 #RUN yum -y -q update &&  yum -y -q install osg-ca-certs
 RUN for PKG in javascriptrrd m2crypto openssl findutils which file git tzdata; do yum -y -q install $PKG; done 
-
+RUN yum -y reinstall tzdata
 RUN mkdir -p $TEST_DIR/output
 
 
@@ -30,7 +30,7 @@ COPY jenkins_scripts $TEST_DIR/jenkins_scripts
 
 
 # set up code repo
-RUN cd $TEST_DIR && git clone https://github.com/glideinWMS/glideinwms.git && cd $TEST_DIR/glideinwms && git checkout master_ci && cd $TEST_DIR  && source glideinwms/build/jenkins/utils.sh && setup_python_venv 
+RUN cd $TEST_DIR && git clone https://github.com/glideinWMS/glideinwms.git && cd $TEST_DIR/glideinwms && git checkout dbox_ci && cd $TEST_DIR  && source glideinwms/build/jenkins/utils.sh && setup_python_venv 
 
 # env vars needed by unit test scripts
 RUN cd /root && echo ". $TEST_DIR/venv-2.${rel}/bin/activate" >> .bashrc
