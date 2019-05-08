@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="TestGlideinTotals-20190508124515" tests="9" time="0.000">
+	<testcase classname="TestGlideinTotals" name="test___init__" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<testcase classname="TestGlideinTotals" name="test___str__" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<testcase classname="TestGlideinTotals" name="test_add_idle_glideins" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<testcase classname="TestGlideinTotals" name="test_can_add_idle_glideins" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<testcase classname="TestGlideinTotals" name="test_get_max_held" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<testcase classname="TestGlideinTotals" name="test_has_entry_exceeded_max_glideins" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<testcase classname="TestGlideinTotals" name="test_has_entry_exceeded_max_held" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<testcase classname="TestGlideinTotals" name="test_has_entry_exceeded_max_idle" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<testcase classname="TestGlideinTotals" name="test_has_sec_class_exceeded_max_held" time="0.000">
+		<skipped message="for now" type="skip"/>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
