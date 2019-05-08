@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="TestLogSupport-20190508124639" tests="4" time="170.594">
+	<testcase classname="TestLogSupport" name="test_backup_count" time="36.106"/>
+	<testcase classname="TestLogSupport" name="test_logSupport_compression" time="37.817"/>
+	<testcase classname="TestLogSupport" name="test_logSupport_size_rotate" time="4.485"/>
+	<testcase classname="TestLogSupport" name="test_logSupport_time_rotate" time="92.187"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[./test_logSupport.py:35: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  self.config = yaml.load(file(config_file, 'r'))
+]]>	</system-err>
+</testsuite>
