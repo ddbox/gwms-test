@@ -6,7 +6,7 @@ try() { echo "$@"; "$@" || die "FAILED $*"; }
 try cd "$TEST_DIR/$PROJECT"
 try git clean -f -d
 try git pull
-ci_branch="master_ci"
+ci_branch="dbox_ci"
 if [ "$1" = "" ]; then
     branch="$master"
 else
