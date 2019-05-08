@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="TestEntrySetElement-20190508081753" tests="2" time="0.060">
+	<testcase classname="TestEntrySetElement" name="test_validate_entries" time="0.029"/>
+	<testcase classname="TestEntrySetElement" name="test_validate_entry_sets" time="0.031"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

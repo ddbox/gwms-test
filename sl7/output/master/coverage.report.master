@@ -111,7 +111,7 @@ Name                                                                Stmts   Miss
 /test_dir/glideinwms/lib/subprocessSupport.py                          53     23    57%
 /test_dir/glideinwms/lib/symCrypto.py                                 138     21    85%
 /test_dir/glideinwms/lib/tarSupport.py                                 48      4    92%
-/test_dir/glideinwms/lib/timeConversion.py                             57      9    84%
+/test_dir/glideinwms/lib/timeConversion.py                             57      8    86%
 /test_dir/glideinwms/lib/util.py                                      124     68    45%
 /test_dir/glideinwms/lib/x509Support.py                                21      4    81%
 /test_dir/glideinwms/lib/xmlFormat.py                                 444    258    42%
@@ -132,4 +132,4 @@ Name                                                                Stmts   Miss
 __init__.py                                                             0      0   100%
 unittest_utils.py                                                      84     38    55%
 ---------------------------------------------------------------------------------------
-TOTAL                                                               25483  16983    33%
+TOTAL                                                               25483  16982    33%
