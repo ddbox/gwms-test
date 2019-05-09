@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="FETestCaseCondorStatus-20190509181706" tests="9" time="2.433">
+	<testcase classname="FETestCaseCondorStatus" name="test_countCondorStatus" time="0.223"/>
+	<testcase classname="FETestCaseCondorStatus" name="test_getClientCondorStatus" time="0.228"/>
+	<testcase classname="FETestCaseCondorStatus" name="test_getClientCondorStatusCredIdOnly" time="0.225"/>
+	<testcase classname="FETestCaseCondorStatus" name="test_getClientCondorStatusPerCredId" time="0.235"/>
+	<testcase classname="FETestCaseCondorStatus" name="test_getCondorStatus" time="0.428"/>
+	<testcase classname="FETestCaseCondorStatus" name="test_getCondorStatusSchedds" time="0.313"/>
+	<testcase classname="FETestCaseCondorStatus" name="test_getFactoryEntryList" time="0.261"/>
+	<testcase classname="FETestCaseCondorStatus" name="test_getIdleCondorStatus" time="0.244"/>
+	<testcase classname="FETestCaseCondorStatus" name="test_getRunningCondorStatus" time="0.275"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

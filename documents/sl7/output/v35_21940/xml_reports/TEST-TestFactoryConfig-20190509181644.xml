@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="TestFactoryConfig-20190509181644" tests="14" time="0.532">
+	<testcase classname="TestFactoryConfig" name="test__contains__" time="0.032"/>
+	<testcase classname="TestFactoryConfig" name="test__init__" time="0.028"/>
+	<testcase classname="TestFactoryConfig" name="test_backup_and_load_old_key" time="0.031"/>
+	<testcase classname="TestFactoryConfig" name="test_backup_rsa_key" time="0.030"/>
+	<testcase classname="TestFactoryConfig" name="test_get_all_frontend_sec_classes" time="0.024"/>
+	<testcase classname="TestFactoryConfig" name="test_get_all_usernames" time="0.027"/>
+	<testcase classname="TestFactoryConfig" name="test_get_frontend_name" time="0.028"/>
+	<testcase classname="TestFactoryConfig" name="test_get_identity" time="0.027"/>
+	<testcase classname="TestFactoryConfig" name="test_get_username" time="0.027"/>
+	<testcase classname="TestFactoryConfig" name="test_has_key" time="0.027"/>
+	<testcase classname="TestFactoryConfig" name="test_load_old_rsa_key" time="0.028"/>
+	<testcase classname="TestFactoryConfig" name="test_load_pub_key" time="0.168"/>
+	<testcase classname="TestFactoryConfig" name="test_remove_old_key" time="0.029"/>
+	<testcase classname="TestFactoryConfig" name="test_str_" time="0.028"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

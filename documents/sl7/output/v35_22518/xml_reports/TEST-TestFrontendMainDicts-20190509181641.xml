@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="TestFrontendMainDicts-20190509181641" tests="10" time="0.184">
+	<testcase classname="TestFrontendMainDicts" name="test__init__" time="0.031"/>
+	<testcase classname="TestFrontendMainDicts" name="test_find_parend_dir" time="0.030"/>
+	<testcase classname="TestFrontendMainDicts" name="test_populate" time="0.039"/>
+	<testcase classname="TestFrontendMainDicts" name="test_populate_common_attrs" time="0.027"/>
+	<testcase classname="TestFrontendMainDicts" name="test_reuse" time="0.029"/>
+	<testcase classname="TestFrontendMainDicts" name="test_save_monitor" time="0.028"/>
+	<testcase classname="TestFrontendMainDicts" name="test_apply_group_glexec_policy" time="0.000">
+		<skipped message="hmm" type="skip"/>
+	</testcase>
+	<testcase classname="TestFrontendMainDicts" name="test_apply_group_singularity_policy" time="0.000">
+		<skipped message="hmm" type="skip"/>
+	</testcase>
+	<testcase classname="TestFrontendMainDicts" name="test_apply_multicore_policy" time="0.000">
+		<skipped message="hmm" type="skip"/>
+	</testcase>
+	<testcase classname="TestFrontendMainDicts" name="test_save" time="0.000">
+		<skipped message="hmm" type="skip"/>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

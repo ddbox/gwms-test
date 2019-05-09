@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="FETestCaseMisc-20190509181706" tests="5" time="1.216">
+	<testcase classname="FETestCaseMisc" name="test_appendRealRunning" time="0.253"/>
+	<testcase classname="FETestCaseMisc" name="test_evalParamExpr" time="0.249"/>
+	<testcase classname="FETestCaseMisc" name="test_getGlideinCpusNum" time="0.237"/>
+	<testcase classname="FETestCaseMisc" name="test_hashJob" time="0.257"/>
+	<testcase classname="FETestCaseMisc" name="test_uniqueSets" time="0.220"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

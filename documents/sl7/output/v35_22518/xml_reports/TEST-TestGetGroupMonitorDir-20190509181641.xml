@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="TestGetGroupMonitorDir-20190509181641" tests="1" time="0.000">
+	<testcase classname="TestGetGroupMonitorDir" name="test_get_group_monitor_dir" time="0.000"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
