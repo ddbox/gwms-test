@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="TestGlideinEntryDicts-20190514191424" tests="11" time="2.122">
+	<testcase classname="TestGlideinEntryDicts" name="test___init__" time="0.248"/>
+	<testcase classname="TestGlideinEntryDicts" name="test_get_sub_dicts" time="0.242"/>
+	<testcase classname="TestGlideinEntryDicts" name="test_get_sub_log_dir" time="0.220"/>
+	<testcase classname="TestGlideinEntryDicts" name="test_get_sub_stage_dir" time="0.217"/>
+	<testcase classname="TestGlideinEntryDicts" name="test_get_sub_work_dir" time="0.215"/>
+	<testcase classname="TestGlideinEntryDicts" name="test_reuse" time="0.232"/>
+	<testcase classname="TestGlideinEntryDicts" name="test_reuse_nocheck" time="0.231"/>
+	<testcase classname="TestGlideinEntryDicts" name="test_save" time="0.293"/>
+	<testcase classname="TestGlideinEntryDicts" name="test_save_final" time="0.224"/>
+	<testcase classname="TestGlideinEntryDicts" name="test_erase" time="0.000">
+		<skipped message="broken af" type="skip"/>
+	</testcase>
+	<testcase classname="TestGlideinEntryDicts" name="test_load" time="0.000">
+		<skipped message="doesnt work" type="skip"/>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
