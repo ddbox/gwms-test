@@ -11,7 +11,6 @@ RUN for PKG in epel ipc javascriptrrd m2crypto openssl findutils which file git 
 RUN for PKG in epel ipc javascriptrrd m2crypto openssl findutils which file git tzdata rpm-build mock; do echo $PKG; yum -y -q reinstall $PKG || true ; done 
 #RUN for PKG in epel javascriptrrd m2crypto openssl findutils which file git tzdata ; do echo installing-->$PKG; yum -y -q install $PKG; done 
 RUN yum -y reinstall tzdata
-RUN mkdir -p $TEST_DIR/output
 
 
 #the test/lint remote commands
@@ -29,11 +28,10 @@ COPY run_pylint      /usr/local/bin
 COPY run_futurize    /usr/local/bin
 COPY build_rpms      /usr/local/bin
 COPY slow_tests      $TEST_DIR/slow_test_list
-COPY jenkins_scripts $TEST_DIR/jenkins_scripts
 
 
 # set up code repo
-RUN cd $TEST_DIR && git clone https://github.com/glideinWMS/glideinwms.git && cd $TEST_DIR/glideinwms && git checkout dbox_ci && cd $TEST_DIR  && source glideinwms/build/jenkins/utils.sh && setup_python_venv 
+#RUN cd $TEST_DIR && git clone https://github.com/glideinWMS/glideinwms.git && cd $TEST_DIR/glideinwms && git checkout dbox_ci && cd $TEST_DIR  && source glideinwms/build/jenkins/utils.sh && setup_python_venv 
 
 # env vars needed by unit test scripts
 RUN cd /root && echo ". $TEST_DIR/venv-2.${rel}/bin/activate" >> .bashrc
