@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="TestOrderedDict-20190514191727" tests="11" time="0.075">
+	<testcase classname="TestOrderedDict" name="test___delitem__" time="0.007"/>
+	<testcase classname="TestOrderedDict" name="test___init__" time="0.007"/>
+	<testcase classname="TestOrderedDict" name="test___setitem__" time="0.006"/>
+	<testcase classname="TestOrderedDict" name="test_clear" time="0.007"/>
+	<testcase classname="TestOrderedDict" name="test_copy" time="0.007"/>
+	<testcase classname="TestOrderedDict" name="test_items" time="0.007"/>
+	<testcase classname="TestOrderedDict" name="test_keys" time="0.007"/>
+	<testcase classname="TestOrderedDict" name="test_popitem" time="0.007"/>
+	<testcase classname="TestOrderedDict" name="test_setdefault" time="0.008"/>
+	<testcase classname="TestOrderedDict" name="test_update" time="0.007"/>
+	<testcase classname="TestOrderedDict" name="test_values" time="0.007"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

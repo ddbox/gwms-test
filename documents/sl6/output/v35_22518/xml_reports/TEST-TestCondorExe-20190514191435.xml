@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="TestCondorExe-20190514191435" tests="3" time="3.399">
+	<testcase classname="TestCondorExe" name="test_exe_cmd" time="1.153"/>
+	<testcase classname="TestCondorExe" name="test_exe_cmd_sbin" time="1.145"/>
+	<testcase classname="TestCondorExe" name="test_iexe_cmd" time="1.100"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

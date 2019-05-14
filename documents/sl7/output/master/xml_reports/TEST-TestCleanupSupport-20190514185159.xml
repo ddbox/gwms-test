@@ -1,8 +1,0 @@
-<?xml version="1.0" ?>
-<testsuite errors="0" failures="0" name="TestCleanupSupport-20190514185159" tests="1" time="0.011">
-	<testcase classname="TestCleanupSupport" name="test_PrivsepDirCleanupWSpace" time="0.011"/>
-	<system-out>
-<![CDATA[]]>	</system-out>
-	<system-err>
-<![CDATA[]]>	</system-err>
-</testsuite>
