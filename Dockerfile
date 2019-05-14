@@ -34,8 +34,8 @@ COPY slow_tests      $TEST_DIR/slow_test_list
 #RUN cd $TEST_DIR && git clone https://github.com/glideinWMS/glideinwms.git && cd $TEST_DIR/glideinwms && git checkout dbox_ci && cd $TEST_DIR  && source glideinwms/build/jenkins/utils.sh && setup_python_venv 
 
 # env vars needed by unit test scripts
-RUN cd /root && echo ". $TEST_DIR/venv-2.${rel}/bin/activate" >> .bashrc
-RUN cd /root && echo ". $TEST_DIR/venv-2.${rel}/bin/activate" >> .bash_profile
+RUN cd /root && echo "test -f $TEST_DIR/venv-2.${rel}/bin/activate && . $TEST_DIR/venv-2.${rel}/bin/activate" >> .bashrc
+RUN cd /root && echo "test -f $TEST_DIR/venv-2.${rel}/bin/activate && . $TEST_DIR/venv-2.${rel}/bin/activate" >> .bash_profile
 ENV VIRTUAL_ENV=$TEST_DIR/venv-2.${rel}
 ENV PYTHONPATH=$TEST_DIR
 ENV PROJECT=glideinwms

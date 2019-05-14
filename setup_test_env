@@ -16,11 +16,10 @@ else
     branch=$1
 fi
 try git checkout -f  "$ci_branch"
-cd build/jenkins
+try cd "$TEST_DIR/$PROJECT/build/jenkins"
 FILES=*
 try git checkout -f "$branch"
 if [ "$branch" != "$ci_branch" ]; then
-  try cd build/jenkins
   for F in $FILES; do
     try git checkout -f "$ci_branch" "$F"
   done
