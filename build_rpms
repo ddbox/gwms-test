@@ -20,9 +20,9 @@ which coverage > /dev/null 2>&1
 if [ $? -ne 0 ]; then
     . "$VIRTUAL_ENV"/bin/activate
 fi
-thisbranch=$(echo "$branch"| sed -e 's/\//_/g')`
+thisbranch=$(echo "$branch"| sed -e 's/\//_/g')
 branch_dir=/test_dir/output/${thisbranch}
-rel=${thisbranch}.`date +%s`
+rel=${thisbranch}.$(date +%s)
 glideinwms/build/ReleaseManager/release.py --release-version $rel \
         --source-dir=$TEST_DIR/glideinwms  --release-dir=/var/tmp/$thisbranch --rpm-release=1 \
         --rpm-version=$rel | tee ${branch_dir}.rpm.log

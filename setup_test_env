@@ -1,4 +1,8 @@
 #!/bin/bash
+# file: setup_test_env
+# purpose: set up a glideinwms branch "$1" for lint and unit tests
+# author: Dennis Box, dbox@fnal.gov
+
 yell() { echo "$0: $*" >&2; }
 die() { yell "$*"; exit 111; }
 try() { echo "$@"; "$@" || die "FAILED $*"; }
@@ -11,7 +15,7 @@ try git clone https://github.com/glideinWMS/glideinwms.git
 try cd "$PROJECT"
 ci_branch="dbox_ci"
 if [ "$1" = "" ]; then
-    branch="$master"
+    branch="master"
 else
     branch=$1
 fi
@@ -24,6 +28,6 @@ if [ "$branch" != "$ci_branch" ]; then
     try git checkout -f "$ci_branch" "$F"
   done
 fi
-try cd $TEST_DIR
-source glideinwms/build/jenkins/utils.sh
+cd $TEST_DIR
+try source "$TEST_DIR/$PROJECT/build/jenkins/utils.sh"
 setup_python_venv
