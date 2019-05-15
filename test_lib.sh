@@ -14,7 +14,10 @@ checkout_branch() {
         git clone https://github.com/glideinWMS/glideinwms.git
     fi
     cd $PDIR
-    git checkout -f $branch
+    currbranch=$(thisbranch)
+    if [ "$branch" != "$currbranch" ]; then
+        git checkout -f $branch
+    fi
 } 
 
 thisbranch() {
@@ -25,7 +28,7 @@ prep_branch() {
     ci_br=$1
     orig=$(thisbranch)
     if [ "x$ci_br" = "x" ]; then
-        ci_br=dbox_ci
+        ci_br='origin/dbox_ci'
     fi
     cd "$TEST_DIR/$PROJECT"/build/jenkins
     FILES=*
@@ -35,8 +38,8 @@ prep_branch() {
 }
 
 prep_venv () {
-    if ! test -d "$TEST_DIR/$PROJECT" ; then
-        checkout_branch
+    if ! test -f "$TEST_DIR/$PROJECT/LICENSE" ; then
+        checkout_branch master
     fi
 
     if ! test -f "$TEST_DIR/$VIRTUAL_ENV"/bin/activate ; then

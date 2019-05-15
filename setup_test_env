@@ -5,24 +5,20 @@
 
 . /usr/local/lib/test_lib.sh
 
-ci_branch="dbox_ci"
+ci_branch='origin/dbox_ci'
 if [ "$1" = "" ]; then
     branch="master"
 else
     branch=$1
 fi
 
-if ! test -d "$TEST_DIR/$PROJECT" ; then
-    checkout_branch $branch
-    prep_branch $ci_branch
-fi
+checkout_branch $branch
+prep_branch $ci_branch
 
 if ! test -f $TEST_DIR/venv-2.${rel}/bin/activate ; then
-    cd "$TEST_DIR"
-    . "$TEST_DIR/$PROJECT/build/jenkins/utils.sh"
-    setup_python_venv
+    prep_venv
+    source ~/.bashrc
 fi
 cd $TEST_DIR
 rm -rf output || true
 mkdir -p output
-. $TEST_DIR/venv-2.${rel}/bin/activate 
