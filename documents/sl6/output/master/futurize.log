@@ -14,7 +14,7 @@ Running on local files in glideinwms subdirectory (LOCAL)
 Now running test
 
 
-There are 1 files that need to be refactered
+There are 1 files that need to be refactored
 ERROR: Futurize CRASHED while analyzing branch LOCAL
 More than 1 files may need to be refactored
 
