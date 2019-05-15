@@ -60,7 +60,7 @@ Name                                                                Stmts   Miss
 /test_dir/glideinwms/frontend/glideinFrontendDowntimeLib.py           142    124    13%
 /test_dir/glideinwms/frontend/glideinFrontendElement.py               907    755    17%
 /test_dir/glideinwms/frontend/glideinFrontendInterface.py             821    654    20%
-/test_dir/glideinwms/frontend/glideinFrontendLib.py                   594    122    79%
+/test_dir/glideinwms/frontend/glideinFrontendLib.py                   609    135    78%
 /test_dir/glideinwms/frontend/glideinFrontendMonitorAggregator.py     199    199     0%
 /test_dir/glideinwms/frontend/glideinFrontendMonitoring.py            364    312    14%
 /test_dir/glideinwms/frontend/glideinFrontendPidLib.py                 53     39    26%
@@ -130,6 +130,7 @@ Name                                                                Stmts   Miss
 /test_dir/glideinwms/tools/wmsTxtView.py                               67     67     0%
 /test_dir/glideinwms/tools/wmsXMLView.py                              102    102     0%
 __init__.py                                                             0      0   100%
+profile_frontend.py                                                    50     50     0%
 test_cleanupSupport.py                                                 50      0   100%
 test_condorExe.py                                                      46      6    87%
 test_creation_lib_cWDictFile_DictFile.py                              153      7    95%
@@ -168,4 +169,4 @@ test_tarSupport.py                                                     93      2
 test_util.py                                                           19      0   100%
 unittest_utils.py                                                      84     38    55%
 ---------------------------------------------------------------------------------------
-TOTAL                                                               29197  17240    41%
+TOTAL                                                               29262  17303    41%

@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="TestGlideinDicts-20190515141201" tests="7" time="1.304">
+	<testcase classname="TestGlideinDicts" name="test_MainDicts_populate" time="0.231"/>
+	<testcase classname="TestGlideinDicts" name="test__init__" time="0.154"/>
+	<testcase classname="TestGlideinDicts" name="test_new_MainDicts" time="0.125"/>
+	<testcase classname="TestGlideinDicts" name="test_new_SubDicts" time="0.148"/>
+	<testcase classname="TestGlideinDicts" name="test_save" time="0.336"/>
+	<testcase classname="TestGlideinDicts" name="test_save_monitor" time="0.152"/>
+	<testcase classname="TestGlideinDicts" name="test_save_pub_key" time="0.157"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
