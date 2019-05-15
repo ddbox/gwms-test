@@ -1,26 +1,31 @@
 #!/bin/sh
-cd "$TEST_DIR/$PROJECT"
+. /usr/local/lib/test_lib.sh
+
 if [ "$1" = "" ]; then
     branch="master"
 else
     branch=$1
 fi
 
-thisbranch=$(git branch | grep '\*' | awk '{print $2}')
+checkout_branch "$branch"
+prep_branch 
+try cd "$TEST_DIR/$PROJECT"
 
-if [ "$thisbranch" != "$branch" ]; then
-    echo "want to run $0 on $branch but $thisbranch is checked out"
+mybranch=$(thisbranch)
+
+if [ "$mybranch" != "$branch" ]; then
+    echo "want to run $0 on $branch but $mybranch is checked out"
     echo "set_test_env '$branch' must be run prior to this job"
     exit 1
 fi
 
 
-cd "$TEST_DIR"
-which coverage > /dev/null 2>&1
-if [ $? -ne 0 ]; then
+try cd "$TEST_DIR"
+if ! test -f "$VIRTUAL_ENV"/bin/activate; then
+    prep_venv
     . "$VIRTUAL_ENV"/bin/activate
 fi
-branch_dir=/test_dir/output/$(echo "$branch"| sed -e 's/\//_/g')
+branch_dir=${TEST_DIR}/output/$(echo "$branch"| sed -e 's/\//_/g')
 mkdir -p  "$branch_dir/xml_reports"
 /bin/bash  ./glideinwms/build/jenkins/run_unittests.sh -ac 2>&1 | tee "$branch_dir"/unit_test.log
 mv ./glideinwms/unittests/unittests-reports/* "$branch_dir/xml_reports"

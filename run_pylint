@@ -1,24 +1,31 @@
 #!/bin/bash
-cd "$TEST_DIR"/"$PROJECT"
+. /usr/local/lib/test_lib.sh
+
 if [ "$1" = "" ]; then
     branch="master"
 else
     branch=$1
 fi
-thisbranch=$(git branch | grep '\*' | awk '{print $2}')
 
-if [ "$thisbranch" != "$branch" ]; then
-    echo "want to run $0 on $branch but $thisbranch is checked out"
+checkout_branch "$branch"
+prep_branch
+
+try cd "$TEST_DIR"/"$PROJECT"
+
+mybranch=$(thisbranch)
+
+if [ "$mybranch" != "$branch" ]; then
+    echo "want to run $0 on $branch but $mybranch is checked out"
     echo "set_test_env '$branch' must be run prior to this job"
     exit 1
 fi
 
-cd "$TEST_DIR"
-which coverage > /dev/null 2>&1
-if [ $? -ne 0 ]; then
-   . "$VIRTUAL_ENV"/bin/activate
+try cd "$TEST_DIR"
+if ! test -f "${VIRTUAL_ENV}/bin/activate"; then
+    prep_venv
+    source "${VIRTUAL_ENV}/bin/activate"
 fi
-no_slash="$TEST_DIR"/output/$(echo "$branch"| sed -e 's/\//_/g')
+no_slash="${TEST_DIR}"/output/$(echo "$branch" | sed -e 's/\//_/g')
 mkdir -p "$no_slash"
-/bin/bash ./glideinwms/build/jenkins/run_pylint.sh 2>&1 | tee "$no_slash"/pylint.log
+/bin/bash ./glideinwms/build/jenkins/run_pylint.sh 2>&1 | tee "${no_slash}/pylint.log"
 mv ./*.log "$no_slash"

@@ -3,31 +3,26 @@
 # purpose: set up a glideinwms branch "$1" for lint and unit tests
 # author: Dennis Box, dbox@fnal.gov
 
-yell() { echo "$0: $*" >&2; }
-die() { yell "$*"; exit 111; }
-try() { echo "$@"; "$@" || die "FAILED $*"; }
+. /usr/local/lib/test_lib.sh
 
-try cd "$TEST_DIR"
-rm -rf output || true
-mkdir -p output
-rm -rf $PROJECT || true
-try git clone https://github.com/glideinWMS/glideinwms.git 
-try cd "$PROJECT"
 ci_branch="dbox_ci"
 if [ "$1" = "" ]; then
     branch="master"
 else
     branch=$1
 fi
-try git checkout -f  "$ci_branch"
-try cd "$TEST_DIR/$PROJECT/build/jenkins"
-FILES=*
-try git checkout -f "$branch"
-if [ "$branch" != "$ci_branch" ]; then
-  for F in $FILES; do
-    try git checkout -f "$ci_branch" "$F"
-  done
+
+if ! test -d "$TEST_DIR/$PROJECT" ; then
+    checkout_branch $branch
+    prep_branch $ci_branch
+fi
+
+if ! test -f $TEST_DIR/venv-2.${rel}/bin/activate ; then
+    cd "$TEST_DIR"
+    . "$TEST_DIR/$PROJECT/build/jenkins/utils.sh"
+    setup_python_venv
 fi
 cd $TEST_DIR
-try source "$TEST_DIR/$PROJECT/build/jenkins/utils.sh"
-setup_python_venv
+rm -rf output || true
+mkdir -p output
+. $TEST_DIR/venv-2.${rel}/bin/activate 

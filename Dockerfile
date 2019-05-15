@@ -5,10 +5,10 @@ ARG rel
 ENV rel ${rel} 
 ENV TEST_DIR /test_dir
 
-#RUN rpm -Uvh https://repo.opensciencegrid.org/osg/3.4/osg-3.4-el${rel}-release-latest.rpm
+RUN rpm -Uvh https://repo.opensciencegrid.org/osg/3.4/osg-3.4-el${rel}-release-latest.rpm
 #RUN yum -y -q update &&  yum -y -q install osg-ca-certs
-RUN for PKG in epel epel-release ipc javascriptrrd m2crypto openssl findutils which file git tzdata rpm-build mock; do echo $PKG; yum -y -q install $PKG || true ; done 
-RUN for PKG in epel epel-release ipc javascriptrrd m2crypto openssl findutils which file git tzdata rpm-build mock; do echo $PKG; yum -y -q reinstall $PKG || true ; done 
+RUN for PKG in epel-release ipc javascriptrrd m2crypto openssl findutils which file git tzdata rpm-build mock; do echo $PKG; yum -y -q install $PKG || true ; done 
+RUN for PKG in epel-release ipc javascriptrrd m2crypto openssl findutils which file git tzdata rpm-build mock; do echo $PKG; yum -y -q reinstall $PKG || true ; done 
 #RUN for PKG in epel javascriptrrd m2crypto openssl findutils which file git tzdata ; do echo installing-->$PKG; yum -y -q install $PKG; done 
 RUN yum -y reinstall tzdata
 
@@ -27,6 +27,7 @@ COPY run_pylint      /usr/local/bin/run_gwms_pylint
 COPY run_pylint      /usr/local/bin
 COPY run_futurize    /usr/local/bin
 COPY build_rpms      /usr/local/bin
+COPY test_lib.sh     /usr/local/lib
 COPY slow_tests      $TEST_DIR/slow_test_list
 
 

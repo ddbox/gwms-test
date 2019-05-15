@@ -1,10 +1,15 @@
-#!/bin/sh
+#!/bin/sh 
+. /usr/local/lib/test_lib.sh
+
 if [ "$1" = "" ]; then
     this=$(basename "$0")
     echo "usage:  $this   n "
     echo "where n is number of days:"
     echo "returns a list of branches in the glideinwms repository that have changed in the last n days"
     exit 1
+fi
+if ! test -d  "$TEST_DIR/$PROJECT"; then
+    checkout_branch master > /dev/null 2>&1
 fi
 cd "$TEST_DIR/$PROJECT"
 git clean -f -d > /dev/null 2>&1
