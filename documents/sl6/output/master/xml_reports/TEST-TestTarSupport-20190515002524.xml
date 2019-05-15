@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="TestTarSupport-20190515002524" tests="2" time="0.086">
+	<testcase classname="TestTarSupport" name="test_tarSupport_blob" time="0.024"/>
+	<testcase classname="TestTarSupport" name="test_tarSupport_file" time="0.063"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

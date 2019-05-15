@@ -1,9 +1,0 @@
-<?xml version="1.0" ?>
-<testsuite errors="0" failures="0" name="TestSymBlowfishKey-20190514191644" tests="2" time="2.862">
-	<testcase classname="TestSymBlowfishKey" name="test___init__" time="0.001"/>
-	<testcase classname="TestSymBlowfishKey" name="test_symmetric" time="2.861"/>
-	<system-out>
-<![CDATA[]]>	</system-out>
-	<system-err>
-<![CDATA[]]>	</system-err>
-</testsuite>

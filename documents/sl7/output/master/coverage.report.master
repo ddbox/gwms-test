@@ -1,9 +1,3 @@
-test_creation_lib_cvWCreate.py   NoSource: No source for code: '/test_dir/glideinwms/unittests/test_creation_lib_cvWCreate.py'.
-Aborting report output, consider using -i.
-test_frontend_glideinFrontendConfig.py   NoSource: No source for code: '/test_dir/glideinwms/unittests/test_frontend_glideinFrontendConfig.py'.
-Aborting report output, consider using -i.
-test_frontend_glideinFrontendElement.py   NoSource: No source for code: '/test_dir/glideinwms/unittests/test_frontend_glideinFrontendElement.py'.
-Aborting report output, consider using -i.
 Name                                                                Stmts   Miss  Cover
 ---------------------------------------------------------------------------------------
 /test_dir/glideinwms/__init__.py                                        1      0   100%

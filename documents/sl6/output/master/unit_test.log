@@ -1,16 +1,3 @@
-find: `./fixtures/frontend/ccvd.fixture': No such file or directory
-find: `./fixtures/frontend/pipe_out.do_match': No such file or directory
-find: `./fixtures/frontend/pipe_out.iterate_one': No such file or directory
-find: `./fixtures/frontend/vofrontend/signatures.sha1': No such file or directory
-find: `./fixtures/frontend/web-area/stage/description.e98f4o.cfg': No such file or directory
-find: `./fixtures/frontend/web-area/stage/file_list.j4j7WK.lst': No such file or directory
-find: `./fixtures/frontend/web-area/stage/group_group1/description.e98f4o.cfg': No such file or directory
-find: `./fixtures/frontend/web-area/stage/group_group1/nodes.blacklist': No such file or directory
-find: `./fixtures/frontend/web-area/stage/group_group1/signature.j4j84x.sha1': No such file or directory
-find: `./fixtures/frontend/web-area/stage/signature.j4j84x.sha1': No such file or directory
-find: `./test_creation_lib_cvWCreate.py': No such file or directory
-find: `./test_frontend_glideinFrontendConfig.py': No such file or directory
-find: `./test_frontend_glideinFrontendElement.py': No such file or directory
 TESTING ==========> ./test_cleanupSupport.py
 
 Running tests...
@@ -18,7 +5,7 @@ Running tests...
 Removed 10 files for 0.00MB.
 .
 ----------------------------------------------------------------------
-Ran 1 test in 0.014s
+Ran 1 test in 0.024s
 
 OK
 
@@ -29,7 +16,7 @@ Running tests...
 ----------------------------------------------------------------------
 ...
 ----------------------------------------------------------------------
-Ran 3 tests in 2.787s
+Ran 3 tests in 2.715s
 
 OK
 
@@ -40,7 +27,7 @@ Running tests...
 ----------------------------------------------------------------------
 ....................
 ----------------------------------------------------------------------
-Ran 20 tests in 0.062s
+Ran 20 tests in 0.067s
 
 OK
 
@@ -51,7 +38,7 @@ Running tests...
 ----------------------------------------------------------------------
 .....................
 ----------------------------------------------------------------------
-Ran 21 tests in 0.062s
+Ran 21 tests in 0.059s
 
 OK
 
@@ -62,18 +49,7 @@ Running tests...
 ----------------------------------------------------------------------
 .....
 ----------------------------------------------------------------------
-Ran 5 tests in 0.008s
-
-OK
-
-Generating XML reports...
-TESTING ==========> ./test_creation_lib_cWDictFile_SHADicts.py
-
-Running tests...
-----------------------------------------------------------------------
-.........
-----------------------------------------------------------------------
-Ran 9 tests in 0.017s
+Ran 5 tests in 0.009s
 
 OK
 
@@ -84,7 +60,7 @@ Running tests...
 ----------------------------------------------------------------------
 ...
 ----------------------------------------------------------------------
-Ran 3 tests in 0.047s
+Ran 3 tests in 0.060s
 
 OK
 
@@ -106,20 +82,9 @@ Running tests...
 ----------------------------------------------------------------------
 SSS.....SSS...SSSSSSSSSSSS..SSSS.S....S.............S.......SSS...
 ----------------------------------------------------------------------
-Ran 66 tests in 3.955s
+Ran 66 tests in 3.836s
 
 OK (skipped=28)
-
-Generating XML reports...
-TESTING ==========> ./test_creation_lib_cgWParamDict.py
-
-Running tests...
-----------------------------------------------------------------------
-SSSSSS.......SSSSSSSS
-----------------------------------------------------------------------
-Ran 21 tests in 3.548s
-
-OK (skipped=14)
 
 Generating XML reports...
 TESTING ==========> ./test_creation_lib_cgWParams.py
@@ -128,7 +93,7 @@ Running tests...
 ----------------------------------------------------------------------
 ..........S
 ----------------------------------------------------------------------
-Ran 11 tests in 0.543s
+Ran 11 tests in 0.424s
 
 OK (skipped=1)
 
@@ -140,7 +105,7 @@ Running tests...
 ----------------------------------------------------------------------
 .......
 ----------------------------------------------------------------------
-Ran 7 tests in 0.011s
+Ran 7 tests in 0.008s
 
 OK
 
@@ -151,7 +116,7 @@ Running tests...
 ----------------------------------------------------------------------
 SS..S.SSS....S.SSSSS
 ----------------------------------------------------------------------
-Ran 20 tests in 2.031s
+Ran 20 tests in 1.641s
 
 OK (skipped=12)
 
@@ -162,7 +127,7 @@ Running tests...
 ----------------------------------------------------------------------
 ...................
 ----------------------------------------------------------------------
-Ran 19 tests in 0.749s
+Ran 19 tests in 0.572s
 
 OK
 
@@ -174,7 +139,7 @@ Running tests...
 ----------------------------------------------------------------------
 ...........................
 ----------------------------------------------------------------------
-Ran 27 tests in 8.713s
+Ran 27 tests in 5.751s
 
 OK
 
@@ -185,7 +150,7 @@ Running tests...
 ----------------------------------------------------------------------
 .....
 ----------------------------------------------------------------------
-Ran 5 tests in 0.024s
+Ran 5 tests in 0.018s
 
 OK
 
@@ -194,11 +159,11 @@ TESTING ==========> ./test_factory_glideFactoryConfig.py
 
 Running tests...
 ----------------------------------------------------------------------
-.......................................................................+++
-..........................................................+++
+..............+++
+......................+++
 ...
 ----------------------------------------------------------------------
-Ran 14 tests in 1.455s
+Ran 14 tests in 0.684s
 
 OK
 
@@ -209,7 +174,7 @@ Running tests...
 ----------------------------------------------------------------------
 S.SS.......SS...SSS.S.SS.SSS.S.S.SSSSSSS
 ----------------------------------------------------------------------
-Ran 40 tests in 5.226s
+Ran 40 tests in 3.040s
 
 OK (skipped=23)
 
@@ -220,7 +185,7 @@ Running tests...
 ----------------------------------------------------------------------
 SSS.SSSSSSSSSSSSSSSS.........S.........SSSSSSSSSSSSSSS.SSSSSSSSSSSS.SS.
 ----------------------------------------------------------------------
-Ran 71 tests in 0.119s
+Ran 71 tests in 0.072s
 
 OK (skipped=49)
 
@@ -240,18 +205,7 @@ Running glidein ids at ('submit.local', 'Site_Name1@v3_0@factory1', 'frontend@fa
 Running glidein ids at ('submit.local', 'Site_Name3@v3_0@factory1', 'frontend@factory1') (total glideins: 0, total jobs 0, cluster matches: 0): 
 ........
 ----------------------------------------------------------------------
-Ran 33 tests in 12.389s
-
-OK
-
-Generating XML reports...
-TESTING ==========> ./test_frontend_element.py
-
-Running tests...
-----------------------------------------------------------------------
-..
-----------------------------------------------------------------------
-Ran 2 tests in 0.141s
+Ran 33 tests in 7.570s
 
 OK
 
@@ -260,20 +214,29 @@ TESTING ==========> ./test_glideFactoryDowntimeLib.py
 
 Running tests...
 ----------------------------------------------------------------------
-.....
+F....
+======================================================================
+ERROR [0.160s]: test_downtimesfile (__main__.TestDowntimes)
 ----------------------------------------------------------------------
-Ran 5 tests in 0.193s
+Traceback (most recent call last):
+  File "./test_glideFactoryDowntimeLib.py", line 62, in test_downtimesfile
+    check_time=now + 1))
+AssertionError: True is not false
 
-OK
+----------------------------------------------------------------------
+Ran 5 tests in 0.214s
+
+FAILED (errors=1)
 
 Generating XML reports...
+Wed May 15 00:13:46 UTC 2019 ERROR: ./test_glideFactoryDowntimeLib.py failed with non zero exit code (1)
 TESTING ==========> ./test_glideinFrontendPlugins.py
 
 Running tests...
 ----------------------------------------------------------------------
 .....
 ----------------------------------------------------------------------
-Ran 5 tests in 0.202s
+Ran 5 tests in 0.120s
 
 OK
 
@@ -284,7 +247,7 @@ Running tests...
 ----------------------------------------------------------------------
 ....
 ----------------------------------------------------------------------
-Ran 4 tests in 4.500s
+Ran 4 tests in 3.220s
 
 OK
 
@@ -295,7 +258,7 @@ Running tests...
 ----------------------------------------------------------------------
 ...
 ----------------------------------------------------------------------
-Ran 3 tests in 0.485s
+Ran 3 tests in 0.325s
 
 OK
 
@@ -306,7 +269,7 @@ Running tests...
 ----------------------------------------------------------------------
 .............
 ----------------------------------------------------------------------
-Ran 13 tests in 72.317s
+Ran 13 tests in 72.174s
 
 OK
 
@@ -315,15 +278,15 @@ TESTING ==========> ./test_lib_pubCrypto.py
 
 Running tests...
 ----------------------------------------------------------------------
-.++++++
-....++++++
-.....++++++
-....++++++
-.........++++++
-...........................++++++
+....................++++++
+.............++++++
+.........................++++++
+...++++++
+.........................++++++
+......++++++
 .
 ----------------------------------------------------------------------
-Ran 3 tests in 0.066s
+Ran 3 tests in 0.092s
 
 OK
 
@@ -334,7 +297,7 @@ Running tests...
 ----------------------------------------------------------------------
 ..........
 ----------------------------------------------------------------------
-Ran 10 tests in 0.014s
+Ran 10 tests in 0.011s
 
 OK
 
@@ -345,7 +308,7 @@ Running tests...
 ----------------------------------------------------------------------
 .......S........
 ----------------------------------------------------------------------
-Ran 16 tests in 11.744s
+Ran 16 tests in 8.498s
 
 OK (skipped=1)
 
@@ -356,7 +319,7 @@ Running tests...
 ----------------------------------------------------------------------
 ................
 ----------------------------------------------------------------------
-Ran 16 tests in 3.333s
+Ran 16 tests in 2.484s
 
 OK
 
@@ -367,7 +330,7 @@ Running tests...
 ----------------------------------------------------------------------
 .
 ----------------------------------------------------------------------
-Ran 1 test in 0.034s
+Ran 1 test in 0.036s
 
 OK
 
@@ -378,7 +341,7 @@ Running tests...
 ----------------------------------------------------------------------
 .................
 ----------------------------------------------------------------------
-Ran 17 tests in 0.110s
+Ran 17 tests in 0.085s
 
 OK
 
@@ -391,7 +354,7 @@ Running tests...
   self.config = yaml.load(file(config_file, 'r'))
 ....
 ----------------------------------------------------------------------
-Ran 4 tests in 650.389s
+Ran 4 tests in 600.523s
 
 OK
 
@@ -413,7 +376,7 @@ Running tests...
 ----------------------------------------------------------------------
 ..
 ----------------------------------------------------------------------
-Ran 2 tests in 0.043s
+Ran 2 tests in 0.088s
 
 OK
 
@@ -429,6 +392,36 @@ Ran 1 test in 0.001s
 OK
 
 Generating XML reports...
-No source for code: '/test_dir/glideinwms/unittests/test_creation_lib_cvWCreate.py'.
-Aborting report output, consider using -i.
-coverage html report failed
+TESTING ==========> ./test_creation_lib_cWDictFile_SHADicts.py
+
+Running tests...
+----------------------------------------------------------------------
+.........
+----------------------------------------------------------------------
+Ran 9 tests in 0.017s
+
+OK
+
+Generating XML reports...
+TESTING ==========> ./test_creation_lib_cgWParamDict.py
+
+Running tests...
+----------------------------------------------------------------------
+SSSSSS.......SSSSSSSS
+----------------------------------------------------------------------
+Ran 21 tests in 3.693s
+
+OK (skipped=14)
+
+Generating XML reports...
+TESTING ==========> ./test_frontend_element.py
+
+Running tests...
+----------------------------------------------------------------------
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.151s
+
+OK
+
+Generating XML reports...
