@@ -1,0 +1,29 @@
+-----------------------
+Futurize Tests Starting
+-----------------------
+
+Python Environment Setup Start
+
+
+Python Environment Setup Complete
+
+
+Running on local files in glideinwms subdirectory (LOCAL)
+
+
+Now running test
+
+
+There are 1 files that need to be refactered
+ERROR: Futurize CRASHED while analyzing branch LOCAL
+More than 1 files may need to be refactored
+
+
+Complete with branch LOCAL (ec:301)
+
+
+Logs are in /test_dir/output/v3_22520/futurize
+
+-----------------------
+Futurize Tests Complete - Failed
+-----------------------

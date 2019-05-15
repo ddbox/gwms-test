@@ -1,0 +1,2 @@
+./glideinwms/build/jenkins/run_futurize.sh: line 194: futurize: command not found
+./glideinwms/build/jenkins/run_futurize.sh: line 210: futurize: command not found
