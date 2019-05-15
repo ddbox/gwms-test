@@ -1,8 +1,0 @@
-<?xml version="1.0" ?>
-<testsuite errors="0" failures="0" name="TestGetXMLAttributes-20190514191727" tests="1" time="0.003">
-	<testcase classname="TestGetXMLAttributes" name="test_get_xml_attributes" time="0.003"/>
-	<system-out>
-<![CDATA[]]>	</system-out>
-	<system-err>
-<![CDATA[]]>	</system-err>
-</testsuite>

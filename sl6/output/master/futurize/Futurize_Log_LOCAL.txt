@@ -129,7 +129,6 @@ RefactoringTool: No changes to ./unittests/test_creation_lib_cgWDictFile.py
 RefactoringTool: No changes to ./unittests/test_creation_lib_cgWParamDict.py
 RefactoringTool: No changes to ./unittests/test_creation_lib_cgWParams.py
 RefactoringTool: No changes to ./unittests/test_creation_lib_cvWConsts.py
-RefactoringTool: Can't open ./unittests/test_creation_lib_cvWCreate.py: [Errno 2] No such file or directory: './unittests/test_creation_lib_cvWCreate.py'
 RefactoringTool: No changes to ./unittests/test_creation_lib_cvWParamDict.py
 RefactoringTool: No changes to ./unittests/test_creation_lib_cvWParams.py
 RefactoringTool: No changes to ./unittests/test_creation_lib_factoryXmlConfig.py
@@ -138,8 +137,6 @@ RefactoringTool: No changes to ./unittests/test_factory_glideFactoryEntry.py
 RefactoringTool: No changes to ./unittests/test_factory_glideFactoryLib.py
 RefactoringTool: No changes to ./unittests/test_frontend.py
 RefactoringTool: No changes to ./unittests/test_frontend_element.py
-RefactoringTool: Can't open ./unittests/test_frontend_glideinFrontendConfig.py: [Errno 2] No such file or directory: './unittests/test_frontend_glideinFrontendConfig.py'
-RefactoringTool: Can't open ./unittests/test_frontend_glideinFrontendElement.py: [Errno 2] No such file or directory: './unittests/test_frontend_glideinFrontendElement.py'
 RefactoringTool: No changes to ./unittests/test_glideinFrontendPlugins.py
 RefactoringTool: No changes to ./unittests/test_lib_encodingSupport.py
 RefactoringTool: No changes to ./unittests/test_lib_exprParser.py
@@ -309,10 +306,6 @@ RefactoringTool: ./unittests/worker_scripts/log_writer.py
 RefactoringTool: ./unittests/worker_scripts/master_writer.py
 RefactoringTool: ./unittests/worker_scripts/write_exit_0.py
 RefactoringTool: ./unittests/worker_scripts/write_exit_1.py
-RefactoringTool: There were 3 errors:
-RefactoringTool: Can't open ./unittests/test_creation_lib_cvWCreate.py: [Errno 2] No such file or directory: './unittests/test_creation_lib_cvWCreate.py'
-RefactoringTool: Can't open ./unittests/test_frontend_glideinFrontendConfig.py: [Errno 2] No such file or directory: './unittests/test_frontend_glideinFrontendConfig.py'
-RefactoringTool: Can't open ./unittests/test_frontend_glideinFrontendElement.py: [Errno 2] No such file or directory: './unittests/test_frontend_glideinFrontendElement.py'
 WARNING: not writing files and not printing diffs; that's not very useful
 RefactoringTool: Skipping implicit fixer: idioms
 RefactoringTool: Skipping implicit fixer: ws_comma

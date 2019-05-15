@@ -1,9 +1,0 @@
-<?xml version="1.0" ?>
-<testsuite errors="0" failures="0" name="TestDescriptionDictFile-20190514191441" tests="2" time="0.003">
-	<testcase classname="TestDescriptionDictFile" name="test_format_val" time="0.002"/>
-	<testcase classname="TestDescriptionDictFile" name="test_parse_val" time="0.002"/>
-	<system-out>
-<![CDATA[]]>	</system-out>
-	<system-err>
-<![CDATA[]]>	</system-err>
-</testsuite>

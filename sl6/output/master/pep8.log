@@ -587,47 +587,6 @@ tools/manual_glidein_startup:227:19: W504 line break after binary operator
 ./factory/checkFactory.py:21:1: E402 module level import not at top of file
 ./factory/checkFactory.py:26:1: E722 do not use bare 'except'
 ./factory/checkFactory.py:32:1: W391 blank line at end of file
-./factory/glideFactory.py:36:1: E402 module level import not at top of file
-./factory/glideFactory.py:37:1: E402 module level import not at top of file
-./factory/glideFactory.py:38:1: E402 module level import not at top of file
-./factory/glideFactory.py:39:1: E402 module level import not at top of file
-./factory/glideFactory.py:40:1: E402 module level import not at top of file
-./factory/glideFactory.py:41:1: E402 module level import not at top of file
-./factory/glideFactory.py:42:1: E402 module level import not at top of file
-./factory/glideFactory.py:43:1: E402 module level import not at top of file
-./factory/glideFactory.py:44:1: E402 module level import not at top of file
-./factory/glideFactory.py:45:1: E402 module level import not at top of file
-./factory/glideFactory.py:46:1: E402 module level import not at top of file
-./factory/glideFactory.py:47:1: E402 module level import not at top of file
-./factory/glideFactory.py:48:1: E402 module level import not at top of file
-./factory/glideFactory.py:49:1: E402 module level import not at top of file
-./factory/glideFactory.py:65:5: E722 do not use bare 'except'
-./factory/glideFactory.py:70:5: E722 do not use bare 'except'
-./factory/glideFactory.py:75:5: E722 do not use bare 'except'
-./factory/glideFactory.py:144:16: W504 line break after binary operator
-./factory/glideFactory.py:145:16: W504 line break after binary operator
-./factory/glideFactory.py:337:5: E303 too many blank lines (2)
-./factory/glideFactory.py:360:14: E222 multiple spaces after operator
-./factory/glideFactory.py:369:13: E722 do not use bare 'except'
-./factory/glideFactory.py:374:5: E303 too many blank lines (3)
-./factory/glideFactory.py:377:64: E502 the backslash is redundant between brackets
-./factory/glideFactory.py:378:17: E128 continuation line under-indented for visual indent
-./factory/glideFactory.py:474:17: E722 do not use bare 'except'
-./factory/glideFactory.py:488:17: E722 do not use bare 'except'
-./factory/glideFactory.py:512:17: E722 do not use bare 'except'
-./factory/glideFactory.py:516:13: E303 too many blank lines (2)
-./factory/glideFactory.py:595:21: E123 closing bracket does not match indentation of opening bracket's line
-./factory/glideFactory.py:616:13: E722 do not use bare 'except'
-./factory/glideFactory.py:630:13: E722 do not use bare 'except'
-./factory/glideFactory.py:636:13: E722 do not use bare 'except'
-./factory/glideFactory.py:640:37: E251 unexpected spaces around keyword / parameter equals
-./factory/glideFactory.py:640:39: E251 unexpected spaces around keyword / parameter equals
-./factory/glideFactory.py:728:5: E722 do not use bare 'except'
-./factory/glideFactory.py:747:5: E722 do not use bare 'except'
-./factory/glideFactory.py:752:16: E128 continuation line under-indented for visual indent
-./factory/glideFactory.py:764:5: E722 do not use bare 'except'
-./factory/glideFactory.py:805:9: E722 do not use bare 'except'
-./factory/glideFactory.py:834:33: E241 multiple spaces after ','
 ./factory/glideFactoryConfig.py:35:1: E305 expected 2 blank lines after class or function definition, found 1
 ./factory/glideFactoryConfig.py:71:39: E262 inline comment should start with '# '
 ./factory/glideFactoryConfig.py:179:13: W504 line break after binary operator
@@ -1138,6 +1097,47 @@ tools/manual_glidein_startup:227:19: W504 line break after binary operator
 ./factory/tools/lib/gWftLogParser.py:170:1: W391 blank line at end of file
 ./factory/tools/manual_glidein_submit.py:13:1: E722 do not use bare 'except'
 ./factory/tools/manual_glidein_submit.py:185:1: E305 expected 2 blank lines after class or function definition, found 1
+./factory/glideFactory.py:36:1: E402 module level import not at top of file
+./factory/glideFactory.py:37:1: E402 module level import not at top of file
+./factory/glideFactory.py:38:1: E402 module level import not at top of file
+./factory/glideFactory.py:39:1: E402 module level import not at top of file
+./factory/glideFactory.py:40:1: E402 module level import not at top of file
+./factory/glideFactory.py:41:1: E402 module level import not at top of file
+./factory/glideFactory.py:42:1: E402 module level import not at top of file
+./factory/glideFactory.py:43:1: E402 module level import not at top of file
+./factory/glideFactory.py:44:1: E402 module level import not at top of file
+./factory/glideFactory.py:45:1: E402 module level import not at top of file
+./factory/glideFactory.py:46:1: E402 module level import not at top of file
+./factory/glideFactory.py:47:1: E402 module level import not at top of file
+./factory/glideFactory.py:48:1: E402 module level import not at top of file
+./factory/glideFactory.py:49:1: E402 module level import not at top of file
+./factory/glideFactory.py:65:5: E722 do not use bare 'except'
+./factory/glideFactory.py:70:5: E722 do not use bare 'except'
+./factory/glideFactory.py:75:5: E722 do not use bare 'except'
+./factory/glideFactory.py:144:16: W504 line break after binary operator
+./factory/glideFactory.py:145:16: W504 line break after binary operator
+./factory/glideFactory.py:337:5: E303 too many blank lines (2)
+./factory/glideFactory.py:360:14: E222 multiple spaces after operator
+./factory/glideFactory.py:369:13: E722 do not use bare 'except'
+./factory/glideFactory.py:374:5: E303 too many blank lines (3)
+./factory/glideFactory.py:377:64: E502 the backslash is redundant between brackets
+./factory/glideFactory.py:378:17: E128 continuation line under-indented for visual indent
+./factory/glideFactory.py:474:17: E722 do not use bare 'except'
+./factory/glideFactory.py:488:17: E722 do not use bare 'except'
+./factory/glideFactory.py:512:17: E722 do not use bare 'except'
+./factory/glideFactory.py:516:13: E303 too many blank lines (2)
+./factory/glideFactory.py:595:21: E123 closing bracket does not match indentation of opening bracket's line
+./factory/glideFactory.py:616:13: E722 do not use bare 'except'
+./factory/glideFactory.py:630:13: E722 do not use bare 'except'
+./factory/glideFactory.py:636:13: E722 do not use bare 'except'
+./factory/glideFactory.py:640:37: E251 unexpected spaces around keyword / parameter equals
+./factory/glideFactory.py:640:39: E251 unexpected spaces around keyword / parameter equals
+./factory/glideFactory.py:728:5: E722 do not use bare 'except'
+./factory/glideFactory.py:747:5: E722 do not use bare 'except'
+./factory/glideFactory.py:752:16: E128 continuation line under-indented for visual indent
+./factory/glideFactory.py:764:5: E722 do not use bare 'except'
+./factory/glideFactory.py:805:9: E722 do not use bare 'except'
+./factory/glideFactory.py:834:33: E241 multiple spaces after ','
 ./frontend/checkFrontend.py:25:11: E401 multiple imports on one line
 ./frontend/checkFrontend.py:27:1: E402 module level import not at top of file
 ./frontend/checkFrontend.py:32:1: E722 do not use bare 'except'
@@ -1171,10 +1171,6 @@ tools/manual_glidein_startup:227:19: W504 line break after binary operator
 ./frontend/glideinFrontend.py:600:34: E241 multiple spaces after ','
 ./frontend/glideinFrontend.py:600:50: E202 whitespace before ')'
 ./frontend/glideinFrontend.py:607:33: E241 multiple spaces after ','
-./frontend/glideinFrontendConfig.py:43:1: E305 expected 2 blank lines after class or function definition, found 1
-./frontend/glideinFrontendConfig.py:88:5: E303 too many blank lines (2)
-./frontend/glideinFrontendConfig.py:472:9: E722 do not use bare 'except'
-./frontend/glideinFrontendConfig.py:494:9: E722 do not use bare 'except'
 ./frontend/glideinFrontendDowntimeLib.py:20:23: E201 whitespace after '('
 ./frontend/glideinFrontendDowntimeLib.py:20:45: E202 whitespace before ')'
 ./frontend/glideinFrontendDowntimeLib.py:36:28: E201 whitespace after '('
@@ -1188,119 +1184,6 @@ tools/manual_glidein_startup:227:19: W504 line break after binary operator
 ./frontend/glideinFrontendDowntimeLib.py:141:58: E202 whitespace before ')'
 ./frontend/glideinFrontendDowntimeLib.py:178:13: E303 too many blank lines (2)
 ./frontend/glideinFrontendDowntimeLib.py:214:33: E221 multiple spaces before operator
-./frontend/glideinFrontendElement.py:33:1: E402 module level import not at top of file
-./frontend/glideinFrontendElement.py:34:1: E402 module level import not at top of file
-./frontend/glideinFrontendElement.py:35:1: E402 module level import not at top of file
-./frontend/glideinFrontendElement.py:36:1: E402 module level import not at top of file
-./frontend/glideinFrontendElement.py:37:1: E402 module level import not at top of file
-./frontend/glideinFrontendElement.py:38:1: E402 module level import not at top of file
-./frontend/glideinFrontendElement.py:39:1: E402 module level import not at top of file
-./frontend/glideinFrontendElement.py:40:1: E402 module level import not at top of file
-./frontend/glideinFrontendElement.py:42:1: E402 module level import not at top of file
-./frontend/glideinFrontendElement.py:43:1: E402 module level import not at top of file
-./frontend/glideinFrontendElement.py:44:1: E402 module level import not at top of file
-./frontend/glideinFrontendElement.py:45:1: E402 module level import not at top of file
-./frontend/glideinFrontendElement.py:46:1: E402 module level import not at top of file
-./frontend/glideinFrontendElement.py:47:1: E402 module level import not at top of file
-./frontend/glideinFrontendElement.py:48:1: E402 module level import not at top of file
-./frontend/glideinFrontendElement.py:168:5: E303 too many blank lines (2)
-./frontend/glideinFrontendElement.py:213:5: E303 too many blank lines (2)
-./frontend/glideinFrontendElement.py:242:5: E303 too many blank lines (2)
-./frontend/glideinFrontendElement.py:256:13: E722 do not use bare 'except'
-./frontend/glideinFrontendElement.py:266:5: E303 too many blank lines (2)
-./frontend/glideinFrontendElement.py:267:30: E203 whitespace before ':'
-./frontend/glideinFrontendElement.py:294:13: E722 do not use bare 'except'
-./frontend/glideinFrontendElement.py:296:78: E202 whitespace before ')'
-./frontend/glideinFrontendElement.py:335:13: E722 do not use bare 'except'
-./frontend/glideinFrontendElement.py:343:13: E722 do not use bare 'except'
-./frontend/glideinFrontendElement.py:351:9: E722 do not use bare 'except'
-./frontend/glideinFrontendElement.py:355:5: E303 too many blank lines (2)
-./frontend/glideinFrontendElement.py:368:9: E266 too many leading '#' for block comment
-./frontend/glideinFrontendElement.py:374:9: E266 too many leading '#' for block comment
-./frontend/glideinFrontendElement.py:386:109: E502 the backslash is redundant between brackets
-./frontend/glideinFrontendElement.py:431:125: E502 the backslash is redundant between brackets
-./frontend/glideinFrontendElement.py:432:20: E128 continuation line under-indented for visual indent
-./frontend/glideinFrontendElement.py:433:20: E128 continuation line under-indented for visual indent
-./frontend/glideinFrontendElement.py:434:20: E128 continuation line under-indented for visual indent
-./frontend/glideinFrontendElement.py:435:20: E128 continuation line under-indented for visual indent
-./frontend/glideinFrontendElement.py:436:20: E128 continuation line under-indented for visual indent
-./frontend/glideinFrontendElement.py:437:20: E128 continuation line under-indented for visual indent
-./frontend/glideinFrontendElement.py:438:20: E128 continuation line under-indented for visual indent
-./frontend/glideinFrontendElement.py:439:20: E128 continuation line under-indented for visual indent
-./frontend/glideinFrontendElement.py:445:14: E126 continuation line over-indented for hanging indent
-./frontend/glideinFrontendElement.py:463:32: E126 continuation line over-indented for hanging indent
-./frontend/glideinFrontendElement.py:472:39: E128 continuation line under-indented for visual indent
-./frontend/glideinFrontendElement.py:473:39: E128 continuation line under-indented for visual indent
-./frontend/glideinFrontendElement.py:474:39: E128 continuation line under-indented for visual indent
-./frontend/glideinFrontendElement.py:475:39: E128 continuation line under-indented for visual indent
-./frontend/glideinFrontendElement.py:476:39: E128 continuation line under-indented for visual indent
-./frontend/glideinFrontendElement.py:481:35: E128 continuation line under-indented for visual indent
-./frontend/glideinFrontendElement.py:482:35: E128 continuation line under-indented for visual indent
-./frontend/glideinFrontendElement.py:483:35: E128 continuation line under-indented for visual indent
-./frontend/glideinFrontendElement.py:484:35: E128 continuation line under-indented for visual indent
-./frontend/glideinFrontendElement.py:485:35: E128 continuation line under-indented for visual indent
-./frontend/glideinFrontendElement.py:498:28: E126 continuation line over-indented for hanging indent
-./frontend/glideinFrontendElement.py:537:31: E126 continuation line over-indented for hanging indent
-./frontend/glideinFrontendElement.py:672:44: E126 continuation line over-indented for hanging indent
-./frontend/glideinFrontendElement.py:676:42: E126 continuation line over-indented for hanging indent
-./frontend/glideinFrontendElement.py:773:36: E126 continuation line over-indented for hanging indent
-./frontend/glideinFrontendElement.py:801:104: E227 missing whitespace around bitwise or shift operator
-./frontend/glideinFrontendElement.py:819:13: E722 do not use bare 'except'
-./frontend/glideinFrontendElement.py:881:17: E722 do not use bare 'except'
-./frontend/glideinFrontendElement.py:885:5: E303 too many blank lines (2)
-./frontend/glideinFrontendElement.py:887:52: E262 inline comment should start with '# '
-./frontend/glideinFrontendElement.py:991:5: E303 too many blank lines (2)
-./frontend/glideinFrontendElement.py:997:32: E126 continuation line over-indented for hanging indent
-./frontend/glideinFrontendElement.py:1016:9: E722 do not use bare 'except'
-./frontend/glideinFrontendElement.py:1036:5: E303 too many blank lines (2)
-./frontend/glideinFrontendElement.py:1052:13: E201 whitespace after '('
-./frontend/glideinFrontendElement.py:1052:14: W504 line break after binary operator
-./frontend/glideinFrontendElement.py:1053:14: W504 line break after binary operator
-./frontend/glideinFrontendElement.py:1054:14: W504 line break after binary operator
-./frontend/glideinFrontendElement.py:1055:14: W504 line break after binary operator
-./frontend/glideinFrontendElement.py:1056:14: W504 line break after binary operator
-./frontend/glideinFrontendElement.py:1057:14: W504 line break after binary operator
-./frontend/glideinFrontendElement.py:1058:14: W504 line break after binary operator
-./frontend/glideinFrontendElement.py:1059:74: E202 whitespace before ')'
-./frontend/glideinFrontendElement.py:1098:127: E202 whitespace before ')'
-./frontend/glideinFrontendElement.py:1127:5: E303 too many blank lines (2)
-./frontend/glideinFrontendElement.py:1140:120: E202 whitespace before ')'
-./frontend/glideinFrontendElement.py:1153:5: E303 too many blank lines (2)
-./frontend/glideinFrontendElement.py:1192:5: E303 too many blank lines (2)
-./frontend/glideinFrontendElement.py:1379:44: E272 multiple spaces before keyword
-./frontend/glideinFrontendElement.py:1387:25: E126 continuation line over-indented for hanging indent
-./frontend/glideinFrontendElement.py:1425:40: E126 continuation line over-indented for hanging indent
-./frontend/glideinFrontendElement.py:1448:96: E202 whitespace before ')'
-./frontend/glideinFrontendElement.py:1470:21: E722 do not use bare 'except'
-./frontend/glideinFrontendElement.py:1487:5: E303 too many blank lines (2)
-./frontend/glideinFrontendElement.py:1520:35: E128 continuation line under-indented for visual indent
-./frontend/glideinFrontendElement.py:1530:5: E303 too many blank lines (2)
-./frontend/glideinFrontendElement.py:1560:35: E128 continuation line under-indented for visual indent
-./frontend/glideinFrontendElement.py:1570:5: E303 too many blank lines (2)
-./frontend/glideinFrontendElement.py:1579:5: E303 too many blank lines (2)
-./frontend/glideinFrontendElement.py:1586:13: E266 too many leading '#' for block comment
-./frontend/glideinFrontendElement.py:1591:32: E126 continuation line over-indented for hanging indent
-./frontend/glideinFrontendElement.py:1600:5: E303 too many blank lines (2)
-./frontend/glideinFrontendElement.py:1634:38: E126 continuation line over-indented for hanging indent
-./frontend/glideinFrontendElement.py:1646:31: E126 continuation line over-indented for hanging indent
-./frontend/glideinFrontendElement.py:1667:38: E126 continuation line over-indented for hanging indent
-./frontend/glideinFrontendElement.py:1683:13: E722 do not use bare 'except'
-./frontend/glideinFrontendElement.py:1692:42: E126 continuation line over-indented for hanging indent
-./frontend/glideinFrontendElement.py:1708:13: E722 do not use bare 'except'
-./frontend/glideinFrontendElement.py:1715:42: E126 continuation line over-indented for hanging indent
-./frontend/glideinFrontendElement.py:1734:13: E722 do not use bare 'except'
-./frontend/glideinFrontendElement.py:1744:5: E303 too many blank lines (2)
-./frontend/glideinFrontendElement.py:1797:5: E303 too many blank lines (2)
-./frontend/glideinFrontendElement.py:1806:25: E126 continuation line over-indented for hanging indent
-./frontend/glideinFrontendElement.py:1822:19: E126 continuation line over-indented for hanging indent
-./frontend/glideinFrontendElement.py:1853:25: E126 continuation line over-indented for hanging indent
-./frontend/glideinFrontendElement.py:1908:30: E703 statement ends with a semicolon
-./frontend/glideinFrontendElement.py:1946:6: W605 invalid escape sequence '\$'
-./frontend/glideinFrontendElement.py:1946:8: W605 invalid escape sequence '\$'
-./frontend/glideinFrontendElement.py:1946:10: W605 invalid escape sequence '\('
-./frontend/glideinFrontendElement.py:1946:27: W605 invalid escape sequence '\)'
-./frontend/glideinFrontendElement.py:1946:32: W605 invalid escape sequence '\)'
-./frontend/glideinFrontendElement.py:1968:1: E305 expected 2 blank lines after class or function definition, found 1
 ./frontend/glideinFrontendInterface.py:26:1: E402 module level import not at top of file
 ./frontend/glideinFrontendInterface.py:27:1: E402 module level import not at top of file
 ./frontend/glideinFrontendInterface.py:28:1: E402 module level import not at top of file
@@ -1366,37 +1249,6 @@ tools/manual_glidein_startup:227:19: W504 line break after binary operator
 ./frontend/glideinFrontendInterface.py:1576:5: E303 too many blank lines (2)
 ./frontend/glideinFrontendInterface.py:1589:5: E303 too many blank lines (2)
 ./frontend/glideinFrontendInterface.py:1604:5: E303 too many blank lines (2)
-./frontend/glideinFrontendLib.py:73:1: E303 too many blank lines (4)
-./frontend/glideinFrontendLib.py:327:38: E712 comparison to True should be 'if cond is True:' or 'if cond:'
-./frontend/glideinFrontendLib.py:331:42: E712 comparison to False should be 'if cond is not False:' or 'if cond:'
-./frontend/glideinFrontendLib.py:337:30: E712 comparison to True should be 'if cond is True:' or 'if cond:'
-./frontend/glideinFrontendLib.py:552:34: E712 comparison to True should be 'if cond is True:' or 'if cond:'
-./frontend/glideinFrontendLib.py:556:38: E712 comparison to False should be 'if cond is not False:' or 'if cond:'
-./frontend/glideinFrontendLib.py:562:30: E712 comparison to True should be 'if cond is True:' or 'if cond:'
-./frontend/glideinFrontendLib.py:712:17: W504 line break after binary operator
-./frontend/glideinFrontendLib.py:713:17: W504 line break after binary operator
-./frontend/glideinFrontendLib.py:715:21: W504 line break after binary operator
-./frontend/glideinFrontendLib.py:715:50: E712 comparison to True should be 'if cond is not True:' or 'if not cond:'
-./frontend/glideinFrontendLib.py:716:21: W504 line break after binary operator
-./frontend/glideinFrontendLib.py:742:17: E126 continuation line over-indented for hanging indent
-./frontend/glideinFrontendLib.py:744:22: W504 line break after binary operator
-./frontend/glideinFrontendLib.py:746:21: E124 closing bracket does not match visual indentation
-./frontend/glideinFrontendLib.py:746:21: W504 line break after binary operator
-./frontend/glideinFrontendLib.py:747:22: W504 line break after binary operator
-./frontend/glideinFrontendLib.py:747:51: E712 comparison to True should be 'if cond is True:' or 'if cond:'
-./frontend/glideinFrontendLib.py:749:21: E124 closing bracket does not match visual indentation
-./frontend/glideinFrontendLib.py:768:18: E126 continuation line over-indented for hanging indent
-./frontend/glideinFrontendLib.py:770:22: W504 line break after binary operator
-./frontend/glideinFrontendLib.py:770:51: E712 comparison to True should be 'if cond is True:' or 'if cond:'
-./frontend/glideinFrontendLib.py:773:14: E126 continuation line over-indented for hanging indent
-./frontend/glideinFrontendLib.py:798:18: W504 line break after binary operator
-./frontend/glideinFrontendLib.py:814:17: W504 line break after binary operator
-./frontend/glideinFrontendLib.py:855:18: E126 continuation line over-indented for hanging indent
-./frontend/glideinFrontendLib.py:875:17: W504 line break after binary operator
-./frontend/glideinFrontendLib.py:1032:25: W504 line break after binary operator
-./frontend/glideinFrontendLib.py:1033:25: E127 continuation line over-indented for visual indent
-./frontend/glideinFrontendLib.py:1053:31: E126 continuation line over-indented for hanging indent
-./frontend/glideinFrontendLib.py:1215:5: E303 too many blank lines (2)
 ./frontend/glideinFrontendMonitorAggregator.py:303:16: E713 test for membership should be 'not in'
 ./frontend/glideinFrontendMonitorAggregator.py:313:29: E722 do not use bare 'except'
 ./frontend/glideinFrontendMonitorAggregator.py:347:45: E262 inline comment should start with '# '
@@ -1560,6 +1412,163 @@ tools/manual_glidein_startup:227:19: W504 line break after binary operator
 ./frontend/tools/lib/frontenvparse.py:59:5: E303 too many blank lines (2)
 ./frontend/tools/lib/frontenvparse.py:60:5: E301 expected 1 blank line, found 0
 ./frontend/tools/lib/frontenvparse.py:72:1: W391 blank line at end of file
+./frontend/glideinFrontendConfig.py:43:1: E305 expected 2 blank lines after class or function definition, found 1
+./frontend/glideinFrontendConfig.py:88:5: E303 too many blank lines (2)
+./frontend/glideinFrontendConfig.py:472:9: E722 do not use bare 'except'
+./frontend/glideinFrontendConfig.py:494:9: E722 do not use bare 'except'
+./frontend/glideinFrontendElement.py:33:1: E402 module level import not at top of file
+./frontend/glideinFrontendElement.py:34:1: E402 module level import not at top of file
+./frontend/glideinFrontendElement.py:35:1: E402 module level import not at top of file
+./frontend/glideinFrontendElement.py:36:1: E402 module level import not at top of file
+./frontend/glideinFrontendElement.py:37:1: E402 module level import not at top of file
+./frontend/glideinFrontendElement.py:38:1: E402 module level import not at top of file
+./frontend/glideinFrontendElement.py:39:1: E402 module level import not at top of file
+./frontend/glideinFrontendElement.py:40:1: E402 module level import not at top of file
+./frontend/glideinFrontendElement.py:42:1: E402 module level import not at top of file
+./frontend/glideinFrontendElement.py:43:1: E402 module level import not at top of file
+./frontend/glideinFrontendElement.py:44:1: E402 module level import not at top of file
+./frontend/glideinFrontendElement.py:45:1: E402 module level import not at top of file
+./frontend/glideinFrontendElement.py:46:1: E402 module level import not at top of file
+./frontend/glideinFrontendElement.py:47:1: E402 module level import not at top of file
+./frontend/glideinFrontendElement.py:48:1: E402 module level import not at top of file
+./frontend/glideinFrontendElement.py:168:5: E303 too many blank lines (2)
+./frontend/glideinFrontendElement.py:213:5: E303 too many blank lines (2)
+./frontend/glideinFrontendElement.py:242:5: E303 too many blank lines (2)
+./frontend/glideinFrontendElement.py:256:13: E722 do not use bare 'except'
+./frontend/glideinFrontendElement.py:266:5: E303 too many blank lines (2)
+./frontend/glideinFrontendElement.py:267:30: E203 whitespace before ':'
+./frontend/glideinFrontendElement.py:294:13: E722 do not use bare 'except'
+./frontend/glideinFrontendElement.py:296:78: E202 whitespace before ')'
+./frontend/glideinFrontendElement.py:335:13: E722 do not use bare 'except'
+./frontend/glideinFrontendElement.py:343:13: E722 do not use bare 'except'
+./frontend/glideinFrontendElement.py:351:9: E722 do not use bare 'except'
+./frontend/glideinFrontendElement.py:355:5: E303 too many blank lines (2)
+./frontend/glideinFrontendElement.py:368:9: E266 too many leading '#' for block comment
+./frontend/glideinFrontendElement.py:374:9: E266 too many leading '#' for block comment
+./frontend/glideinFrontendElement.py:386:109: E502 the backslash is redundant between brackets
+./frontend/glideinFrontendElement.py:431:125: E502 the backslash is redundant between brackets
+./frontend/glideinFrontendElement.py:432:20: E128 continuation line under-indented for visual indent
+./frontend/glideinFrontendElement.py:433:20: E128 continuation line under-indented for visual indent
+./frontend/glideinFrontendElement.py:434:20: E128 continuation line under-indented for visual indent
+./frontend/glideinFrontendElement.py:435:20: E128 continuation line under-indented for visual indent
+./frontend/glideinFrontendElement.py:436:20: E128 continuation line under-indented for visual indent
+./frontend/glideinFrontendElement.py:437:20: E128 continuation line under-indented for visual indent
+./frontend/glideinFrontendElement.py:438:20: E128 continuation line under-indented for visual indent
+./frontend/glideinFrontendElement.py:439:20: E128 continuation line under-indented for visual indent
+./frontend/glideinFrontendElement.py:445:14: E126 continuation line over-indented for hanging indent
+./frontend/glideinFrontendElement.py:463:32: E126 continuation line over-indented for hanging indent
+./frontend/glideinFrontendElement.py:472:39: E128 continuation line under-indented for visual indent
+./frontend/glideinFrontendElement.py:473:39: E128 continuation line under-indented for visual indent
+./frontend/glideinFrontendElement.py:474:39: E128 continuation line under-indented for visual indent
+./frontend/glideinFrontendElement.py:475:39: E128 continuation line under-indented for visual indent
+./frontend/glideinFrontendElement.py:476:39: E128 continuation line under-indented for visual indent
+./frontend/glideinFrontendElement.py:481:35: E128 continuation line under-indented for visual indent
+./frontend/glideinFrontendElement.py:482:35: E128 continuation line under-indented for visual indent
+./frontend/glideinFrontendElement.py:483:35: E128 continuation line under-indented for visual indent
+./frontend/glideinFrontendElement.py:484:35: E128 continuation line under-indented for visual indent
+./frontend/glideinFrontendElement.py:485:35: E128 continuation line under-indented for visual indent
+./frontend/glideinFrontendElement.py:498:28: E126 continuation line over-indented for hanging indent
+./frontend/glideinFrontendElement.py:537:31: E126 continuation line over-indented for hanging indent
+./frontend/glideinFrontendElement.py:672:44: E126 continuation line over-indented for hanging indent
+./frontend/glideinFrontendElement.py:676:42: E126 continuation line over-indented for hanging indent
+./frontend/glideinFrontendElement.py:773:36: E126 continuation line over-indented for hanging indent
+./frontend/glideinFrontendElement.py:801:104: E227 missing whitespace around bitwise or shift operator
+./frontend/glideinFrontendElement.py:819:13: E722 do not use bare 'except'
+./frontend/glideinFrontendElement.py:881:17: E722 do not use bare 'except'
+./frontend/glideinFrontendElement.py:885:5: E303 too many blank lines (2)
+./frontend/glideinFrontendElement.py:887:52: E262 inline comment should start with '# '
+./frontend/glideinFrontendElement.py:991:5: E303 too many blank lines (2)
+./frontend/glideinFrontendElement.py:997:32: E126 continuation line over-indented for hanging indent
+./frontend/glideinFrontendElement.py:1016:9: E722 do not use bare 'except'
+./frontend/glideinFrontendElement.py:1036:5: E303 too many blank lines (2)
+./frontend/glideinFrontendElement.py:1052:13: E201 whitespace after '('
+./frontend/glideinFrontendElement.py:1052:14: W504 line break after binary operator
+./frontend/glideinFrontendElement.py:1053:14: W504 line break after binary operator
+./frontend/glideinFrontendElement.py:1054:14: W504 line break after binary operator
+./frontend/glideinFrontendElement.py:1055:14: W504 line break after binary operator
+./frontend/glideinFrontendElement.py:1056:14: W504 line break after binary operator
+./frontend/glideinFrontendElement.py:1057:14: W504 line break after binary operator
+./frontend/glideinFrontendElement.py:1058:14: W504 line break after binary operator
+./frontend/glideinFrontendElement.py:1059:74: E202 whitespace before ')'
+./frontend/glideinFrontendElement.py:1098:127: E202 whitespace before ')'
+./frontend/glideinFrontendElement.py:1127:5: E303 too many blank lines (2)
+./frontend/glideinFrontendElement.py:1140:120: E202 whitespace before ')'
+./frontend/glideinFrontendElement.py:1153:5: E303 too many blank lines (2)
+./frontend/glideinFrontendElement.py:1192:5: E303 too many blank lines (2)
+./frontend/glideinFrontendElement.py:1379:44: E272 multiple spaces before keyword
+./frontend/glideinFrontendElement.py:1387:25: E126 continuation line over-indented for hanging indent
+./frontend/glideinFrontendElement.py:1425:40: E126 continuation line over-indented for hanging indent
+./frontend/glideinFrontendElement.py:1448:96: E202 whitespace before ')'
+./frontend/glideinFrontendElement.py:1470:21: E722 do not use bare 'except'
+./frontend/glideinFrontendElement.py:1487:5: E303 too many blank lines (2)
+./frontend/glideinFrontendElement.py:1520:35: E128 continuation line under-indented for visual indent
+./frontend/glideinFrontendElement.py:1530:5: E303 too many blank lines (2)
+./frontend/glideinFrontendElement.py:1560:35: E128 continuation line under-indented for visual indent
+./frontend/glideinFrontendElement.py:1570:5: E303 too many blank lines (2)
+./frontend/glideinFrontendElement.py:1579:5: E303 too many blank lines (2)
+./frontend/glideinFrontendElement.py:1586:13: E266 too many leading '#' for block comment
+./frontend/glideinFrontendElement.py:1591:32: E126 continuation line over-indented for hanging indent
+./frontend/glideinFrontendElement.py:1600:5: E303 too many blank lines (2)
+./frontend/glideinFrontendElement.py:1634:38: E126 continuation line over-indented for hanging indent
+./frontend/glideinFrontendElement.py:1646:31: E126 continuation line over-indented for hanging indent
+./frontend/glideinFrontendElement.py:1667:38: E126 continuation line over-indented for hanging indent
+./frontend/glideinFrontendElement.py:1683:13: E722 do not use bare 'except'
+./frontend/glideinFrontendElement.py:1692:42: E126 continuation line over-indented for hanging indent
+./frontend/glideinFrontendElement.py:1708:13: E722 do not use bare 'except'
+./frontend/glideinFrontendElement.py:1715:42: E126 continuation line over-indented for hanging indent
+./frontend/glideinFrontendElement.py:1734:13: E722 do not use bare 'except'
+./frontend/glideinFrontendElement.py:1744:5: E303 too many blank lines (2)
+./frontend/glideinFrontendElement.py:1797:5: E303 too many blank lines (2)
+./frontend/glideinFrontendElement.py:1806:25: E126 continuation line over-indented for hanging indent
+./frontend/glideinFrontendElement.py:1813:1: E122 continuation line missing indentation or outdented
+./frontend/glideinFrontendElement.py:1814:1: E122 continuation line missing indentation or outdented
+./frontend/glideinFrontendElement.py:1815:1: E122 continuation line missing indentation or outdented
+./frontend/glideinFrontendElement.py:1816:1: E122 continuation line missing indentation or outdented
+./frontend/glideinFrontendElement.py:1817:25: E123 closing bracket does not match indentation of opening bracket's line
+./frontend/glideinFrontendElement.py:1827:19: E126 continuation line over-indented for hanging indent
+./frontend/glideinFrontendElement.py:1858:25: E126 continuation line over-indented for hanging indent
+./frontend/glideinFrontendElement.py:1913:30: E703 statement ends with a semicolon
+./frontend/glideinFrontendElement.py:1951:6: W605 invalid escape sequence '\$'
+./frontend/glideinFrontendElement.py:1951:8: W605 invalid escape sequence '\$'
+./frontend/glideinFrontendElement.py:1951:10: W605 invalid escape sequence '\('
+./frontend/glideinFrontendElement.py:1951:27: W605 invalid escape sequence '\)'
+./frontend/glideinFrontendElement.py:1951:32: W605 invalid escape sequence '\)'
+./frontend/glideinFrontendElement.py:1973:1: E305 expected 2 blank lines after class or function definition, found 1
+./frontend/glideinFrontendLib.py:75:1: E303 too many blank lines (4)
+./frontend/glideinFrontendLib.py:234:9: E722 do not use bare 'except'
+./frontend/glideinFrontendLib.py:366:38: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+./frontend/glideinFrontendLib.py:370:42: E712 comparison to False should be 'if cond is not False:' or 'if cond:'
+./frontend/glideinFrontendLib.py:376:30: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+./frontend/glideinFrontendLib.py:378:1: E115 expected an indented block (comment)
+./frontend/glideinFrontendLib.py:379:1: E115 expected an indented block (comment)
+./frontend/glideinFrontendLib.py:380:1: E115 expected an indented block (comment)
+./frontend/glideinFrontendLib.py:595:34: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+./frontend/glideinFrontendLib.py:599:38: E712 comparison to False should be 'if cond is not False:' or 'if cond:'
+./frontend/glideinFrontendLib.py:605:30: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+./frontend/glideinFrontendLib.py:755:17: W504 line break after binary operator
+./frontend/glideinFrontendLib.py:756:17: W504 line break after binary operator
+./frontend/glideinFrontendLib.py:758:21: W504 line break after binary operator
+./frontend/glideinFrontendLib.py:758:50: E712 comparison to True should be 'if cond is not True:' or 'if not cond:'
+./frontend/glideinFrontendLib.py:759:21: W504 line break after binary operator
+./frontend/glideinFrontendLib.py:785:17: E126 continuation line over-indented for hanging indent
+./frontend/glideinFrontendLib.py:787:22: W504 line break after binary operator
+./frontend/glideinFrontendLib.py:789:21: E124 closing bracket does not match visual indentation
+./frontend/glideinFrontendLib.py:789:21: W504 line break after binary operator
+./frontend/glideinFrontendLib.py:790:22: W504 line break after binary operator
+./frontend/glideinFrontendLib.py:790:51: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+./frontend/glideinFrontendLib.py:792:21: E124 closing bracket does not match visual indentation
+./frontend/glideinFrontendLib.py:811:18: E126 continuation line over-indented for hanging indent
+./frontend/glideinFrontendLib.py:813:22: W504 line break after binary operator
+./frontend/glideinFrontendLib.py:813:51: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+./frontend/glideinFrontendLib.py:816:14: E126 continuation line over-indented for hanging indent
+./frontend/glideinFrontendLib.py:841:18: W504 line break after binary operator
+./frontend/glideinFrontendLib.py:857:17: W504 line break after binary operator
+./frontend/glideinFrontendLib.py:898:18: E126 continuation line over-indented for hanging indent
+./frontend/glideinFrontendLib.py:918:17: W504 line break after binary operator
+./frontend/glideinFrontendLib.py:1075:25: W504 line break after binary operator
+./frontend/glideinFrontendLib.py:1076:25: E127 continuation line over-indented for visual indent
+./frontend/glideinFrontendLib.py:1096:31: E126 continuation line over-indented for hanging indent
+./frontend/glideinFrontendLib.py:1258:5: E303 too many blank lines (2)
 ./install/services/Certificates.py:29:3: E114 indentation is not a multiple of four (comment)
 ./install/services/Certificates.py:36:5: E266 too many leading '#' for block comment
 ./install/services/Certificates.py:37:5: E266 too many leading '#' for block comment
@@ -3357,10 +3366,34 @@ tools/manual_glidein_startup:227:19: W504 line break after binary operator
 ./unittests/test_creation_lib_cWDictFile_DictFile.py:73:29: W504 line break after binary operator
 ./unittests/test_creation_lib_cWDictFile_DictFile.py:111:50: W601 .has_key() is deprecated, use 'in'
 ./unittests/test_creation_lib_cWDictFile_DictFileTwoKeys.py:103:50: W601 .has_key() is deprecated, use 'in'
-./unittests/test_creation_lib_cWDictFile_SHADicts.py:23:1: E303 too many blank lines (3)
 ./unittests/test_creation_lib_cgWDictFile.py:262:5: E301 expected 1 blank line, found 0
 ./unittests/test_creation_lib_cgWDictFile.py:496:15: E221 multiple spaces before operator
 ./unittests/test_creation_lib_cgWDictFile.py:611:5: E303 too many blank lines (2)
+./unittests/test_creation_lib_cvWParamDict.py:129:22: E262 inline comment should start with '# '
+./unittests/test_creation_lib_cvWParamDict.py:136:22: E262 inline comment should start with '# '
+./unittests/test_creation_lib_cvWParamDict.py:145:22: E262 inline comment should start with '# '
+./unittests/test_creation_lib_cvWParamDict.py:152:22: E262 inline comment should start with '# '
+./unittests/test_creation_lib_cvWParamDict.py:159:22: E262 inline comment should start with '# '
+./unittests/test_creation_lib_cvWParamDict.py:168:22: E262 inline comment should start with '# '
+./unittests/test_creation_lib_cvWParamDict.py:180:22: E262 inline comment should start with '# '
+./unittests/test_factory_glideFactoryEntry.py:33:1: E303 too many blank lines (4)
+./unittests/test_factory_glideFactoryEntry.py:87:9: E303 too many blank lines (2)
+./unittests/test_factory_glideFactoryEntry.py:257:21: E222 multiple spaces after operator
+./unittests/test_frontend.py:188:5: E303 too many blank lines (2)
+./unittests/test_frontend.py:208:5: E303 too many blank lines (2)
+./unittests/test_glideinFrontendPlugins.py:38:1: E303 too many blank lines (3)
+./unittests/test_lib_pubCrypto.py:29:1: E303 too many blank lines (3)
+./unittests/test_lib_x509Support.py:17:1: E303 too many blank lines (3)
+./unittests/test_util.py:33:1: E305 expected 2 blank lines after class or function definition, found 1
+./unittests/worker_scripts/log_writer.py:39:21: E128 continuation line under-indented for visual indent
+./unittests/worker_scripts/log_writer.py:40:21: E128 continuation line under-indented for visual indent
+./unittests/worker_scripts/log_writer.py:46:5: E722 do not use bare 'except'
+./unittests/worker_scripts/log_writer.py:49:1: E305 expected 2 blank lines after class or function definition, found 1
+./unittests/worker_scripts/master_writer.py:19:5: E301 expected 1 blank line, found 0
+./unittests/worker_scripts/master_writer.py:60:1: E305 expected 2 blank lines after class or function definition, found 1
+./unittests/worker_scripts/master_writer.py:61:21: W292 no newline at end of file
+./unittests/profile_frontend.py:82:5: E301 expected 1 blank line, found 0
+./unittests/test_creation_lib_cWDictFile_SHADicts.py:23:1: E303 too many blank lines (3)
 ./unittests/test_creation_lib_cgWParamDict.py:84:22: E262 inline comment should start with '# '
 ./unittests/test_creation_lib_cgWParamDict.py:91:22: E262 inline comment should start with '# '
 ./unittests/test_creation_lib_cgWParamDict.py:98:22: E262 inline comment should start with '# '
@@ -3375,30 +3408,7 @@ tools/manual_glidein_startup:227:19: W504 line break after binary operator
 ./unittests/test_creation_lib_cgWParamDict.py:177:22: E262 inline comment should start with '# '
 ./unittests/test_creation_lib_cgWParamDict.py:186:22: E262 inline comment should start with '# '
 ./unittests/test_creation_lib_cgWParamDict.py:195:22: E262 inline comment should start with '# '
-./unittests/test_creation_lib_cvWParamDict.py:129:22: E262 inline comment should start with '# '
-./unittests/test_creation_lib_cvWParamDict.py:136:22: E262 inline comment should start with '# '
-./unittests/test_creation_lib_cvWParamDict.py:145:22: E262 inline comment should start with '# '
-./unittests/test_creation_lib_cvWParamDict.py:152:22: E262 inline comment should start with '# '
-./unittests/test_creation_lib_cvWParamDict.py:159:22: E262 inline comment should start with '# '
-./unittests/test_creation_lib_cvWParamDict.py:168:22: E262 inline comment should start with '# '
-./unittests/test_creation_lib_cvWParamDict.py:180:22: E262 inline comment should start with '# '
-./unittests/test_factory_glideFactoryEntry.py:33:1: E303 too many blank lines (4)
-./unittests/test_factory_glideFactoryEntry.py:87:9: E303 too many blank lines (2)
-./unittests/test_factory_glideFactoryEntry.py:257:21: E222 multiple spaces after operator
-./unittests/test_frontend.py:188:5: E303 too many blank lines (2)
-./unittests/test_frontend.py:208:5: E303 too many blank lines (2)
 ./unittests/test_frontend_element.py:31:1: E303 too many blank lines (4)
-./unittests/test_glideinFrontendPlugins.py:38:1: E303 too many blank lines (3)
-./unittests/test_lib_pubCrypto.py:29:1: E303 too many blank lines (3)
-./unittests/test_lib_x509Support.py:17:1: E303 too many blank lines (3)
-./unittests/test_util.py:33:1: E305 expected 2 blank lines after class or function definition, found 1
-./unittests/worker_scripts/log_writer.py:39:21: E128 continuation line under-indented for visual indent
-./unittests/worker_scripts/log_writer.py:40:21: E128 continuation line under-indented for visual indent
-./unittests/worker_scripts/log_writer.py:46:5: E722 do not use bare 'except'
-./unittests/worker_scripts/log_writer.py:49:1: E305 expected 2 blank lines after class or function definition, found 1
-./unittests/worker_scripts/master_writer.py:19:5: E301 expected 1 blank line, found 0
-./unittests/worker_scripts/master_writer.py:60:1: E305 expected 2 blank lines after class or function definition, found 1
-./unittests/worker_scripts/master_writer.py:61:21: W292 no newline at end of file
 -------------------
 error count summary
 -------------------
@@ -3409,7 +3419,6 @@ error count summary
       1  W503 line break before binary operator
       1  W605 invalid escape sequence '\ '
       1  W605 invalid escape sequence '\%'
-      2  E123 closing bracket does not match indentation of opening bracket's line
       2  E272 multiple spaces before keyword
       2  E712 comparison to False should be 'if cond is not False:' or 'if cond:'
       2  W601 .has_key() is deprecated, use 'in'
@@ -3417,7 +3426,7 @@ error count summary
       2  W605 invalid escape sequence '\:'
       2  W605 invalid escape sequence '\S'
       2  W605 invalid escape sequence '\s'
-      3  E115 expected an indented block (comment)
+      3  E123 closing bracket does not match indentation of opening bracket's line
       3  E305 expected 2 blank lines after class or function definition, found 3
       4  E121 continuation line under-indented for hanging indent
       4  W605 invalid escape sequence '\('
@@ -3425,6 +3434,7 @@ error count summary
       5  W605 invalid escape sequence '\)'
       5  W605 invalid escape sequence '\['
       5  W605 invalid escape sequence '\]'
+      6  E115 expected an indented block (comment)
       6  E241 multiple spaces after ':'
       7  E202 whitespace before '}'
       7  E712 comparison to True should be 'if cond is not True:' or 'if not cond:'
@@ -3461,13 +3471,13 @@ error count summary
      84  E202 whitespace before ')'
      90  E201 whitespace after '('
     102  E262 inline comment should start with '# '
-    107  E122 continuation line missing indentation or outdented
+    111  E122 continuation line missing indentation or outdented
     118  E221 multiple spaces before operator
     121  E201 whitespace after '{'
     189  W504 line break after binary operator
-    190  E301 expected 1 blank line, found 0
+    191  E301 expected 1 blank line, found 0
     193  E402 module level import not at top of file
     238  E303 too many blank lines (2)
-    238  E722 do not use bare 'except'
+    239  E722 do not use bare 'except'
     324  E128 continuation line under-indented for visual indent
     383  E114 indentation is not a multiple of four (comment)
