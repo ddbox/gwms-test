@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="TestClientDirSupport-20190515003500" tests="5" time="0.014">
+	<testcase classname="TestClientDirSupport" name="test___init__" time="0.004"/>
+	<testcase classname="TestClientDirSupport" name="test_create_dir" time="0.003"/>
+	<testcase classname="TestClientDirSupport" name="test_create_priv_dir" time="0.002"/>
+	<testcase classname="TestClientDirSupport" name="test_delete_dir" time="0.003"/>
+	<testcase classname="TestClientDirSupport" name="test_delete_priv_dir" time="0.002"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
