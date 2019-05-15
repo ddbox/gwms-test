@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="TestExprParserSymmetric-20190515181808" tests="3" time="0.096">
+	<testcase classname="TestExprParserSymmetric" name="test__compile" time="0.041"/>
+	<testcase classname="TestExprParserSymmetric" name="test_parse_symmetric" time="0.043"/>
+	<testcase classname="TestExprParserSymmetric" name="test_unparse_ret" time="0.012"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
