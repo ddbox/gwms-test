@@ -10,7 +10,7 @@
       <tbody>
     <tr style="padding: 5px;text-align: center;">
         <th style="border: 0px solid black;border-collapse: collapse;font-weight: bold;background-color: #00ccff;padding: 8px;">LOCAL</th>
-        <td style="border: 0px solid black;border-collapse: collapse;background-color: #ff0000;padding: 5px;text-align: center;">2</td>
+	<td style="border: 0px solid black;border-collapse: collapse;background-color: #800000;padding: 5px;text-align: center;">ERROR: Futurize crashed (ec:127/127) after 1 files to refactor</td>
     </tr>
     </tbody>
 </table>
