@@ -7,26 +7,23 @@ else
     branch=$1
 fi
 
-checkout_branch "$branch"
-prep_branch 
+if ! test -f "$VIRTUAL_ENV"/bin/activate; then
+    prep_venv
+    . "$VIRTUAL_ENV"/bin/activate
+fi
 
 try cd "$TEST_DIR"/"$PROJECT"
 
 mybranch=$(thisbranch)
 
 if [ "$mybranch" != "$branch" ]; then
-    echo "want to run $0 on $branch but $mybranch is checked out"
-    echo "set_test_env '$branch' must be run prior to this job"
-    exit 1
+    checkout_branch "$branch"
+    prep_branch 
 fi
 
 
 try cd "$TEST_DIR"
 
-if ! test -f "$VIRTUAL_ENV"/bin/activate; then
-    prep_venv
-    . "$VIRTUAL_ENV"/bin/activate
-fi
 branch_dir="$TEST_DIR"/output/$(echo "$branch"| sed -e 's/\//_/g')
 mkdir -p  "$branch_dir/futurize"
 /bin/bash ./glideinwms/build/jenkins/run_futurize.sh -i  "$branch_dir"/futurize 2>&1 | tee "$branch_dir"/futurize.log

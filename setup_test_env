@@ -5,7 +5,7 @@
 
 . /usr/local/lib/test_lib.sh
 
-ci_branch='origin/dbox_ci'
+ci_branch='master'
 if [ "$1" = "" ]; then
     branch="master"
 else

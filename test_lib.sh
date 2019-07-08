@@ -21,20 +21,24 @@ checkout_branch() {
 } 
 
 thisbranch() {
+  cd "$TEST_DIR/$PROJECT"
   echo $(git branch | grep '\*' | awk '{print $2}')
+  cd -
 }
 
 prep_branch() {
     ci_br=$1
     orig=$(thisbranch)
     if [ "x$ci_br" = "x" ]; then
-        ci_br='origin/dbox_ci'
+        ci_br='master'
     fi
-    cd "$TEST_DIR/$PROJECT"/build/jenkins
-    FILES=*
-    for fn in $FILES; do
-        git checkout $ci_br $fn
-    done
+    if [ "$ci_br" != "$orig" ]; then
+        cd "$TEST_DIR/$PROJECT"/build/jenkins
+        FILES=*
+        for fn in $FILES; do
+            git checkout $ci_br $fn
+        done
+    fi
 }
 
 prep_venv () {
@@ -43,7 +47,7 @@ prep_venv () {
     fi
 
     if ! test -f "$TEST_DIR/$VIRTUAL_ENV"/bin/activate ; then
-        prep_branch
+        prep_branch master
         cd $TEST_DIR
         source $PROJECT/build/jenkins/utils.sh
         setup_python_venv
